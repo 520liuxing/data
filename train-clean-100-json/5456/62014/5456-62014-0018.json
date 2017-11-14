@@ -1,0 +1,104 @@
+{
+  "transcript": "HE TECK DAT TIME TOO",
+  "words": [
+    {
+      "alignedWord": "he",
+      "case": "success",
+      "end": 0.53,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.35,
+      "startOffset": 0,
+      "word": "HE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.72,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.19,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.53,
+      "startOffset": 3,
+      "word": "TECK"
+    },
+    {
+      "alignedWord": "dat",
+      "case": "success",
+      "end": 0.97,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.76,
+      "startOffset": 8,
+      "word": "DAT"
+    },
+    {
+      "alignedWord": "time",
+      "case": "success",
+      "end": 1.44,
+      "endOffset": 16,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.28,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "m_E"
+        }
+      ],
+      "start": 0.97,
+      "startOffset": 12,
+      "word": "TIME"
+    },
+    {
+      "alignedWord": "too",
+      "case": "success",
+      "end": 1.77,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.24,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 1.44,
+      "startOffset": 17,
+      "word": "TOO"
+    }
+  ]
+}

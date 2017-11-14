@@ -1,0 +1,85 @@
+{
+  "transcript": "NO WHERE SAID DROUET",
+  "words": [
+    {
+      "alignedWord": "no",
+      "case": "success",
+      "end": 0.99,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.37,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 0.51,
+      "startOffset": 0,
+      "word": "NO"
+    },
+    {
+      "alignedWord": "where",
+      "case": "success",
+      "end": 1.6099999999999999,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.41,
+          "phone": "r_E"
+        }
+      ],
+      "start": 1.0,
+      "startOffset": 3,
+      "word": "WHERE"
+    },
+    {
+      "alignedWord": "said",
+      "case": "success",
+      "end": 2.17,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.92,
+      "startOffset": 9,
+      "word": "SAID"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.58,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.4,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.18,
+      "startOffset": 14,
+      "word": "DROUET"
+    }
+  ]
+}

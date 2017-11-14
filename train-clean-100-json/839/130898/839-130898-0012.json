@@ -1,0 +1,543 @@
+{
+  "transcript": "ALL RUN AGROUND BY THE ARCTIC AND THE LYONNAIS SUNK IN COLLISIONS BY THE PRESIDENT THE PACIFIC AND THE CITY OF GLASGOW",
+  "words": [
+    {
+      "alignedWord": "all",
+      "case": "success",
+      "end": 0.52,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.19,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "l_E"
+        }
+      ],
+      "start": 0.21,
+      "startOffset": 0,
+      "word": "ALL"
+    },
+    {
+      "alignedWord": "run",
+      "case": "success",
+      "end": 0.6900000000000001,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.52,
+      "startOffset": 4,
+      "word": "RUN"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.3199999999999998,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.63,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.69,
+      "startOffset": 8,
+      "word": "AGROUND"
+    },
+    {
+      "alignedWord": "by",
+      "case": "success",
+      "end": 2.3,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ay_E"
+        }
+      ],
+      "start": 2.15,
+      "startOffset": 16,
+      "word": "BY"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 2.44,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 2.3,
+      "startOffset": 19,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "arctic",
+      "case": "success",
+      "end": 2.96,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.22,
+          "phone": "k_E"
+        }
+      ],
+      "start": 2.44,
+      "startOffset": 23,
+      "word": "ARCTIC"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 3.65,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.48,
+      "startOffset": 30,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 3.77,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 3.65,
+      "startOffset": 34,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.68,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 0.91,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.77,
+      "startOffset": 38,
+      "word": "LYONNAIS"
+    },
+    {
+      "alignedWord": "sunk",
+      "case": "success",
+      "end": 5.75,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.19,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ng_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "k_E"
+        }
+      ],
+      "start": 5.36,
+      "startOffset": 47,
+      "word": "SUNK"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 5.88,
+      "endOffset": 54,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 5.75,
+      "startOffset": 52,
+      "word": "IN"
+    },
+    {
+      "alignedWord": "collisions",
+      "case": "success",
+      "end": 6.59,
+      "endOffset": 65,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "zh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.26,
+          "phone": "z_E"
+        }
+      ],
+      "start": 5.88,
+      "startOffset": 55,
+      "word": "COLLISIONS"
+    },
+    {
+      "alignedWord": "by",
+      "case": "success",
+      "end": 7.11,
+      "endOffset": 68,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ay_E"
+        }
+      ],
+      "start": 7.0,
+      "startOffset": 66,
+      "word": "BY"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 7.23,
+      "endOffset": 72,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 7.11,
+      "startOffset": 69,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "president",
+      "case": "success",
+      "end": 7.9,
+      "endOffset": 82,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "z_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "t_E"
+        }
+      ],
+      "start": 7.23,
+      "startOffset": 73,
+      "word": "PRESIDENT"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 8.36,
+      "endOffset": 86,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 8.24,
+      "startOffset": 83,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "pacific",
+      "case": "success",
+      "end": 9.03,
+      "endOffset": 94,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "f_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "k_E"
+        }
+      ],
+      "start": 8.36,
+      "startOffset": 87,
+      "word": "PACIFIC"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 9.8,
+      "endOffset": 98,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "d_E"
+        }
+      ],
+      "start": 9.63,
+      "startOffset": 95,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 9.88,
+      "endOffset": 102,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 9.8,
+      "startOffset": 99,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "city",
+      "case": "success",
+      "end": 10.22,
+      "endOffset": 107,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 9.88,
+      "startOffset": 103,
+      "word": "CITY"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 10.349999,
+      "endOffset": 110,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "v_E"
+        }
+      ],
+      "start": 10.219999,
+      "startOffset": 108,
+      "word": "OF"
+    },
+    {
+      "alignedWord": "glasgow",
+      "case": "success",
+      "end": 11.03,
+      "endOffset": 118,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 10.37,
+      "startOffset": 111,
+      "word": "GLASGOW"
+    }
+  ]
+}

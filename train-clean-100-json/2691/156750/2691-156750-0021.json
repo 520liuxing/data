@@ -1,0 +1,231 @@
+{
+  "transcript": "LAWD HONEY YO NEEDN'T HAVE NO PUNCTIONS BOUT TAKIN DIS YER BOOK",
+  "words": [
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.9199999999999999,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.43,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.49,
+      "startOffset": 0,
+      "word": "LAWD"
+    },
+    {
+      "alignedWord": "honey",
+      "case": "success",
+      "end": 1.26,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.92,
+      "startOffset": 5,
+      "word": "HONEY"
+    },
+    {
+      "alignedWord": "yo",
+      "case": "success",
+      "end": 1.75,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 1.56,
+      "startOffset": 11,
+      "word": "YO"
+    },
+    {
+      "alignedWord": "needn't",
+      "case": "success",
+      "end": 1.99,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.78,
+      "startOffset": 14,
+      "word": "NEEDN'T"
+    },
+    {
+      "alignedWord": "have",
+      "case": "success",
+      "end": 2.2199999999999998,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "v_E"
+        }
+      ],
+      "start": 2.01,
+      "startOffset": 22,
+      "word": "HAVE"
+    },
+    {
+      "alignedWord": "no",
+      "case": "success",
+      "end": 2.43,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 2.22,
+      "startOffset": 27,
+      "word": "NO"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.9699999999999998,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.53,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.44,
+      "startOffset": 30,
+      "word": "PUNCTIONS"
+    },
+    {
+      "alignedWord": "bout",
+      "case": "success",
+      "end": 3.1700000000000004,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "aw_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.97,
+      "startOffset": 40,
+      "word": "BOUT"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.76,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.59,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.17,
+      "startOffset": 45,
+      "word": "TAKIN"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 54,
+      "startOffset": 51,
+      "word": "DIS"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 58,
+      "startOffset": 55,
+      "word": "YER"
+    },
+    {
+      "alignedWord": "book",
+      "case": "success",
+      "end": 4.14,
+      "endOffset": 63,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.19,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "k_E"
+        }
+      ],
+      "start": 3.76,
+      "startOffset": 59,
+      "word": "BOOK"
+    }
+  ]
+}

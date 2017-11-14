@@ -1,0 +1,172 @@
+{
+  "transcript": "TO BID MY WIFE AND CHILDREN ADIEU AND",
+  "words": [
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 0.28,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_E"
+        }
+      ],
+      "start": 0.16,
+      "startOffset": 0,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "bid",
+      "case": "success",
+      "end": 0.49,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.28,
+      "startOffset": 3,
+      "word": "BID"
+    },
+    {
+      "alignedWord": "my",
+      "case": "success",
+      "end": 0.6699999999999999,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ay_E"
+        }
+      ],
+      "start": 0.49,
+      "startOffset": 7,
+      "word": "MY"
+    },
+    {
+      "alignedWord": "wife",
+      "case": "success",
+      "end": 1.06,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.18,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "f_E"
+        }
+      ],
+      "start": 0.67,
+      "startOffset": 10,
+      "word": "WIFE"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 1.2000000000000002,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.06,
+      "startOffset": 15,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "children",
+      "case": "success",
+      "end": 1.5899999999999999,
+      "endOffset": 27,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ch_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.2,
+      "startOffset": 19,
+      "word": "CHILDREN"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.9000000000000001,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.31,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.59,
+      "startOffset": 28,
+      "word": "ADIEU"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 37,
+      "startOffset": 34,
+      "word": "AND"
+    }
+  ]
+}

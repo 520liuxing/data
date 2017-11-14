@@ -1,0 +1,104 @@
+{
+  "transcript": "LOOK AT IT PANTED DICK",
+  "words": [
+    {
+      "alignedWord": "look",
+      "case": "success",
+      "end": 0.78,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "k_E"
+        }
+      ],
+      "start": 0.54,
+      "startOffset": 0,
+      "word": "LOOK"
+    },
+    {
+      "alignedWord": "at",
+      "case": "success",
+      "end": 0.99,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.78,
+      "startOffset": 5,
+      "word": "AT"
+    },
+    {
+      "alignedWord": "it",
+      "case": "success",
+      "end": 1.24,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.18,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.99,
+      "startOffset": 8,
+      "word": "IT"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.9000000000000001,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.34,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.56,
+      "startOffset": 11,
+      "word": "PANTED"
+    },
+    {
+      "alignedWord": "dick",
+      "case": "success",
+      "end": 2.26,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "k_E"
+        }
+      ],
+      "start": 1.9,
+      "startOffset": 18,
+      "word": "DICK"
+    }
+  ]
+}

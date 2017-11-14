@@ -1,0 +1,137 @@
+{
+  "transcript": "DAT SHUK AN RATTLED WID EV'Y STEP",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 3,
+      "startOffset": 0,
+      "word": "DAT"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.78,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.62,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.16,
+      "startOffset": 4,
+      "word": "SHUK"
+    },
+    {
+      "alignedWord": "an",
+      "case": "success",
+      "end": 0.88,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.78,
+      "startOffset": 9,
+      "word": "AN"
+    },
+    {
+      "alignedWord": "rattled",
+      "case": "success",
+      "end": 1.21,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.88,
+      "startOffset": 12,
+      "word": "RATTLED"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.3699999999999999,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.21,
+      "startOffset": 20,
+      "word": "WID"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.63,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.22,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.41,
+      "startOffset": 24,
+      "word": "EV'Y"
+    },
+    {
+      "alignedWord": "step",
+      "case": "success",
+      "end": 1.9899999999999998,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "p_E"
+        }
+      ],
+      "start": 1.64,
+      "startOffset": 29,
+      "word": "STEP"
+    }
+  ]
+}

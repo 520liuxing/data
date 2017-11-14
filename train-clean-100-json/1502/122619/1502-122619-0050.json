@@ -1,0 +1,182 @@
+{
+  "transcript": "WITH MANIFEST DISAPPROBATION IF NOT WITH ALARM",
+  "words": [
+    {
+      "alignedWord": "with",
+      "case": "success",
+      "end": 0.8,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "th_E"
+        }
+      ],
+      "start": 0.53,
+      "startOffset": 0,
+      "word": "WITH"
+    },
+    {
+      "alignedWord": "manifest",
+      "case": "success",
+      "end": 1.35,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "f_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.8,
+      "startOffset": 5,
+      "word": "MANIFEST"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.5700000000000003,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 1.22,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.35,
+      "startOffset": 14,
+      "word": "DISAPPROBATION"
+    },
+    {
+      "alignedWord": "if",
+      "case": "success",
+      "end": 3.0999999999999996,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "f_E"
+        }
+      ],
+      "start": 2.86,
+      "startOffset": 29,
+      "word": "IF"
+    },
+    {
+      "alignedWord": "not",
+      "case": "success",
+      "end": 3.31,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.1,
+      "startOffset": 32,
+      "word": "NOT"
+    },
+    {
+      "alignedWord": "with",
+      "case": "success",
+      "end": 3.48,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "th_E"
+        }
+      ],
+      "start": 3.31,
+      "startOffset": 36,
+      "word": "WITH"
+    },
+    {
+      "alignedWord": "alarm",
+      "case": "success",
+      "end": 3.87,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "m_E"
+        }
+      ],
+      "start": 3.48,
+      "startOffset": 41,
+      "word": "ALARM"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "transcript": "AND HE AND JOHNSON THE LIVERY STABLEKEEPER NEXT DOOR FORMED A SYNDICATE",
+  "words": [
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 0.36,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.18,
+      "startOffset": 0,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "he",
+      "case": "success",
+      "end": 0.47,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.36,
+      "startOffset": 4,
+      "word": "HE"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 0.6,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.47,
+      "startOffset": 7,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "johnson",
+      "case": "success",
+      "end": 1.12,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "jh_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.6,
+      "startOffset": 11,
+      "word": "JOHNSON"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 1.23,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 1.13,
+      "startOffset": 19,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.24,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 1.01,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.23,
+      "startOffset": 23,
+      "word": "LIVERY"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 42,
+      "startOffset": 30,
+      "word": "STABLEKEEPER"
+    },
+    {
+      "alignedWord": "next",
+      "case": "success",
+      "end": 2.49,
+      "endOffset": 47,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_E"
+        }
+      ],
+      "start": 2.24,
+      "startOffset": 43,
+      "word": "NEXT"
+    },
+    {
+      "alignedWord": "door",
+      "case": "success",
+      "end": 2.7600000000000002,
+      "endOffset": 52,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "r_E"
+        }
+      ],
+      "start": 2.49,
+      "startOffset": 48,
+      "word": "DOOR"
+    },
+    {
+      "alignedWord": "formed",
+      "case": "success",
+      "end": 3.04,
+      "endOffset": 59,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "d_E"
+        }
+      ],
+      "start": 2.76,
+      "startOffset": 53,
+      "word": "FORMED"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 3.08,
+      "endOffset": 61,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 3.04,
+      "startOffset": 60,
+      "word": "A"
+    },
+    {
+      "alignedWord": "syndicate",
+      "case": "success",
+      "end": 3.5700000000000003,
+      "endOffset": 71,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.08,
+      "startOffset": 62,
+      "word": "SYNDICATE"
+    }
+  ]
+}

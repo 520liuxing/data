@@ -1,0 +1,603 @@
+{
+  "transcript": "A CONFESSION MADE AT THE LAST MOMENT EXTORTED WHEN THE CRIME CANNOT BE DENIED DIMINISHES NOT THE PUNISHMENT INFLICTED ON THE GUILTY",
+  "words": [
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 0.28,
+      "endOffset": 1,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 0.19,
+      "startOffset": 0,
+      "word": "A"
+    },
+    {
+      "alignedWord": "confession",
+      "case": "success",
+      "end": 0.9,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "f_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "sh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.28,
+      "startOffset": 2,
+      "word": "CONFESSION"
+    },
+    {
+      "alignedWord": "made",
+      "case": "success",
+      "end": 1.2,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.9,
+      "startOffset": 13,
+      "word": "MADE"
+    },
+    {
+      "alignedWord": "at",
+      "case": "success",
+      "end": 1.33,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.21,
+      "startOffset": 18,
+      "word": "AT"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 1.4500000000000002,
+      "endOffset": 24,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 1.33,
+      "startOffset": 21,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "last",
+      "case": "success",
+      "end": 1.98,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.46,
+      "startOffset": 25,
+      "word": "LAST"
+    },
+    {
+      "alignedWord": "moment",
+      "case": "success",
+      "end": 2.58,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.98,
+      "startOffset": 30,
+      "word": "MOMENT"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.41,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.69,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.72,
+      "startOffset": 37,
+      "word": "EXTORTED"
+    },
+    {
+      "alignedWord": "when",
+      "case": "success",
+      "end": 3.5900000000000003,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_E"
+        }
+      ],
+      "start": 3.43,
+      "startOffset": 46,
+      "word": "WHEN"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 3.69,
+      "endOffset": 54,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 3.59,
+      "startOffset": 51,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "crime",
+      "case": "success",
+      "end": 4.1899999999999995,
+      "endOffset": 60,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.2,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "m_E"
+        }
+      ],
+      "start": 3.69,
+      "startOffset": 55,
+      "word": "CRIME"
+    },
+    {
+      "alignedWord": "cannot",
+      "case": "success",
+      "end": 4.65,
+      "endOffset": 67,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 4.19,
+      "startOffset": 61,
+      "word": "CANNOT"
+    },
+    {
+      "alignedWord": "be",
+      "case": "success",
+      "end": 4.79,
+      "endOffset": 70,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 4.65,
+      "startOffset": 68,
+      "word": "BE"
+    },
+    {
+      "alignedWord": "denied",
+      "case": "success",
+      "end": 5.42,
+      "endOffset": 77,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.28,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "d_E"
+        }
+      ],
+      "start": 4.79,
+      "startOffset": 71,
+      "word": "DENIED"
+    },
+    {
+      "alignedWord": "diminishes",
+      "case": "success",
+      "end": 6.57,
+      "endOffset": 88,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "sh_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "z_E"
+        }
+      ],
+      "start": 5.82,
+      "startOffset": 78,
+      "word": "DIMINISHES"
+    },
+    {
+      "alignedWord": "not",
+      "case": "success",
+      "end": 6.88,
+      "endOffset": 92,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 6.58,
+      "startOffset": 89,
+      "word": "NOT"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 7.0,
+      "endOffset": 96,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 6.88,
+      "startOffset": 93,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "punishment",
+      "case": "success",
+      "end": 7.58,
+      "endOffset": 107,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "sh_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "t_E"
+        }
+      ],
+      "start": 7.0,
+      "startOffset": 97,
+      "word": "PUNISHMENT"
+    },
+    {
+      "alignedWord": "inflicted",
+      "case": "success",
+      "end": 8.29,
+      "endOffset": 117,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "f_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 7.6,
+      "startOffset": 108,
+      "word": "INFLICTED"
+    },
+    {
+      "alignedWord": "on",
+      "case": "success",
+      "end": 8.52,
+      "endOffset": 120,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_E"
+        }
+      ],
+      "start": 8.37,
+      "startOffset": 118,
+      "word": "ON"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 8.629999999999999,
+      "endOffset": 124,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 8.52,
+      "startOffset": 121,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "guilty",
+      "case": "success",
+      "end": 9.200000000000001,
+      "endOffset": 131,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 8.63,
+      "startOffset": 125,
+      "word": "GUILTY"
+    }
+  ]
+}

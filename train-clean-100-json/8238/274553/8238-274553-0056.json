@@ -1,0 +1,39 @@
+{
+  "transcript": "PER CONSTRUCTIONEM",
+  "words": [
+    {
+      "alignedWord": "per",
+      "case": "success",
+      "end": 0.5,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.17,
+          "phone": "er_E"
+        }
+      ],
+      "start": 0.2,
+      "startOffset": 0,
+      "word": "PER"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.81,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 1.27,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.54,
+      "startOffset": 4,
+      "word": "CONSTRUCTIONEM"
+    }
+  ]
+}

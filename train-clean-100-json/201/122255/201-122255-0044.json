@@ -1,0 +1,154 @@
+{
+  "transcript": "THERE ARE OTHER INNS THAT THOU KNOWEST YET HEREABOUTS",
+  "words": [
+    {
+      "alignedWord": "there",
+      "case": "success",
+      "end": 0.45999999999999996,
+      "endOffset": 5,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "r_E"
+        }
+      ],
+      "start": 0.21,
+      "startOffset": 0,
+      "word": "THERE"
+    },
+    {
+      "alignedWord": "are",
+      "case": "success",
+      "end": 0.67,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "r_E"
+        }
+      ],
+      "start": 0.46,
+      "startOffset": 6,
+      "word": "ARE"
+    },
+    {
+      "alignedWord": "other",
+      "case": "success",
+      "end": 0.95,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "dh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "er_E"
+        }
+      ],
+      "start": 0.69,
+      "startOffset": 10,
+      "word": "OTHER"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.27,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.32,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.95,
+      "startOffset": 16,
+      "word": "INNS"
+    },
+    {
+      "alignedWord": "that",
+      "case": "success",
+      "end": 1.45,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.28,
+      "startOffset": 21,
+      "word": "THAT"
+    },
+    {
+      "alignedWord": "thou",
+      "case": "success",
+      "end": 1.47,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "aw_E"
+        }
+      ],
+      "start": 1.45,
+      "startOffset": 26,
+      "word": "THOU"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.84,
+      "endOffset": 38,
+      "phones": [
+        {
+          "duration": 1.37,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.47,
+      "startOffset": 31,
+      "word": "KNOWEST"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 42,
+      "startOffset": 39,
+      "word": "YET"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 43,
+      "word": "HEREABOUTS"
+    }
+  ]
+}

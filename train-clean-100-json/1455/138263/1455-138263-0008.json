@@ -1,0 +1,120 @@
+{
+  "transcript": "BY JOVE REPLIED MICHEL ARDAN",
+  "words": [
+    {
+      "alignedWord": "by",
+      "case": "success",
+      "end": 0.4,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ay_E"
+        }
+      ],
+      "start": 0.18,
+      "startOffset": 0,
+      "word": "BY"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.08,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.67,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.41,
+      "startOffset": 3,
+      "word": "JOVE"
+    },
+    {
+      "alignedWord": "replied",
+      "case": "success",
+      "end": 1.97,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.49,
+      "startOffset": 8,
+      "word": "REPLIED"
+    },
+    {
+      "alignedWord": "michel",
+      "case": "success",
+      "end": 2.26,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.03,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "sh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "l_E"
+        }
+      ],
+      "start": 1.97,
+      "startOffset": 16,
+      "word": "MICHEL"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.65,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.39,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.26,
+      "startOffset": 23,
+      "word": "ARDAN"
+    }
+  ]
+}

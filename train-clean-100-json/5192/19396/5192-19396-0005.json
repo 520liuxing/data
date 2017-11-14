@@ -1,0 +1,238 @@
+{
+  "transcript": "IN A WOMAN THAT'S MORE THAN I KNOW QUOTH MY FATHER",
+  "words": [
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 0.26,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.13,
+      "startOffset": 0,
+      "word": "IN"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 0.33,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 0.26,
+      "startOffset": 3,
+      "word": "A"
+    },
+    {
+      "alignedWord": "woman",
+      "case": "success",
+      "end": 0.77,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.33,
+      "startOffset": 5,
+      "word": "WOMAN"
+    },
+    {
+      "alignedWord": "that's",
+      "case": "success",
+      "end": 1.82,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_E"
+        }
+      ],
+      "start": 1.57,
+      "startOffset": 11,
+      "word": "THAT'S"
+    },
+    {
+      "alignedWord": "more",
+      "case": "success",
+      "end": 2.0300000000000002,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_E"
+        }
+      ],
+      "start": 1.82,
+      "startOffset": 18,
+      "word": "MORE"
+    },
+    {
+      "alignedWord": "than",
+      "case": "success",
+      "end": 2.21,
+      "endOffset": 27,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 2.03,
+      "startOffset": 23,
+      "word": "THAN"
+    },
+    {
+      "alignedWord": "i",
+      "case": "success",
+      "end": 2.32,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "ay_S"
+        }
+      ],
+      "start": 2.21,
+      "startOffset": 28,
+      "word": "I"
+    },
+    {
+      "alignedWord": "know",
+      "case": "success",
+      "end": 2.73,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.31,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 2.32,
+      "startOffset": 30,
+      "word": "KNOW"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.13,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.24,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.89,
+      "startOffset": 35,
+      "word": "QUOTH"
+    },
+    {
+      "alignedWord": "my",
+      "case": "success",
+      "end": 3.32,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ay_E"
+        }
+      ],
+      "start": 3.15,
+      "startOffset": 41,
+      "word": "MY"
+    },
+    {
+      "alignedWord": "father",
+      "case": "success",
+      "end": 3.7399999999999998,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "dh_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "er_E"
+        }
+      ],
+      "start": 3.32,
+      "startOffset": 44,
+      "word": "FATHER"
+    }
+  ]
+}

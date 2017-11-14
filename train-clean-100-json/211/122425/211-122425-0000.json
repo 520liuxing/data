@@ -1,0 +1,379 @@
+{
+  "transcript": "DO YOU KNOW THAT HIS EMINENCE HAS BEEN MAKING FRESH COMPLAINTS AGAINST YOUR MUSKETEERS",
+  "words": [
+    {
+      "alignedWord": "do",
+      "case": "success",
+      "end": 0.28,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 0.17,
+      "startOffset": 0,
+      "word": "DO"
+    },
+    {
+      "alignedWord": "you",
+      "case": "success",
+      "end": 0.44000000000000006,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 0.28,
+      "startOffset": 3,
+      "word": "YOU"
+    },
+    {
+      "alignedWord": "know",
+      "case": "success",
+      "end": 0.7,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 0.46,
+      "startOffset": 7,
+      "word": "KNOW"
+    },
+    {
+      "alignedWord": "that",
+      "case": "success",
+      "end": 0.8099999999999999,
+      "endOffset": 16,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.02,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.7,
+      "startOffset": 12,
+      "word": "THAT"
+    },
+    {
+      "alignedWord": "his",
+      "case": "success",
+      "end": 1.01,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.81,
+      "startOffset": 17,
+      "word": "HIS"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.48,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.45,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.03,
+      "startOffset": 21,
+      "word": "EMINENCE"
+    },
+    {
+      "alignedWord": "has",
+      "case": "success",
+      "end": 1.68,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_E"
+        }
+      ],
+      "start": 1.49,
+      "startOffset": 30,
+      "word": "HAS"
+    },
+    {
+      "alignedWord": "been",
+      "case": "success",
+      "end": 1.88,
+      "endOffset": 38,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.68,
+      "startOffset": 34,
+      "word": "BEEN"
+    },
+    {
+      "alignedWord": "making",
+      "case": "success",
+      "end": 2.27,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 1.88,
+      "startOffset": 39,
+      "word": "MAKING"
+    },
+    {
+      "alignedWord": "fresh",
+      "case": "success",
+      "end": 2.5300000000000002,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "sh_E"
+        }
+      ],
+      "start": 2.27,
+      "startOffset": 46,
+      "word": "FRESH"
+    },
+    {
+      "alignedWord": "complaints",
+      "case": "success",
+      "end": 3.03,
+      "endOffset": 62,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "s_E"
+        }
+      ],
+      "start": 2.53,
+      "startOffset": 52,
+      "word": "COMPLAINTS"
+    },
+    {
+      "alignedWord": "against",
+      "case": "success",
+      "end": 3.4299999999999997,
+      "endOffset": 70,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "g_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.03,
+      "startOffset": 63,
+      "word": "AGAINST"
+    },
+    {
+      "alignedWord": "your",
+      "case": "success",
+      "end": 3.54,
+      "endOffset": 75,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.02,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_E"
+        }
+      ],
+      "start": 3.43,
+      "startOffset": 71,
+      "word": "YOUR"
+    },
+    {
+      "alignedWord": "musketeers",
+      "case": "success",
+      "end": 4.41,
+      "endOffset": 86,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "z_E"
+        }
+      ],
+      "start": 3.54,
+      "startOffset": 76,
+      "word": "MUSKETEERS"
+    }
+  ]
+}

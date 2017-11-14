@@ -1,0 +1,438 @@
+{
+  "transcript": "WHEN THE PRINCES UNDERSTOOD WHITHER THE ARGONAUTS WERE GOING THEY OFFERED TO TURN BACK AND GUIDE THEM TO COLCHIS",
+  "words": [
+    {
+      "alignedWord": "when",
+      "case": "success",
+      "end": 0.7,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.51,
+      "startOffset": 0,
+      "word": "WHEN"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 0.7799999999999999,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 0.7,
+      "startOffset": 5,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "princes",
+      "case": "success",
+      "end": 1.2,
+      "endOffset": 16,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.03,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.78,
+      "startOffset": 9,
+      "word": "PRINCES"
+    },
+    {
+      "alignedWord": "understood",
+      "case": "success",
+      "end": 1.97,
+      "endOffset": 27,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.23,
+      "startOffset": 17,
+      "word": "UNDERSTOOD"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.31,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 0.25,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.06,
+      "startOffset": 28,
+      "word": "WHITHER"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 2.44,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 2.31,
+      "startOffset": 36,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.88,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.44,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.44,
+      "startOffset": 40,
+      "word": "ARGONAUTS"
+    },
+    {
+      "alignedWord": "were",
+      "case": "success",
+      "end": 3.0100000000000002,
+      "endOffset": 54,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "er_E"
+        }
+      ],
+      "start": 2.89,
+      "startOffset": 50,
+      "word": "WERE"
+    },
+    {
+      "alignedWord": "going",
+      "case": "success",
+      "end": 3.42,
+      "endOffset": 60,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 3.01,
+      "startOffset": 55,
+      "word": "GOING"
+    },
+    {
+      "alignedWord": "they",
+      "case": "success",
+      "end": 3.82,
+      "endOffset": 65,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ey_E"
+        }
+      ],
+      "start": 3.65,
+      "startOffset": 61,
+      "word": "THEY"
+    },
+    {
+      "alignedWord": "offered",
+      "case": "success",
+      "end": 4.12,
+      "endOffset": 73,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "f_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.82,
+      "startOffset": 66,
+      "word": "OFFERED"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 4.23,
+      "endOffset": 76,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_E"
+        }
+      ],
+      "start": 4.12,
+      "startOffset": 74,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "turn",
+      "case": "success",
+      "end": 4.550000000000001,
+      "endOffset": 81,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_E"
+        }
+      ],
+      "start": 4.23,
+      "startOffset": 77,
+      "word": "TURN"
+    },
+    {
+      "alignedWord": "back",
+      "case": "success",
+      "end": 4.83,
+      "endOffset": 86,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "k_E"
+        }
+      ],
+      "start": 4.55,
+      "startOffset": 82,
+      "word": "BACK"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 5.01,
+      "endOffset": 90,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 4.84,
+      "startOffset": 87,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "guide",
+      "case": "success",
+      "end": 5.2299999999999995,
+      "endOffset": 96,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 5.01,
+      "startOffset": 91,
+      "word": "GUIDE"
+    },
+    {
+      "alignedWord": "them",
+      "case": "success",
+      "end": 5.36,
+      "endOffset": 101,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "m_E"
+        }
+      ],
+      "start": 5.23,
+      "startOffset": 97,
+      "word": "THEM"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 5.46,
+      "endOffset": 104,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 5.36,
+      "startOffset": 102,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 6.08,
+      "endOffset": 112,
+      "phones": [
+        {
+          "duration": 0.62,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 5.46,
+      "startOffset": 105,
+      "word": "COLCHIS"
+    }
+  ]
+}

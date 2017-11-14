@@ -1,0 +1,154 @@
+{
+  "transcript": "AND PILLAGED ALL THE CHILDREN OF THARSIS",
+  "words": [
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 0.52,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.28,
+      "startOffset": 0,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.98,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.42,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.56,
+      "startOffset": 4,
+      "word": "PILLAGED"
+    },
+    {
+      "alignedWord": "all",
+      "case": "success",
+      "end": 1.24,
+      "endOffset": 16,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_E"
+        }
+      ],
+      "start": 0.99,
+      "startOffset": 13,
+      "word": "ALL"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 1.34,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 1.24,
+      "startOffset": 17,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "children",
+      "case": "success",
+      "end": 1.79,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "ch_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.34,
+      "startOffset": 21,
+      "word": "CHILDREN"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 1.98,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "v_E"
+        }
+      ],
+      "start": 1.81,
+      "startOffset": 30,
+      "word": "OF"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.57,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.56,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.01,
+      "startOffset": 33,
+      "word": "THARSIS"
+    }
+  ]
+}

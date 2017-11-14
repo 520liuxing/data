@@ -1,0 +1,162 @@
+{
+  "transcript": "THAT WITHOUT ENVYING OR BEING ENVIED SLEEPEST",
+  "words": [
+    {
+      "alignedWord": "that",
+      "case": "success",
+      "end": 0.71,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.19,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.23,
+      "startOffset": 0,
+      "word": "THAT"
+    },
+    {
+      "alignedWord": "without",
+      "case": "success",
+      "end": 1.26,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.03,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "th_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "aw_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.97,
+      "startOffset": 5,
+      "word": "WITHOUT"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.27,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.26,
+      "startOffset": 13,
+      "word": "ENVYING"
+    },
+    {
+      "alignedWord": "or",
+      "case": "success",
+      "end": 1.28,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "er_S"
+        }
+      ],
+      "start": 1.27,
+      "startOffset": 21,
+      "word": "OR"
+    },
+    {
+      "alignedWord": "being",
+      "case": "success",
+      "end": 1.32,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 1.28,
+      "startOffset": 24,
+      "word": "BEING"
+    },
+    {
+      "alignedWord": "envied",
+      "case": "success",
+      "end": 1.61,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "eh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "v_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.33,
+      "startOffset": 30,
+      "word": "ENVIED"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.77,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.61,
+      "startOffset": 37,
+      "word": "SLEEPEST"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "transcript": "THIS IS WHAT MISTER HOBBS READ IN DICK'S LETTER DERE FREND",
+  "words": [
+    {
+      "alignedWord": "this",
+      "case": "success",
+      "end": 0.69,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "s_E"
+        }
+      ],
+      "start": 0.51,
+      "startOffset": 0,
+      "word": "THIS"
+    },
+    {
+      "alignedWord": "is",
+      "case": "success",
+      "end": 0.82,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.69,
+      "startOffset": 5,
+      "word": "IS"
+    },
+    {
+      "alignedWord": "what",
+      "case": "success",
+      "end": 0.97,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.82,
+      "startOffset": 8,
+      "word": "WHAT"
+    },
+    {
+      "alignedWord": "mister",
+      "case": "success",
+      "end": 1.27,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "er_E"
+        }
+      ],
+      "start": 0.97,
+      "startOffset": 13,
+      "word": "MISTER"
+    },
+    {
+      "alignedWord": "hobbs",
+      "case": "success",
+      "end": 1.6600000000000001,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "b_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "z_E"
+        }
+      ],
+      "start": 1.27,
+      "startOffset": 20,
+      "word": "HOBBS"
+    },
+    {
+      "alignedWord": "read",
+      "case": "success",
+      "end": 1.8299999999999998,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.66,
+      "startOffset": 26,
+      "word": "READ"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 1.98,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.83,
+      "startOffset": 31,
+      "word": "IN"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.29,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.31,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.98,
+      "startOffset": 34,
+      "word": "DICK'S"
+    },
+    {
+      "alignedWord": "letter",
+      "case": "success",
+      "end": 2.69,
+      "endOffset": 47,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.21,
+          "phone": "er_E"
+        }
+      ],
+      "start": 2.29,
+      "startOffset": 41,
+      "word": "LETTER"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.51,
+      "endOffset": 52,
+      "phones": [
+        {
+          "duration": 0.86,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.65,
+      "startOffset": 48,
+      "word": "DERE"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 58,
+      "startOffset": 53,
+      "word": "FREND"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "transcript": "BILL GREGG SMILED SOURLY",
+  "words": [
+    {
+      "alignedWord": "bill",
+      "case": "success",
+      "end": 0.65,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_E"
+        }
+      ],
+      "start": 0.42,
+      "startOffset": 0,
+      "word": "BILL"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.99,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.33,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.66,
+      "startOffset": 5,
+      "word": "GREGG"
+    },
+    {
+      "alignedWord": "smiled",
+      "case": "success",
+      "end": 1.48,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.99,
+      "startOffset": 11,
+      "word": "SMILED"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.08,
+      "endOffset": 24,
+      "phones": [
+        {
+          "duration": 0.6,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.48,
+      "startOffset": 18,
+      "word": "SOURLY"
+    }
+  ]
+}

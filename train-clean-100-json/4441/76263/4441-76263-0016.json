@@ -1,0 +1,337 @@
+{
+  "transcript": "I MUST TRY AND GET WORK TO DAY AT A STONE MASON'S OR I SHALL STARVE",
+  "words": [
+    {
+      "alignedWord": "i",
+      "case": "success",
+      "end": 0.37,
+      "endOffset": 1,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "ay_S"
+        }
+      ],
+      "start": 0.19,
+      "startOffset": 0,
+      "word": "I"
+    },
+    {
+      "alignedWord": "must",
+      "case": "success",
+      "end": 0.7,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.37,
+      "startOffset": 2,
+      "word": "MUST"
+    },
+    {
+      "alignedWord": "try",
+      "case": "success",
+      "end": 1.1099999999999999,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.28,
+          "phone": "ay_E"
+        }
+      ],
+      "start": 0.71,
+      "startOffset": 7,
+      "word": "TRY"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 1.3099999999999998,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.14,
+      "startOffset": 11,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "get",
+      "case": "success",
+      "end": 1.47,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.31,
+      "startOffset": 15,
+      "word": "GET"
+    },
+    {
+      "alignedWord": "work",
+      "case": "success",
+      "end": 1.72,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "k_E"
+        }
+      ],
+      "start": 1.47,
+      "startOffset": 19,
+      "word": "WORK"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 1.8599999999999999,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 1.72,
+      "startOffset": 24,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "day",
+      "case": "success",
+      "end": 2.0100000000000002,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ey_E"
+        }
+      ],
+      "start": 1.86,
+      "startOffset": 27,
+      "word": "DAY"
+    },
+    {
+      "alignedWord": "at",
+      "case": "success",
+      "end": 2.0999999999999996,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.01,
+      "startOffset": 31,
+      "word": "AT"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 2.16,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 2.1,
+      "startOffset": 34,
+      "word": "A"
+    },
+    {
+      "alignedWord": "stone",
+      "case": "success",
+      "end": 2.39,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "n_E"
+        }
+      ],
+      "start": 2.16,
+      "startOffset": 36,
+      "word": "STONE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.79,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.4,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.39,
+      "startOffset": 42,
+      "word": "MASON'S"
+    },
+    {
+      "alignedWord": "or",
+      "case": "success",
+      "end": 2.9,
+      "endOffset": 52,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_E"
+        }
+      ],
+      "start": 2.79,
+      "startOffset": 50,
+      "word": "OR"
+    },
+    {
+      "alignedWord": "i",
+      "case": "success",
+      "end": 2.9699999999999998,
+      "endOffset": 54,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ay_S"
+        }
+      ],
+      "start": 2.9,
+      "startOffset": 53,
+      "word": "I"
+    },
+    {
+      "alignedWord": "shall",
+      "case": "success",
+      "end": 3.18,
+      "endOffset": 60,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.02,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_E"
+        }
+      ],
+      "start": 2.97,
+      "startOffset": 55,
+      "word": "SHALL"
+    },
+    {
+      "alignedWord": "starve",
+      "case": "success",
+      "end": 3.67,
+      "endOffset": 67,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "r_I"
+        }
+      ],
+      "start": 3.2,
+      "startOffset": 61,
+      "word": "STARVE"
+    }
+  ]
+}

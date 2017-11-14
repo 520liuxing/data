@@ -1,0 +1,677 @@
+{
+  "transcript": "HAVE YOU CANCER TUMORS ULCERS ABSCESSES FEVER SORES GOITRE CATARRH SALT RHEUM RHEUMATISM PILES ECZEMA SCALD HEAD OR SCROFULA IN ANY FORM ASK YOUR DRUGGIST FOR MIXER'S CANCER AND SCROFULA SYRUP",
+  "words": [
+    {
+      "alignedWord": "have",
+      "case": "success",
+      "end": 0.61,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "v_E"
+        }
+      ],
+      "start": 0.41,
+      "startOffset": 0,
+      "word": "HAVE"
+    },
+    {
+      "alignedWord": "you",
+      "case": "success",
+      "end": 0.77,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 0.61,
+      "startOffset": 5,
+      "word": "YOU"
+    },
+    {
+      "alignedWord": "cancer",
+      "case": "success",
+      "end": 1.48,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.2,
+          "phone": "er_E"
+        }
+      ],
+      "start": 0.77,
+      "startOffset": 9,
+      "word": "CANCER"
+    },
+    {
+      "alignedWord": "tumors",
+      "case": "success",
+      "end": 2.08,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "uw_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "z_E"
+        }
+      ],
+      "start": 1.55,
+      "startOffset": 16,
+      "word": "TUMORS"
+    },
+    {
+      "alignedWord": "ulcers",
+      "case": "success",
+      "end": 2.6399999999999997,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "z_E"
+        }
+      ],
+      "start": 2.13,
+      "startOffset": 23,
+      "word": "ULCERS"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.3400000000000003,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.64,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.7,
+      "startOffset": 30,
+      "word": "ABSCESSES"
+    },
+    {
+      "alignedWord": "fever",
+      "case": "success",
+      "end": 3.6599999999999997,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "v_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "er_E"
+        }
+      ],
+      "start": 3.34,
+      "startOffset": 40,
+      "word": "FEVER"
+    },
+    {
+      "alignedWord": "sores",
+      "case": "success",
+      "end": 4.05,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "z_E"
+        }
+      ],
+      "start": 3.66,
+      "startOffset": 46,
+      "word": "SORES"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.569999999999999,
+      "endOffset": 58,
+      "phones": [
+        {
+          "duration": 0.47,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.1,
+      "startOffset": 52,
+      "word": "GOITRE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 5.29,
+      "endOffset": 66,
+      "phones": [
+        {
+          "duration": 0.44,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.85,
+      "startOffset": 59,
+      "word": "CATARRH"
+    },
+    {
+      "alignedWord": "salt",
+      "case": "success",
+      "end": 5.7,
+      "endOffset": 71,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "t_E"
+        }
+      ],
+      "start": 5.3,
+      "startOffset": 67,
+      "word": "SALT"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 6.58,
+      "endOffset": 77,
+      "phones": [
+        {
+          "duration": 0.88,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 5.7,
+      "startOffset": 72,
+      "word": "RHEUM"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 88,
+      "startOffset": 78,
+      "word": "RHEUMATISM"
+    },
+    {
+      "alignedWord": "piles",
+      "case": "success",
+      "end": 6.99,
+      "endOffset": 94,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "z_E"
+        }
+      ],
+      "start": 6.59,
+      "startOffset": 89,
+      "word": "PILES"
+    },
+    {
+      "alignedWord": "eczema",
+      "case": "success",
+      "end": 7.430000000000001,
+      "endOffset": 101,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "eh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 7.03,
+      "startOffset": 95,
+      "word": "ECZEMA"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 7.63,
+      "endOffset": 107,
+      "phones": [
+        {
+          "duration": 0.2,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 7.43,
+      "startOffset": 102,
+      "word": "SCALD"
+    },
+    {
+      "alignedWord": "head",
+      "case": "success",
+      "end": 8.07,
+      "endOffset": 112,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 7.85,
+      "startOffset": 108,
+      "word": "HEAD"
+    },
+    {
+      "alignedWord": "or",
+      "case": "success",
+      "end": 8.19,
+      "endOffset": 115,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "er_S"
+        }
+      ],
+      "start": 8.07,
+      "startOffset": 113,
+      "word": "OR"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 9.19,
+      "endOffset": 124,
+      "phones": [
+        {
+          "duration": 0.28,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 8.91,
+      "startOffset": 116,
+      "word": "SCROFULA"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 9.37,
+      "endOffset": 127,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 9.19,
+      "startOffset": 125,
+      "word": "IN"
+    },
+    {
+      "alignedWord": "any",
+      "case": "success",
+      "end": 9.62,
+      "endOffset": 131,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "eh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 9.37,
+      "startOffset": 128,
+      "word": "ANY"
+    },
+    {
+      "alignedWord": "form",
+      "case": "success",
+      "end": 10.1,
+      "endOffset": 136,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "m_E"
+        }
+      ],
+      "start": 9.62,
+      "startOffset": 132,
+      "word": "FORM"
+    },
+    {
+      "alignedWord": "ask",
+      "case": "success",
+      "end": 10.84,
+      "endOffset": 140,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "k_E"
+        }
+      ],
+      "start": 10.5,
+      "startOffset": 137,
+      "word": "ASK"
+    },
+    {
+      "alignedWord": "your",
+      "case": "success",
+      "end": 10.98,
+      "endOffset": 145,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_E"
+        }
+      ],
+      "start": 10.84,
+      "startOffset": 141,
+      "word": "YOUR"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 11.46,
+      "endOffset": 154,
+      "phones": [
+        {
+          "duration": 0.47,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 10.99,
+      "startOffset": 146,
+      "word": "DRUGGIST"
+    },
+    {
+      "alignedWord": "for",
+      "case": "success",
+      "end": 11.679999,
+      "endOffset": 158,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "er_E"
+        }
+      ],
+      "start": 11.469999,
+      "startOffset": 155,
+      "word": "FOR"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 12.07,
+      "endOffset": 166,
+      "phones": [
+        {
+          "duration": 0.38,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 11.69,
+      "startOffset": 159,
+      "word": "MIXER'S"
+    },
+    {
+      "alignedWord": "cancer",
+      "case": "success",
+      "end": 12.639999999999999,
+      "endOffset": 173,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "er_E"
+        }
+      ],
+      "start": 12.12,
+      "startOffset": 167,
+      "word": "CANCER"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 12.829998999999999,
+      "endOffset": 177,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 12.639999,
+      "startOffset": 174,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 13.4,
+      "endOffset": 186,
+      "phones": [
+        {
+          "duration": 0.57,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 12.83,
+      "startOffset": 178,
+      "word": "SCROFULA"
+    },
+    {
+      "alignedWord": "syrup",
+      "case": "success",
+      "end": 13.91,
+      "endOffset": 192,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "p_E"
+        }
+      ],
+      "start": 13.4,
+      "startOffset": 187,
+      "word": "SYRUP"
+    }
+  ]
+}

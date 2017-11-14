@@ -1,0 +1,430 @@
+{
+  "transcript": "OH THE DOLEFUL SIGHT THAT NOW WAS TO BEHOLD AT THIS HOUSE COME BEHOLD THE WORKS OF THE LORD",
+  "words": [
+    {
+      "alignedWord": "oh",
+      "case": "success",
+      "end": 0.44000000000000006,
+      "endOffset": 2,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "ow_S"
+        }
+      ],
+      "start": 0.27,
+      "startOffset": 0,
+      "word": "OH"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 0.5800000000000001,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 0.44,
+      "startOffset": 3,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.99,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.41,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.58,
+      "startOffset": 7,
+      "word": "DOLEFUL"
+    },
+    {
+      "alignedWord": "sight",
+      "case": "success",
+      "end": 1.31,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.99,
+      "startOffset": 15,
+      "word": "SIGHT"
+    },
+    {
+      "alignedWord": "that",
+      "case": "success",
+      "end": 1.47,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.31,
+      "startOffset": 21,
+      "word": "THAT"
+    },
+    {
+      "alignedWord": "now",
+      "case": "success",
+      "end": 1.69,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "aw_E"
+        }
+      ],
+      "start": 1.47,
+      "startOffset": 26,
+      "word": "NOW"
+    },
+    {
+      "alignedWord": "was",
+      "case": "success",
+      "end": 1.8199999999999998,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.02,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_E"
+        }
+      ],
+      "start": 1.69,
+      "startOffset": 30,
+      "word": "WAS"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 1.9000000000000001,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.03,
+          "phone": "ih_E"
+        }
+      ],
+      "start": 1.83,
+      "startOffset": 34,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "behold",
+      "case": "success",
+      "end": 2.31,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "hh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.9,
+      "startOffset": 37,
+      "word": "BEHOLD"
+    },
+    {
+      "alignedWord": "at",
+      "case": "success",
+      "end": 2.42,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.31,
+      "startOffset": 44,
+      "word": "AT"
+    },
+    {
+      "alignedWord": "this",
+      "case": "success",
+      "end": 2.59,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.02,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "s_E"
+        }
+      ],
+      "start": 2.42,
+      "startOffset": 47,
+      "word": "THIS"
+    },
+    {
+      "alignedWord": "house",
+      "case": "success",
+      "end": 3.08,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "aw_I"
+        },
+        {
+          "duration": 0.27,
+          "phone": "s_E"
+        }
+      ],
+      "start": 2.59,
+      "startOffset": 52,
+      "word": "HOUSE"
+    },
+    {
+      "alignedWord": "come",
+      "case": "success",
+      "end": 3.86,
+      "endOffset": 62,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "m_E"
+        }
+      ],
+      "start": 3.51,
+      "startOffset": 58,
+      "word": "COME"
+    },
+    {
+      "alignedWord": "behold",
+      "case": "success",
+      "end": 4.39,
+      "endOffset": 69,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "hh_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.92,
+      "startOffset": 63,
+      "word": "BEHOLD"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 4.47,
+      "endOffset": 73,
+      "phones": [
+        {
+          "duration": 0.02,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 4.39,
+      "startOffset": 70,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "works",
+      "case": "success",
+      "end": 4.819999999999999,
+      "endOffset": 79,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "s_E"
+        }
+      ],
+      "start": 4.47,
+      "startOffset": 74,
+      "word": "WORKS"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 4.98,
+      "endOffset": 82,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "v_E"
+        }
+      ],
+      "start": 4.83,
+      "startOffset": 80,
+      "word": "OF"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 5.050000000000001,
+      "endOffset": 86,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 4.98,
+      "startOffset": 83,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "lord",
+      "case": "success",
+      "end": 5.34,
+      "endOffset": 91,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 5.05,
+      "startOffset": 87,
+      "word": "LORD"
+    }
+  ]
+}

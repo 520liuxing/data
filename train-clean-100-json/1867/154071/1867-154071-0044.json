@@ -1,0 +1,275 @@
+{
+  "transcript": "SHAKE SAID RONICKY DOONE THAT'S THE SORT OF TALK I WANTED TO HEAR",
+  "words": [
+    {
+      "alignedWord": "shake",
+      "case": "success",
+      "end": 0.9099999999999999,
+      "endOffset": 5,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "k_E"
+        }
+      ],
+      "start": 0.5,
+      "startOffset": 0,
+      "word": "SHAKE"
+    },
+    {
+      "alignedWord": "said",
+      "case": "success",
+      "end": 1.19,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.92,
+      "startOffset": 6,
+      "word": "SAID"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 18,
+      "startOffset": 11,
+      "word": "RONICKY"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.02,
+      "endOffset": 24,
+      "phones": [
+        {
+          "duration": 0.82,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.2,
+      "startOffset": 19,
+      "word": "DOONE"
+    },
+    {
+      "alignedWord": "that's",
+      "case": "success",
+      "end": 2.45,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "s_E"
+        }
+      ],
+      "start": 2.2,
+      "startOffset": 25,
+      "word": "THAT'S"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 2.56,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 2.45,
+      "startOffset": 32,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "sort",
+      "case": "success",
+      "end": 2.7800000000000002,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.56,
+      "startOffset": 36,
+      "word": "SORT"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 2.8899999999999997,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "v_E"
+        }
+      ],
+      "start": 2.78,
+      "startOffset": 41,
+      "word": "OF"
+    },
+    {
+      "alignedWord": "talk",
+      "case": "success",
+      "end": 3.18,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "k_E"
+        }
+      ],
+      "start": 2.89,
+      "startOffset": 44,
+      "word": "TALK"
+    },
+    {
+      "alignedWord": "i",
+      "case": "success",
+      "end": 3.3000000000000003,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "ay_S"
+        }
+      ],
+      "start": 3.18,
+      "startOffset": 49,
+      "word": "I"
+    },
+    {
+      "alignedWord": "wanted",
+      "case": "success",
+      "end": 3.62,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.31,
+      "startOffset": 51,
+      "word": "WANTED"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 3.72,
+      "endOffset": 60,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_E"
+        }
+      ],
+      "start": 3.62,
+      "startOffset": 58,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "hear",
+      "case": "success",
+      "end": 4.08,
+      "endOffset": 65,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "r_E"
+        }
+      ],
+      "start": 3.72,
+      "startOffset": 61,
+      "word": "HEAR"
+    }
+  ]
+}

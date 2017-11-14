@@ -1,0 +1,89 @@
+{
+  "transcript": "MISSUS L H HORNSBY",
+  "words": [
+    {
+      "alignedWord": "missus",
+      "case": "success",
+      "end": 0.62,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.3,
+      "startOffset": 0,
+      "word": "MISSUS"
+    },
+    {
+      "alignedWord": "l",
+      "case": "success",
+      "end": 0.87,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "eh_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "l_E"
+        }
+      ],
+      "start": 0.64,
+      "startOffset": 7,
+      "word": "L"
+    },
+    {
+      "alignedWord": "h",
+      "case": "success",
+      "end": 1.13,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "ey_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ch_E"
+        }
+      ],
+      "start": 0.89,
+      "startOffset": 9,
+      "word": "H"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.68,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.54,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.14,
+      "startOffset": 11,
+      "word": "HORNSBY"
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "transcript": "BETWEEN HEDGEROWS MADE THICK BY MIDSUMMER WHEN THEY REACHED HOME THEY USUALLY FOUND TEA HAD BEEN SERVED ON THE LAWN",
+  "words": [
+    {
+      "alignedWord": "between",
+      "case": "success",
+      "end": 0.55,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "w_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.16,
+      "startOffset": 0,
+      "word": "BETWEEN"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.17,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.6,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.57,
+      "startOffset": 8,
+      "word": "HEDGEROWS"
+    },
+    {
+      "alignedWord": "made",
+      "case": "success",
+      "end": 1.48,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.19,
+      "startOffset": 18,
+      "word": "MADE"
+    },
+    {
+      "alignedWord": "thick",
+      "case": "success",
+      "end": 1.85,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "th_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "k_E"
+        }
+      ],
+      "start": 1.53,
+      "startOffset": 23,
+      "word": "THICK"
+    },
+    {
+      "alignedWord": "by",
+      "case": "success",
+      "end": 2.0900000000000003,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ay_E"
+        }
+      ],
+      "start": 1.87,
+      "startOffset": 29,
+      "word": "BY"
+    },
+    {
+      "alignedWord": "midsummer",
+      "case": "success",
+      "end": 2.87,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.22,
+          "phone": "er_E"
+        }
+      ],
+      "start": 2.09,
+      "startOffset": 32,
+      "word": "MIDSUMMER"
+    },
+    {
+      "alignedWord": "when",
+      "case": "success",
+      "end": 3.52,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_E"
+        }
+      ],
+      "start": 3.31,
+      "startOffset": 42,
+      "word": "WHEN"
+    },
+    {
+      "alignedWord": "they",
+      "case": "success",
+      "end": 3.68,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ey_E"
+        }
+      ],
+      "start": 3.52,
+      "startOffset": 47,
+      "word": "THEY"
+    },
+    {
+      "alignedWord": "reached",
+      "case": "success",
+      "end": 4.04,
+      "endOffset": 59,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ch_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.68,
+      "startOffset": 52,
+      "word": "REACHED"
+    },
+    {
+      "alignedWord": "home",
+      "case": "success",
+      "end": 4.39,
+      "endOffset": 64,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "m_E"
+        }
+      ],
+      "start": 4.04,
+      "startOffset": 60,
+      "word": "HOME"
+    },
+    {
+      "alignedWord": "they",
+      "case": "success",
+      "end": 4.52,
+      "endOffset": 69,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ey_E"
+        }
+      ],
+      "start": 4.39,
+      "startOffset": 65,
+      "word": "THEY"
+    },
+    {
+      "alignedWord": "usually",
+      "case": "success",
+      "end": 4.989999999999999,
+      "endOffset": 77,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "uw_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "zh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 4.52,
+      "startOffset": 70,
+      "word": "USUALLY"
+    },
+    {
+      "alignedWord": "found",
+      "case": "success",
+      "end": 5.32,
+      "endOffset": 83,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "aw_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 4.99,
+      "startOffset": 78,
+      "word": "FOUND"
+    },
+    {
+      "alignedWord": "tea",
+      "case": "success",
+      "end": 5.58,
+      "endOffset": 87,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 5.33,
+      "startOffset": 84,
+      "word": "TEA"
+    },
+    {
+      "alignedWord": "had",
+      "case": "success",
+      "end": 5.76,
+      "endOffset": 91,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 5.59,
+      "startOffset": 88,
+      "word": "HAD"
+    },
+    {
+      "alignedWord": "been",
+      "case": "success",
+      "end": 5.97,
+      "endOffset": 96,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "n_E"
+        }
+      ],
+      "start": 5.76,
+      "startOffset": 92,
+      "word": "BEEN"
+    },
+    {
+      "alignedWord": "served",
+      "case": "success",
+      "end": 6.34,
+      "endOffset": 103,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "v_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 5.97,
+      "startOffset": 97,
+      "word": "SERVED"
+    },
+    {
+      "alignedWord": "on",
+      "case": "success",
+      "end": 6.45,
+      "endOffset": 106,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_E"
+        }
+      ],
+      "start": 6.34,
+      "startOffset": 104,
+      "word": "ON"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 6.55,
+      "endOffset": 110,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 6.45,
+      "startOffset": 107,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "lawn",
+      "case": "success",
+      "end": 6.93,
+      "endOffset": 115,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "n_E"
+        }
+      ],
+      "start": 6.55,
+      "startOffset": 111,
+      "word": "LAWN"
+    }
+  ]
+}

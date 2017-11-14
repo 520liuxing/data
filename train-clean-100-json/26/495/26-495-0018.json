@@ -1,0 +1,155 @@
+{
+  "transcript": "SAINT BRIDE'S SIX SAINT JAMES'S NINE",
+  "words": [
+    {
+      "alignedWord": "saint",
+      "case": "success",
+      "end": 0.5800000000000001,
+      "endOffset": 5,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.25,
+      "startOffset": 0,
+      "word": "SAINT"
+    },
+    {
+      "alignedWord": "bride's",
+      "case": "success",
+      "end": 1.06,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.58,
+      "startOffset": 6,
+      "word": "BRIDE'S"
+    },
+    {
+      "alignedWord": "six",
+      "case": "success",
+      "end": 1.9100000000000001,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.25,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.28,
+          "phone": "s_E"
+        }
+      ],
+      "start": 1.12,
+      "startOffset": 14,
+      "word": "SIX"
+    },
+    {
+      "alignedWord": "saint",
+      "case": "success",
+      "end": 2.39,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.1,
+      "startOffset": 18,
+      "word": "SAINT"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.0,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.61,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.39,
+      "startOffset": 24,
+      "word": "JAMES'S"
+    },
+    {
+      "alignedWord": "nine",
+      "case": "success",
+      "end": 3.6399999999999997,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.24,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "n_E"
+        }
+      ],
+      "start": 3.07,
+      "startOffset": 32,
+      "word": "NINE"
+    }
+  ]
+}

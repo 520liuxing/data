@@ -1,0 +1,239 @@
+{
+  "transcript": "THIS MAN TRACES HIS PEDIGREE BACK TO MINAMOTO NO YORITOMO",
+  "words": [
+    {
+      "alignedWord": "this",
+      "case": "success",
+      "end": 0.5700000000000001,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "s_E"
+        }
+      ],
+      "start": 0.28,
+      "startOffset": 0,
+      "word": "THIS"
+    },
+    {
+      "alignedWord": "man",
+      "case": "success",
+      "end": 0.84,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.57,
+      "startOffset": 5,
+      "word": "MAN"
+    },
+    {
+      "alignedWord": "traces",
+      "case": "success",
+      "end": 1.31,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.85,
+      "startOffset": 9,
+      "word": "TRACES"
+    },
+    {
+      "alignedWord": "his",
+      "case": "success",
+      "end": 1.51,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "z_E"
+        }
+      ],
+      "start": 1.31,
+      "startOffset": 16,
+      "word": "HIS"
+    },
+    {
+      "alignedWord": "pedigree",
+      "case": "success",
+      "end": 2.09,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "g_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 1.52,
+      "startOffset": 20,
+      "word": "PEDIGREE"
+    },
+    {
+      "alignedWord": "back",
+      "case": "success",
+      "end": 2.42,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "k_E"
+        }
+      ],
+      "start": 2.1,
+      "startOffset": 29,
+      "word": "BACK"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 2.58,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 2.42,
+      "startOffset": 34,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.3099999999999996,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.72,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.59,
+      "startOffset": 37,
+      "word": "MINAMOTO"
+    },
+    {
+      "alignedWord": "no",
+      "case": "success",
+      "end": 3.54,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 3.32,
+      "startOffset": 46,
+      "word": "NO"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.19,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.65,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.54,
+      "startOffset": 49,
+      "word": "YORITOMO"
+    }
+  ]
+}

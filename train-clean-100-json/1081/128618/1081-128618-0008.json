@@ -1,0 +1,687 @@
+{
+  "transcript": "PUT INTO A SAUCEPAN ONE TABLESPOONFUL OF MALT VINEGAR ONE TABLESPOONFUL OF TARRAGON VINEGAR A TEASPOONFUL OF MINCED PARSLEY A SMALL CHOPPED ONION A BAY LEAF AND FOUR PEPPER CORNS",
+  "words": [
+    {
+      "alignedWord": "put",
+      "case": "success",
+      "end": 0.69,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.51,
+      "startOffset": 0,
+      "word": "PUT"
+    },
+    {
+      "alignedWord": "into",
+      "case": "success",
+      "end": 0.9199999999999999,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 0.69,
+      "startOffset": 4,
+      "word": "INTO"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 0.99,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 0.92,
+      "startOffset": 9,
+      "word": "A"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.51,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.52,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.99,
+      "startOffset": 11,
+      "word": "SAUCEPAN"
+    },
+    {
+      "alignedWord": "one",
+      "case": "success",
+      "end": 1.72,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.52,
+      "startOffset": 20,
+      "word": "ONE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.62,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.9,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.72,
+      "startOffset": 24,
+      "word": "TABLESPOONFUL"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 2.77,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "v_E"
+        }
+      ],
+      "start": 2.66,
+      "startOffset": 38,
+      "word": "OF"
+    },
+    {
+      "alignedWord": "malt",
+      "case": "success",
+      "end": 3.0799999999999996,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.03,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.78,
+      "startOffset": 41,
+      "word": "MALT"
+    },
+    {
+      "alignedWord": "vinegar",
+      "case": "success",
+      "end": 3.58,
+      "endOffset": 53,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "v_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "g_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "er_E"
+        }
+      ],
+      "start": 3.09,
+      "startOffset": 46,
+      "word": "VINEGAR"
+    },
+    {
+      "alignedWord": "one",
+      "case": "success",
+      "end": 4.31,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_E"
+        }
+      ],
+      "start": 4.09,
+      "startOffset": 54,
+      "word": "ONE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 5.08,
+      "endOffset": 71,
+      "phones": [
+        {
+          "duration": 0.77,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.31,
+      "startOffset": 58,
+      "word": "TABLESPOONFUL"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 5.19,
+      "endOffset": 74,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "v_E"
+        }
+      ],
+      "start": 5.08,
+      "startOffset": 72,
+      "word": "OF"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 5.7,
+      "endOffset": 83,
+      "phones": [
+        {
+          "duration": 0.51,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 5.19,
+      "startOffset": 75,
+      "word": "TARRAGON"
+    },
+    {
+      "alignedWord": "vinegar",
+      "case": "success",
+      "end": 6.24,
+      "endOffset": 91,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "v_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "g_I"
+        },
+        {
+          "duration": 0.23,
+          "phone": "er_E"
+        }
+      ],
+      "start": 5.71,
+      "startOffset": 84,
+      "word": "VINEGAR"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 6.58,
+      "endOffset": 93,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "ey_S"
+        }
+      ],
+      "start": 6.44,
+      "startOffset": 92,
+      "word": "A"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 7.36,
+      "endOffset": 105,
+      "phones": [
+        {
+          "duration": 0.74,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 6.62,
+      "startOffset": 94,
+      "word": "TEASPOONFUL"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 7.46,
+      "endOffset": 108,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "v_E"
+        }
+      ],
+      "start": 7.36,
+      "startOffset": 106,
+      "word": "OF"
+    },
+    {
+      "alignedWord": "minced",
+      "case": "success",
+      "end": 7.8,
+      "endOffset": 115,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "t_E"
+        }
+      ],
+      "start": 7.47,
+      "startOffset": 109,
+      "word": "MINCED"
+    },
+    {
+      "alignedWord": "parsley",
+      "case": "success",
+      "end": 8.379999999999999,
+      "endOffset": 123,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 7.8,
+      "startOffset": 116,
+      "word": "PARSLEY"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 9.029999,
+      "endOffset": 125,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "ey_S"
+        }
+      ],
+      "start": 8.889999,
+      "startOffset": 124,
+      "word": "A"
+    },
+    {
+      "alignedWord": "small",
+      "case": "success",
+      "end": 9.41,
+      "endOffset": 131,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "l_E"
+        }
+      ],
+      "start": 9.03,
+      "startOffset": 126,
+      "word": "SMALL"
+    },
+    {
+      "alignedWord": "chopped",
+      "case": "success",
+      "end": 9.68,
+      "endOffset": 139,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ch_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 9.41,
+      "startOffset": 132,
+      "word": "CHOPPED"
+    },
+    {
+      "alignedWord": "onion",
+      "case": "success",
+      "end": 10.16,
+      "endOffset": 145,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "y_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.2,
+          "phone": "n_E"
+        }
+      ],
+      "start": 9.7,
+      "startOffset": 140,
+      "word": "ONION"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 10.610000000000001,
+      "endOffset": 147,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "ey_S"
+        }
+      ],
+      "start": 10.46,
+      "startOffset": 146,
+      "word": "A"
+    },
+    {
+      "alignedWord": "bay",
+      "case": "success",
+      "end": 10.84,
+      "endOffset": 151,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ey_E"
+        }
+      ],
+      "start": 10.61,
+      "startOffset": 148,
+      "word": "BAY"
+    },
+    {
+      "alignedWord": "leaf",
+      "case": "success",
+      "end": 11.25,
+      "endOffset": 156,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "f_E"
+        }
+      ],
+      "start": 10.84,
+      "startOffset": 152,
+      "word": "LEAF"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 11.809999000000001,
+      "endOffset": 160,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 11.599999,
+      "startOffset": 157,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "four",
+      "case": "success",
+      "end": 12.029999,
+      "endOffset": 165,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_E"
+        }
+      ],
+      "start": 11.809999,
+      "startOffset": 161,
+      "word": "FOUR"
+    },
+    {
+      "alignedWord": "pepper",
+      "case": "success",
+      "end": 12.319999999999999,
+      "endOffset": 172,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "er_E"
+        }
+      ],
+      "start": 12.03,
+      "startOffset": 166,
+      "word": "PEPPER"
+    },
+    {
+      "alignedWord": "corns",
+      "case": "success",
+      "end": 12.83,
+      "endOffset": 178,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.21,
+          "phone": "z_E"
+        }
+      ],
+      "start": 12.32,
+      "startOffset": 173,
+      "word": "CORNS"
+    }
+  ]
+}

@@ -1,0 +1,574 @@
+{
+  "transcript": "WUZ ON HER WAY HOME ON DE FO'TH NIGHT AN SHE WUZ POW'FUL TIRED KASE DEM RATTLES IS MONST'OUS HAIVY AN SHE BIN KEEPIN HIT UP FO NIGHTS HAN RUNNIN",
+  "words": [
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.33,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.16,
+      "startOffset": 0,
+      "word": "WUZ"
+    },
+    {
+      "alignedWord": "on",
+      "case": "success",
+      "end": 0.55,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.34,
+      "startOffset": 4,
+      "word": "ON"
+    },
+    {
+      "alignedWord": "her",
+      "case": "success",
+      "end": 0.68,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "er_E"
+        }
+      ],
+      "start": 0.55,
+      "startOffset": 7,
+      "word": "HER"
+    },
+    {
+      "alignedWord": "way",
+      "case": "success",
+      "end": 0.9,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ey_E"
+        }
+      ],
+      "start": 0.68,
+      "startOffset": 11,
+      "word": "WAY"
+    },
+    {
+      "alignedWord": "home",
+      "case": "success",
+      "end": 1.17,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "m_E"
+        }
+      ],
+      "start": 0.9,
+      "startOffset": 15,
+      "word": "HOME"
+    },
+    {
+      "alignedWord": "on",
+      "case": "success",
+      "end": 1.3299999999999998,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.17,
+      "startOffset": 20,
+      "word": "ON"
+    },
+    {
+      "alignedWord": "de",
+      "case": "success",
+      "end": 1.4400000000000002,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 1.33,
+      "startOffset": 23,
+      "word": "DE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.77,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.33,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.44,
+      "startOffset": 26,
+      "word": "FO'TH"
+    },
+    {
+      "alignedWord": "night",
+      "case": "success",
+      "end": 2.19,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.21,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.79,
+      "startOffset": 32,
+      "word": "NIGHT"
+    },
+    {
+      "alignedWord": "an",
+      "case": "success",
+      "end": 2.53,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.02,
+          "phone": "n_E"
+        }
+      ],
+      "start": 2.42,
+      "startOffset": 38,
+      "word": "AN"
+    },
+    {
+      "alignedWord": "she",
+      "case": "success",
+      "end": 2.7600000000000002,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 2.54,
+      "startOffset": 41,
+      "word": "SHE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.9,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.76,
+      "startOffset": 45,
+      "word": "WUZ"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.42,
+      "endOffset": 56,
+      "phones": [
+        {
+          "duration": 0.46,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.96,
+      "startOffset": 49,
+      "word": "POW'FUL"
+    },
+    {
+      "alignedWord": "tired",
+      "case": "success",
+      "end": 3.91,
+      "endOffset": 62,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.24,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.43,
+      "startOffset": 57,
+      "word": "TIRED"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.44,
+      "endOffset": 67,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.28,
+      "startOffset": 63,
+      "word": "KASE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.66,
+      "endOffset": 71,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.48,
+      "startOffset": 68,
+      "word": "DEM"
+    },
+    {
+      "alignedWord": "rattles",
+      "case": "success",
+      "end": 5.06,
+      "endOffset": 79,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "z_E"
+        }
+      ],
+      "start": 4.67,
+      "startOffset": 72,
+      "word": "RATTLES"
+    },
+    {
+      "alignedWord": "is",
+      "case": "success",
+      "end": 5.199999999999999,
+      "endOffset": 82,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "z_E"
+        }
+      ],
+      "start": 5.06,
+      "startOffset": 80,
+      "word": "IS"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 6.18,
+      "endOffset": 92,
+      "phones": [
+        {
+          "duration": 0.97,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 5.21,
+      "startOffset": 83,
+      "word": "MONST'OUS"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 98,
+      "startOffset": 93,
+      "word": "HAIVY"
+    },
+    {
+      "alignedWord": "an",
+      "case": "success",
+      "end": 6.39,
+      "endOffset": 101,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_E"
+        }
+      ],
+      "start": 6.27,
+      "startOffset": 99,
+      "word": "AN"
+    },
+    {
+      "alignedWord": "she",
+      "case": "success",
+      "end": 6.58,
+      "endOffset": 105,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 6.4,
+      "startOffset": 102,
+      "word": "SHE"
+    },
+    {
+      "alignedWord": "bin",
+      "case": "success",
+      "end": 6.7700000000000005,
+      "endOffset": 109,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_E"
+        }
+      ],
+      "start": 6.58,
+      "startOffset": 106,
+      "word": "BIN"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 7.06,
+      "endOffset": 116,
+      "phones": [
+        {
+          "duration": 0.29,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 6.77,
+      "startOffset": 110,
+      "word": "KEEPIN"
+    },
+    {
+      "alignedWord": "hit",
+      "case": "success",
+      "end": 7.239999999999999,
+      "endOffset": 120,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 7.06,
+      "startOffset": 117,
+      "word": "HIT"
+    },
+    {
+      "alignedWord": "up",
+      "case": "success",
+      "end": 7.42,
+      "endOffset": 123,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "p_E"
+        }
+      ],
+      "start": 7.24,
+      "startOffset": 121,
+      "word": "UP"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 7.7,
+      "endOffset": 126,
+      "phones": [
+        {
+          "duration": 0.26,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 7.44,
+      "startOffset": 124,
+      "word": "FO"
+    },
+    {
+      "alignedWord": "nights",
+      "case": "success",
+      "end": 8.09,
+      "endOffset": 133,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "s_E"
+        }
+      ],
+      "start": 7.71,
+      "startOffset": 127,
+      "word": "NIGHTS"
+    },
+    {
+      "alignedWord": "han",
+      "case": "success",
+      "end": 8.219999,
+      "endOffset": 137,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "n_E"
+        }
+      ],
+      "start": 8.099999,
+      "startOffset": 134,
+      "word": "HAN"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 8.600000000000001,
+      "endOffset": 144,
+      "phones": [
+        {
+          "duration": 0.38,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 8.22,
+      "startOffset": 138,
+      "word": "RUNNIN"
+    }
+  ]
+}

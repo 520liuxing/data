@@ -1,0 +1,809 @@
+{
+  "transcript": "BAYONETS MACHINE GUNS POISON GAS DEADLY GRENADES LIQUID FIRE BOMBS ARMORED TANKS PISTOLS BARBED WIRE ENTANGLEMENTS SUBMARINES MINES EVERY KNOWN SCIENTIFIC DEVICE WITH WHICH TO ANNIHILATE THE ENEMY",
+  "words": [
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.92,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.77,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.15,
+      "startOffset": 0,
+      "word": "BAYONETS"
+    },
+    {
+      "alignedWord": "machine",
+      "case": "success",
+      "end": 1.4100000000000001,
+      "endOffset": 16,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "sh_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.01,
+      "startOffset": 9,
+      "word": "MACHINE"
+    },
+    {
+      "alignedWord": "guns",
+      "case": "success",
+      "end": 1.75,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "z_E"
+        }
+      ],
+      "start": 1.41,
+      "startOffset": 17,
+      "word": "GUNS"
+    },
+    {
+      "alignedWord": "poison",
+      "case": "success",
+      "end": 2.2,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "oy_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "z_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.8,
+      "startOffset": 22,
+      "word": "POISON"
+    },
+    {
+      "alignedWord": "gas",
+      "case": "success",
+      "end": 2.6300000000000003,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.17,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "s_E"
+        }
+      ],
+      "start": 2.2,
+      "startOffset": 29,
+      "word": "GAS"
+    },
+    {
+      "alignedWord": "deadly",
+      "case": "success",
+      "end": 3.19,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 2.88,
+      "startOffset": 33,
+      "word": "DEADLY"
+    },
+    {
+      "alignedWord": "grenades",
+      "case": "success",
+      "end": 3.75,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "z_E"
+        }
+      ],
+      "start": 3.19,
+      "startOffset": 40,
+      "word": "GRENADES"
+    },
+    {
+      "alignedWord": "liquid",
+      "case": "success",
+      "end": 4.12,
+      "endOffset": 55,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "w_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.8,
+      "startOffset": 49,
+      "word": "LIQUID"
+    },
+    {
+      "alignedWord": "fire",
+      "case": "success",
+      "end": 4.640000000000001,
+      "endOffset": 60,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.25,
+          "phone": "er_E"
+        }
+      ],
+      "start": 4.12,
+      "startOffset": 56,
+      "word": "FIRE"
+    },
+    {
+      "alignedWord": "bombs",
+      "case": "success",
+      "end": 5.2700000000000005,
+      "endOffset": 66,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.2,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "z_E"
+        }
+      ],
+      "start": 4.69,
+      "startOffset": 61,
+      "word": "BOMBS"
+    },
+    {
+      "alignedWord": "armored",
+      "case": "success",
+      "end": 5.75,
+      "endOffset": 74,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 5.43,
+      "startOffset": 67,
+      "word": "ARMORED"
+    },
+    {
+      "alignedWord": "tanks",
+      "case": "success",
+      "end": 6.24,
+      "endOffset": 80,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ng_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "s_E"
+        }
+      ],
+      "start": 5.75,
+      "startOffset": 75,
+      "word": "TANKS"
+    },
+    {
+      "alignedWord": "pistols",
+      "case": "success",
+      "end": 7.07,
+      "endOffset": 88,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "z_E"
+        }
+      ],
+      "start": 6.5,
+      "startOffset": 81,
+      "word": "PISTOLS"
+    },
+    {
+      "alignedWord": "barbed",
+      "case": "success",
+      "end": 7.79,
+      "endOffset": 95,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "b_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 7.48,
+      "startOffset": 89,
+      "word": "BARBED"
+    },
+    {
+      "alignedWord": "wire",
+      "case": "success",
+      "end": 7.98,
+      "endOffset": 100,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "r_E"
+        }
+      ],
+      "start": 7.79,
+      "startOffset": 96,
+      "word": "WIRE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 8.72,
+      "endOffset": 114,
+      "phones": [
+        {
+          "duration": 0.74,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 7.98,
+      "startOffset": 101,
+      "word": "ENTANGLEMENTS"
+    },
+    {
+      "alignedWord": "submarines",
+      "case": "success",
+      "end": 9.69,
+      "endOffset": 125,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "b_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "z_E"
+        }
+      ],
+      "start": 8.92,
+      "startOffset": 115,
+      "word": "SUBMARINES"
+    },
+    {
+      "alignedWord": "mines",
+      "case": "success",
+      "end": 10.729999,
+      "endOffset": 131,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.19,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.2,
+          "phone": "z_E"
+        }
+      ],
+      "start": 10.139999,
+      "startOffset": 126,
+      "word": "MINES"
+    },
+    {
+      "alignedWord": "every",
+      "case": "success",
+      "end": 11.809999999999999,
+      "endOffset": 137,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "eh_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "v_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 11.44,
+      "startOffset": 132,
+      "word": "EVERY"
+    },
+    {
+      "alignedWord": "known",
+      "case": "success",
+      "end": 12.049999,
+      "endOffset": 143,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 11.809999,
+      "startOffset": 138,
+      "word": "KNOWN"
+    },
+    {
+      "alignedWord": "scientific",
+      "case": "success",
+      "end": 12.700000000000001,
+      "endOffset": 154,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "f_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "k_E"
+        }
+      ],
+      "start": 12.05,
+      "startOffset": 144,
+      "word": "SCIENTIFIC"
+    },
+    {
+      "alignedWord": "device",
+      "case": "success",
+      "end": 13.35,
+      "endOffset": 161,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "v_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "s_E"
+        }
+      ],
+      "start": 12.74,
+      "startOffset": 155,
+      "word": "DEVICE"
+    },
+    {
+      "alignedWord": "with",
+      "case": "success",
+      "end": 13.629999,
+      "endOffset": 166,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "th_E"
+        }
+      ],
+      "start": 13.389999,
+      "startOffset": 162,
+      "word": "WITH"
+    },
+    {
+      "alignedWord": "which",
+      "case": "success",
+      "end": 13.83,
+      "endOffset": 172,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ch_E"
+        }
+      ],
+      "start": 13.63,
+      "startOffset": 167,
+      "word": "WHICH"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 13.97,
+      "endOffset": 175,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 13.83,
+      "startOffset": 173,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "annihilate",
+      "case": "success",
+      "end": 14.429999,
+      "endOffset": 186,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "t_E"
+        }
+      ],
+      "start": 13.969999,
+      "startOffset": 176,
+      "word": "ANNIHILATE"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 14.6,
+      "endOffset": 190,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 14.45,
+      "startOffset": 187,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "enemy",
+      "case": "success",
+      "end": 15.019999,
+      "endOffset": 196,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "eh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 14.599999,
+      "startOffset": 191,
+      "word": "ENEMY"
+    }
+  ]
+}

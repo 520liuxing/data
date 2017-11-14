@@ -1,0 +1,236 @@
+{
+  "transcript": "I'LL RECKON TO HEAR FRO THEE IN A WEEK OR MAYHAP LESS",
+  "words": [
+    {
+      "alignedWord": "i'll",
+      "case": "success",
+      "end": 0.24000000000000002,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ay_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "l_E"
+        }
+      ],
+      "start": 0.1,
+      "startOffset": 0,
+      "word": "I'LL"
+    },
+    {
+      "alignedWord": "reckon",
+      "case": "success",
+      "end": 0.5700000000000001,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.24,
+      "startOffset": 5,
+      "word": "RECKON"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 0.7,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_E"
+        }
+      ],
+      "start": 0.58,
+      "startOffset": 12,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "hear",
+      "case": "success",
+      "end": 0.94,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_E"
+        }
+      ],
+      "start": 0.7,
+      "startOffset": 15,
+      "word": "HEAR"
+    },
+    {
+      "alignedWord": "fro",
+      "case": "success",
+      "end": 1.0999999999999999,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 0.94,
+      "startOffset": 20,
+      "word": "FRO"
+    },
+    {
+      "alignedWord": "thee",
+      "case": "success",
+      "end": 1.2899999999999998,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 1.13,
+      "startOffset": 24,
+      "word": "THEE"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 1.4100000000000001,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.29,
+      "startOffset": 29,
+      "word": "IN"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 1.46,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 1.41,
+      "startOffset": 32,
+      "word": "A"
+    },
+    {
+      "alignedWord": "week",
+      "case": "success",
+      "end": 1.81,
+      "endOffset": 38,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "k_E"
+        }
+      ],
+      "start": 1.46,
+      "startOffset": 34,
+      "word": "WEEK"
+    },
+    {
+      "alignedWord": "or",
+      "case": "success",
+      "end": 1.98,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_E"
+        }
+      ],
+      "start": 1.84,
+      "startOffset": 39,
+      "word": "OR"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.76,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.75,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.01,
+      "startOffset": 42,
+      "word": "MAYHAP"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 53,
+      "startOffset": 49,
+      "word": "LESS"
+    }
+  ]
+}

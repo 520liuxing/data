@@ -1,0 +1,413 @@
+{
+  "transcript": "HAD OPENED ANITA'S CORRIDOR DOOR WASN'T IT SEALED YES BUT THE INTRUDER OPENED IT BURST IT",
+  "words": [
+    {
+      "alignedWord": "had",
+      "case": "success",
+      "end": 0.36,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.17,
+      "startOffset": 0,
+      "word": "HAD"
+    },
+    {
+      "alignedWord": "opened",
+      "case": "success",
+      "end": 0.79,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "ow_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.38,
+      "startOffset": 4,
+      "word": "OPENED"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.24,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.44,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.8,
+      "startOffset": 11,
+      "word": "ANITA'S"
+    },
+    {
+      "alignedWord": "corridor",
+      "case": "success",
+      "end": 1.7,
+      "endOffset": 27,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "er_E"
+        }
+      ],
+      "start": 1.27,
+      "startOffset": 19,
+      "word": "CORRIDOR"
+    },
+    {
+      "alignedWord": "door",
+      "case": "success",
+      "end": 2.12,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "r_E"
+        }
+      ],
+      "start": 1.7,
+      "startOffset": 28,
+      "word": "DOOR"
+    },
+    {
+      "alignedWord": "wasn't",
+      "case": "success",
+      "end": 3.16,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "z_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.88,
+      "startOffset": 33,
+      "word": "WASN'T"
+    },
+    {
+      "alignedWord": "it",
+      "case": "success",
+      "end": 3.27,
+      "endOffset": 42,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.16,
+      "startOffset": 40,
+      "word": "IT"
+    },
+    {
+      "alignedWord": "sealed",
+      "case": "success",
+      "end": 3.8200000000000003,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.27,
+      "startOffset": 43,
+      "word": "SEALED"
+    },
+    {
+      "alignedWord": "yes",
+      "case": "success",
+      "end": 4.74,
+      "endOffset": 53,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "s_E"
+        }
+      ],
+      "start": 4.33,
+      "startOffset": 50,
+      "word": "YES"
+    },
+    {
+      "alignedWord": "but",
+      "case": "success",
+      "end": 5.55,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 5.38,
+      "startOffset": 54,
+      "word": "BUT"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 5.66,
+      "endOffset": 61,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 5.55,
+      "startOffset": 58,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "intruder",
+      "case": "success",
+      "end": 6.33,
+      "endOffset": 70,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "uw_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.24,
+          "phone": "er_E"
+        }
+      ],
+      "start": 5.66,
+      "startOffset": 62,
+      "word": "INTRUDER"
+    },
+    {
+      "alignedWord": "opened",
+      "case": "success",
+      "end": 7.1499999999999995,
+      "endOffset": 77,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "ow_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "d_E"
+        }
+      ],
+      "start": 6.68,
+      "startOffset": 71,
+      "word": "OPENED"
+    },
+    {
+      "alignedWord": "it",
+      "case": "success",
+      "end": 7.43,
+      "endOffset": 80,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.26,
+          "phone": "t_E"
+        }
+      ],
+      "start": 7.16,
+      "startOffset": 78,
+      "word": "IT"
+    },
+    {
+      "alignedWord": "burst",
+      "case": "success",
+      "end": 8.469999999999999,
+      "endOffset": 86,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 8.11,
+      "startOffset": 81,
+      "word": "BURST"
+    },
+    {
+      "alignedWord": "it",
+      "case": "success",
+      "end": 8.71,
+      "endOffset": 89,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.18,
+          "phone": "t_E"
+        }
+      ],
+      "start": 8.47,
+      "startOffset": 87,
+      "word": "IT"
+    }
+  ]
+}

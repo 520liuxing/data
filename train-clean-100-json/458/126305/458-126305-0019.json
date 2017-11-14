@@ -1,0 +1,189 @@
+{
+  "transcript": "AND WENT THITHER AND FOUND THE ROAST MEAT",
+  "words": [
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 0.38,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.03,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.22,
+      "startOffset": 0,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "went",
+      "case": "success",
+      "end": 0.62,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.02,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.38,
+      "startOffset": 4,
+      "word": "WENT"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.99,
+      "endOffset": 16,
+      "phones": [
+        {
+          "duration": 0.36,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.63,
+      "startOffset": 9,
+      "word": "THITHER"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 1.51,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.29,
+      "startOffset": 17,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "found",
+      "case": "success",
+      "end": 1.87,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "aw_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.51,
+      "startOffset": 21,
+      "word": "FOUND"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 2.01,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 1.88,
+      "startOffset": 27,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "roast",
+      "case": "success",
+      "end": 2.3299999999999996,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.01,
+      "startOffset": 31,
+      "word": "ROAST"
+    },
+    {
+      "alignedWord": "meat",
+      "case": "success",
+      "end": 2.6999999999999997,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.36,
+      "startOffset": 37,
+      "word": "MEAT"
+    }
+  ]
+}

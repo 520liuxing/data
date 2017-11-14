@@ -1,0 +1,492 @@
+{
+  "transcript": "ELIZA BELL HAD SET FIRE TO HER AUNT'S CARDED ROLLS ASKED IF SHE MEANT TO DO IT SHE SAID NOT ALTOGETHER",
+  "words": [
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.8200000000000001,
+      "endOffset": 5,
+      "phones": [
+        {
+          "duration": 0.46,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.36,
+      "startOffset": 0,
+      "word": "ELIZA"
+    },
+    {
+      "alignedWord": "bell",
+      "case": "success",
+      "end": 1.13,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_E"
+        }
+      ],
+      "start": 0.82,
+      "startOffset": 6,
+      "word": "BELL"
+    },
+    {
+      "alignedWord": "had",
+      "case": "success",
+      "end": 1.3599999999999999,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.14,
+      "startOffset": 11,
+      "word": "HAD"
+    },
+    {
+      "alignedWord": "set",
+      "case": "success",
+      "end": 1.6400000000000001,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.36,
+      "startOffset": 15,
+      "word": "SET"
+    },
+    {
+      "alignedWord": "fire",
+      "case": "success",
+      "end": 1.93,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "er_E"
+        }
+      ],
+      "start": 1.64,
+      "startOffset": 19,
+      "word": "FIRE"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 2.09,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 1.93,
+      "startOffset": 24,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "her",
+      "case": "success",
+      "end": 2.23,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "er_E"
+        }
+      ],
+      "start": 2.09,
+      "startOffset": 27,
+      "word": "HER"
+    },
+    {
+      "alignedWord": "aunt's",
+      "case": "success",
+      "end": 2.56,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_E"
+        }
+      ],
+      "start": 2.23,
+      "startOffset": 31,
+      "word": "AUNT'S"
+    },
+    {
+      "alignedWord": "carded",
+      "case": "success",
+      "end": 2.96,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 2.56,
+      "startOffset": 38,
+      "word": "CARDED"
+    },
+    {
+      "alignedWord": "rolls",
+      "case": "success",
+      "end": 3.53,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.24,
+          "phone": "z_E"
+        }
+      ],
+      "start": 2.96,
+      "startOffset": 45,
+      "word": "ROLLS"
+    },
+    {
+      "alignedWord": "asked",
+      "case": "success",
+      "end": 4.31,
+      "endOffset": 56,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 4.05,
+      "startOffset": 51,
+      "word": "ASKED"
+    },
+    {
+      "alignedWord": "if",
+      "case": "success",
+      "end": 4.409999999999999,
+      "endOffset": 59,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "f_E"
+        }
+      ],
+      "start": 4.31,
+      "startOffset": 57,
+      "word": "IF"
+    },
+    {
+      "alignedWord": "she",
+      "case": "success",
+      "end": 4.55,
+      "endOffset": 63,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 4.41,
+      "startOffset": 60,
+      "word": "SHE"
+    },
+    {
+      "alignedWord": "meant",
+      "case": "success",
+      "end": 4.76,
+      "endOffset": 69,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "t_E"
+        }
+      ],
+      "start": 4.55,
+      "startOffset": 64,
+      "word": "MEANT"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 4.85,
+      "endOffset": 72,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_E"
+        }
+      ],
+      "start": 4.76,
+      "startOffset": 70,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "do",
+      "case": "success",
+      "end": 4.989999999999999,
+      "endOffset": 75,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 4.85,
+      "startOffset": 73,
+      "word": "DO"
+    },
+    {
+      "alignedWord": "it",
+      "case": "success",
+      "end": 5.11,
+      "endOffset": 78,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 4.99,
+      "startOffset": 76,
+      "word": "IT"
+    },
+    {
+      "alignedWord": "she",
+      "case": "success",
+      "end": 5.29,
+      "endOffset": 82,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 5.12,
+      "startOffset": 79,
+      "word": "SHE"
+    },
+    {
+      "alignedWord": "said",
+      "case": "success",
+      "end": 5.65,
+      "endOffset": 87,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "d_E"
+        }
+      ],
+      "start": 5.29,
+      "startOffset": 83,
+      "word": "SAID"
+    },
+    {
+      "alignedWord": "not",
+      "case": "success",
+      "end": 6.119999999999999,
+      "endOffset": 91,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 5.81,
+      "startOffset": 88,
+      "word": "NOT"
+    },
+    {
+      "alignedWord": "altogether",
+      "case": "success",
+      "end": 6.83,
+      "endOffset": 102,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "g_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "dh_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "er_E"
+        }
+      ],
+      "start": 6.12,
+      "startOffset": 92,
+      "word": "ALTOGETHER"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "transcript": "VENDOME AND THE LOIRE WINES VOUVRAY",
+  "words": [
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.9099999999999999,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.59,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.32,
+      "startOffset": 0,
+      "word": "VENDOME"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 1.84,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.57,
+      "startOffset": 8,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 2.02,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 1.91,
+      "startOffset": 12,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.32,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.3,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.02,
+      "startOffset": 16,
+      "word": "LOIRE"
+    },
+    {
+      "alignedWord": "wines",
+      "case": "success",
+      "end": 3.04,
+      "endOffset": 27,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.3,
+          "phone": "z_E"
+        }
+      ],
+      "start": 2.33,
+      "startOffset": 22,
+      "word": "WINES"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.85,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 0.5,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.35,
+      "startOffset": 28,
+      "word": "VOUVRAY"
+    }
+  ]
+}

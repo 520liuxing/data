@@ -1,0 +1,238 @@
+{
+  "transcript": "AND REACHED THE RUE DE RIVOLI THE SHOPS WERE OPEN THERE",
+  "words": [
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 0.47,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.24,
+      "startOffset": 0,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "reached",
+      "case": "success",
+      "end": 0.73,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ch_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.47,
+      "startOffset": 4,
+      "word": "REACHED"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 1.3099999999999998,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 1.15,
+      "startOffset": 12,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.77,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.46,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.31,
+      "startOffset": 16,
+      "word": "RUE"
+    },
+    {
+      "alignedWord": "de",
+      "case": "success",
+      "end": 1.95,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.17,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 1.77,
+      "startOffset": 20,
+      "word": "DE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.97,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.96,
+      "startOffset": 23,
+      "word": "RIVOLI"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 2.9,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 2.77,
+      "startOffset": 30,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "shops",
+      "case": "success",
+      "end": 3.31,
+      "endOffset": 39,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "s_E"
+        }
+      ],
+      "start": 2.9,
+      "startOffset": 34,
+      "word": "SHOPS"
+    },
+    {
+      "alignedWord": "were",
+      "case": "success",
+      "end": 3.47,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "er_E"
+        }
+      ],
+      "start": 3.31,
+      "startOffset": 40,
+      "word": "WERE"
+    },
+    {
+      "alignedWord": "open",
+      "case": "success",
+      "end": 3.85,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "ow_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_E"
+        }
+      ],
+      "start": 3.47,
+      "startOffset": 45,
+      "word": "OPEN"
+    },
+    {
+      "alignedWord": "there",
+      "case": "success",
+      "end": 4.16,
+      "endOffset": 55,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "r_E"
+        }
+      ],
+      "start": 3.85,
+      "startOffset": 50,
+      "word": "THERE"
+    }
+  ]
+}

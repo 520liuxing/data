@@ -1,0 +1,174 @@
+{
+  "transcript": "THE KILLED AND SCALDED NINETEEN IN NUMBER",
+  "words": [
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 0.61,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 0.48,
+      "startOffset": 0,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "killed",
+      "case": "success",
+      "end": 0.99,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.61,
+      "startOffset": 4,
+      "word": "KILLED"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 1.02,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.99,
+      "startOffset": 11,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.77,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.75,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.02,
+      "startOffset": 15,
+      "word": "SCALDED"
+    },
+    {
+      "alignedWord": "nineteen",
+      "case": "success",
+      "end": 2.3899999999999997,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.92,
+      "startOffset": 23,
+      "word": "NINETEEN"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 2.5700000000000003,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "n_E"
+        }
+      ],
+      "start": 2.39,
+      "startOffset": 32,
+      "word": "IN"
+    },
+    {
+      "alignedWord": "number",
+      "case": "success",
+      "end": 2.8099999999999996,
+      "endOffset": 41,
+      "phones": [
+        {
+          "duration": 0.02,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "b_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "er_E"
+        }
+      ],
+      "start": 2.57,
+      "startOffset": 35,
+      "word": "NUMBER"
+    }
+  ]
+}

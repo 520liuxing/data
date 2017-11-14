@@ -1,0 +1,136 @@
+{
+  "transcript": "L FRANK BAUM CHICAGO ILLINOIS",
+  "words": [
+    {
+      "alignedWord": "l",
+      "case": "success",
+      "end": 0.84,
+      "endOffset": 1,
+      "phones": [
+        {
+          "duration": 0.21,
+          "phone": "eh_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "l_E"
+        }
+      ],
+      "start": 0.47,
+      "startOffset": 0,
+      "word": "L"
+    },
+    {
+      "alignedWord": "frank",
+      "case": "success",
+      "end": 1.24,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ng_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "k_E"
+        }
+      ],
+      "start": 0.85,
+      "startOffset": 2,
+      "word": "FRANK"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.68,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.42,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.26,
+      "startOffset": 8,
+      "word": "BAUM"
+    },
+    {
+      "alignedWord": "chicago",
+      "case": "success",
+      "end": 3.0500000000000003,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "g_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 2.45,
+      "startOffset": 13,
+      "word": "CHICAGO"
+    },
+    {
+      "alignedWord": "illinois",
+      "case": "success",
+      "end": 3.53,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "oy_E"
+        }
+      ],
+      "start": 3.05,
+      "startOffset": 21,
+      "word": "ILLINOIS"
+    }
+  ]
+}

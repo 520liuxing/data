@@ -1,0 +1,127 @@
+{
+  "transcript": "JACQUES QUARTOURZE ALIAS LE NARBONNAIS LUC PIERRE CAPGAROUPE",
+  "words": [
+    {
+      "alignedWord": "jacques",
+      "case": "success",
+      "end": 0.74,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "zh_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "k_E"
+        }
+      ],
+      "start": 0.4,
+      "startOffset": 0,
+      "word": "JACQUES"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.74,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 1.0,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.74,
+      "startOffset": 8,
+      "word": "QUARTOURZE"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 24,
+      "startOffset": 19,
+      "word": "ALIAS"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 27,
+      "startOffset": 25,
+      "word": "LE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.35,
+      "endOffset": 38,
+      "phones": [
+        {
+          "duration": 1.51,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.84,
+      "startOffset": 28,
+      "word": "NARBONNAIS"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.53,
+      "endOffset": 42,
+      "phones": [
+        {
+          "duration": 0.24,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.29,
+      "startOffset": 39,
+      "word": "LUC"
+    },
+    {
+      "alignedWord": "pierre",
+      "case": "success",
+      "end": 5.04,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "r_E"
+        }
+      ],
+      "start": 4.53,
+      "startOffset": 43,
+      "word": "PIERRE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 5.67,
+      "endOffset": 60,
+      "phones": [
+        {
+          "duration": 0.62,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 5.05,
+      "startOffset": 50,
+      "word": "CAPGAROUPE"
+    }
+  ]
+}

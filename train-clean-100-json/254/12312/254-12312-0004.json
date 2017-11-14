@@ -1,0 +1,89 @@
+{
+  "transcript": "SUCH WOES SUCH JARRINGS",
+  "words": [
+    {
+      "alignedWord": "such",
+      "case": "success",
+      "end": 0.42000000000000004,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ch_E"
+        }
+      ],
+      "start": 0.15,
+      "startOffset": 0,
+      "word": "SUCH"
+    },
+    {
+      "alignedWord": "woes",
+      "case": "success",
+      "end": 0.96,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.25,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.45,
+      "startOffset": 5,
+      "word": "WOES"
+    },
+    {
+      "alignedWord": "such",
+      "case": "success",
+      "end": 1.35,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "ch_E"
+        }
+      ],
+      "start": 0.97,
+      "startOffset": 10,
+      "word": "SUCH"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.05,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.66,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.39,
+      "startOffset": 15,
+      "word": "JARRINGS"
+    }
+  ]
+}

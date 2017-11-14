@@ -1,0 +1,250 @@
+{
+  "transcript": "AND DINE WITH KITTY AND WALK IN THE GLOAMING WITH KITTY",
+  "words": [
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 0.41000000000000003,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.16,
+      "startOffset": 0,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "dine",
+      "case": "success",
+      "end": 0.74,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.41,
+      "startOffset": 4,
+      "word": "DINE"
+    },
+    {
+      "alignedWord": "with",
+      "case": "success",
+      "end": 0.91,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "th_E"
+        }
+      ],
+      "start": 0.74,
+      "startOffset": 9,
+      "word": "WITH"
+    },
+    {
+      "alignedWord": "kitty",
+      "case": "success",
+      "end": 1.26,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.91,
+      "startOffset": 14,
+      "word": "KITTY"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 1.75,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.51,
+      "startOffset": 20,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "walk",
+      "case": "success",
+      "end": 2.0,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "k_E"
+        }
+      ],
+      "start": 1.75,
+      "startOffset": 24,
+      "word": "WALK"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 2.11,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_E"
+        }
+      ],
+      "start": 2.0,
+      "startOffset": 29,
+      "word": "IN"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 2.23,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 2.11,
+      "startOffset": 32,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.62,
+      "endOffset": 44,
+      "phones": [
+        {
+          "duration": 0.38,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.24,
+      "startOffset": 36,
+      "word": "GLOAMING"
+    },
+    {
+      "alignedWord": "with",
+      "case": "success",
+      "end": 2.78,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.02,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "th_E"
+        }
+      ],
+      "start": 2.63,
+      "startOffset": 45,
+      "word": "WITH"
+    },
+    {
+      "alignedWord": "kitty",
+      "case": "success",
+      "end": 3.1199999999999997,
+      "endOffset": 55,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 2.8,
+      "startOffset": 50,
+      "word": "KITTY"
+    }
+  ]
+}

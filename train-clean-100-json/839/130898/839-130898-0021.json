@@ -1,0 +1,326 @@
+{
+  "transcript": "VIVIPAROUS BLENNIES WHOSE EGGS HATCH INSIDE THEIR BODIES LIKE THOSE OF SNAKES BLOATED GOBIO",
+  "words": [
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 10,
+      "startOffset": 0,
+      "word": "VIVIPAROUS"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.77,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 1.25,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.52,
+      "startOffset": 11,
+      "word": "BLENNIES"
+    },
+    {
+      "alignedWord": "whose",
+      "case": "success",
+      "end": 2.54,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "uw_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "z_E"
+        }
+      ],
+      "start": 2.15,
+      "startOffset": 20,
+      "word": "WHOSE"
+    },
+    {
+      "alignedWord": "eggs",
+      "case": "success",
+      "end": 3.01,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.2,
+          "phone": "eh_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "g_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "z_E"
+        }
+      ],
+      "start": 2.61,
+      "startOffset": 26,
+      "word": "EGGS"
+    },
+    {
+      "alignedWord": "hatch",
+      "case": "success",
+      "end": 3.4799999999999995,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.19,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "ch_E"
+        }
+      ],
+      "start": 3.01,
+      "startOffset": 31,
+      "word": "HATCH"
+    },
+    {
+      "alignedWord": "inside",
+      "case": "success",
+      "end": 3.9000000000000004,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.49,
+      "startOffset": 37,
+      "word": "INSIDE"
+    },
+    {
+      "alignedWord": "their",
+      "case": "success",
+      "end": 4.02,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_E"
+        }
+      ],
+      "start": 3.9,
+      "startOffset": 44,
+      "word": "THEIR"
+    },
+    {
+      "alignedWord": "bodies",
+      "case": "success",
+      "end": 4.5,
+      "endOffset": 56,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "z_E"
+        }
+      ],
+      "start": 4.02,
+      "startOffset": 50,
+      "word": "BODIES"
+    },
+    {
+      "alignedWord": "like",
+      "case": "success",
+      "end": 4.74,
+      "endOffset": 61,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "k_E"
+        }
+      ],
+      "start": 4.5,
+      "startOffset": 57,
+      "word": "LIKE"
+    },
+    {
+      "alignedWord": "those",
+      "case": "success",
+      "end": 4.930000000000001,
+      "endOffset": 67,
+      "phones": [
+        {
+          "duration": 0.02,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "z_E"
+        }
+      ],
+      "start": 4.74,
+      "startOffset": 62,
+      "word": "THOSE"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 5.06,
+      "endOffset": 70,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "v_E"
+        }
+      ],
+      "start": 4.93,
+      "startOffset": 68,
+      "word": "OF"
+    },
+    {
+      "alignedWord": "snakes",
+      "case": "success",
+      "end": 5.67,
+      "endOffset": 77,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "s_E"
+        }
+      ],
+      "start": 5.06,
+      "startOffset": 71,
+      "word": "SNAKES"
+    },
+    {
+      "alignedWord": "bloated",
+      "case": "success",
+      "end": 7.28,
+      "endOffset": 85,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 6.88,
+      "startOffset": 78,
+      "word": "BLOATED"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 7.87,
+      "endOffset": 91,
+      "phones": [
+        {
+          "duration": 0.58,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 7.29,
+      "startOffset": 86,
+      "word": "GOBIO"
+    }
+  ]
+}

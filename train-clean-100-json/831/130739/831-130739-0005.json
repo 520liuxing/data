@@ -1,0 +1,255 @@
+{
+  "transcript": "HUCKABACK BLANKETS DIMITY CRETONNE LINEN CALICO ARE CASES IN POINT",
+  "words": [
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.85,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.62,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.23,
+      "startOffset": 0,
+      "word": "HUCKABACK"
+    },
+    {
+      "alignedWord": "blankets",
+      "case": "success",
+      "end": 1.46,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ng_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_E"
+        }
+      ],
+      "start": 0.86,
+      "startOffset": 10,
+      "word": "BLANKETS"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.07,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.6,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.47,
+      "startOffset": 19,
+      "word": "DIMITY"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.0,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 0.75,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.25,
+      "startOffset": 26,
+      "word": "CRETONNE"
+    },
+    {
+      "alignedWord": "linen",
+      "case": "success",
+      "end": 3.5700000000000003,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "n_E"
+        }
+      ],
+      "start": 3.08,
+      "startOffset": 35,
+      "word": "LINEN"
+    },
+    {
+      "alignedWord": "calico",
+      "case": "success",
+      "end": 4.29,
+      "endOffset": 47,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.25,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 3.62,
+      "startOffset": 41,
+      "word": "CALICO"
+    },
+    {
+      "alignedWord": "are",
+      "case": "success",
+      "end": 4.81,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_E"
+        }
+      ],
+      "start": 4.67,
+      "startOffset": 48,
+      "word": "ARE"
+    },
+    {
+      "alignedWord": "cases",
+      "case": "success",
+      "end": 5.26,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "z_E"
+        }
+      ],
+      "start": 4.81,
+      "startOffset": 52,
+      "word": "CASES"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 5.48,
+      "endOffset": 60,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_E"
+        }
+      ],
+      "start": 5.28,
+      "startOffset": 58,
+      "word": "IN"
+    },
+    {
+      "alignedWord": "point",
+      "case": "success",
+      "end": 5.970000000000001,
+      "endOffset": 66,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.19,
+          "phone": "oy_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "t_E"
+        }
+      ],
+      "start": 5.48,
+      "startOffset": 61,
+      "word": "POINT"
+    }
+  ]
+}

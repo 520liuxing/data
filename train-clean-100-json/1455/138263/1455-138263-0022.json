@@ -1,0 +1,414 @@
+{
+  "transcript": "AGREED REPLIED NICHOLL BUT IS NOT THE MOON HABITABLE FOR CREATURES DIFFERENTLY ORGANIZED FROM OURSELVES",
+  "words": [
+    {
+      "alignedWord": "agreed",
+      "case": "success",
+      "end": 1.01,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "g_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.52,
+      "startOffset": 0,
+      "word": "AGREED"
+    },
+    {
+      "alignedWord": "replied",
+      "case": "success",
+      "end": 1.47,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.15,
+      "startOffset": 7,
+      "word": "REPLIED"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.97,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.5,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.47,
+      "startOffset": 15,
+      "word": "NICHOLL"
+    },
+    {
+      "alignedWord": "but",
+      "case": "success",
+      "end": 2.7,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.54,
+      "startOffset": 23,
+      "word": "BUT"
+    },
+    {
+      "alignedWord": "is",
+      "case": "success",
+      "end": 2.94,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "z_E"
+        }
+      ],
+      "start": 2.71,
+      "startOffset": 27,
+      "word": "IS"
+    },
+    {
+      "alignedWord": "not",
+      "case": "success",
+      "end": 3.14,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.95,
+      "startOffset": 30,
+      "word": "NOT"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 3.23,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 3.14,
+      "startOffset": 34,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "moon",
+      "case": "success",
+      "end": 3.49,
+      "endOffset": 42,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "uw_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 3.23,
+      "startOffset": 38,
+      "word": "MOON"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.06,
+      "endOffset": 52,
+      "phones": [
+        {
+          "duration": 0.55,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.51,
+      "startOffset": 43,
+      "word": "HABITABLE"
+    },
+    {
+      "alignedWord": "for",
+      "case": "success",
+      "end": 4.23,
+      "endOffset": 56,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "er_E"
+        }
+      ],
+      "start": 4.07,
+      "startOffset": 53,
+      "word": "FOR"
+    },
+    {
+      "alignedWord": "creatures",
+      "case": "success",
+      "end": 4.95,
+      "endOffset": 66,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ch_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "z_E"
+        }
+      ],
+      "start": 4.23,
+      "startOffset": 57,
+      "word": "CREATURES"
+    },
+    {
+      "alignedWord": "differently",
+      "case": "success",
+      "end": 5.6000000000000005,
+      "endOffset": 78,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "f_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 5.07,
+      "startOffset": 67,
+      "word": "DIFFERENTLY"
+    },
+    {
+      "alignedWord": "organized",
+      "case": "success",
+      "end": 6.109999999999999,
+      "endOffset": 88,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "g_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "d_E"
+        }
+      ],
+      "start": 5.6,
+      "startOffset": 79,
+      "word": "ORGANIZED"
+    },
+    {
+      "alignedWord": "from",
+      "case": "success",
+      "end": 6.3,
+      "endOffset": 93,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "m_E"
+        }
+      ],
+      "start": 6.13,
+      "startOffset": 89,
+      "word": "FROM"
+    },
+    {
+      "alignedWord": "ourselves",
+      "case": "success",
+      "end": 6.99,
+      "endOffset": 103,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "v_I"
+        },
+        {
+          "duration": 0.2,
+          "phone": "z_E"
+        }
+      ],
+      "start": 6.3,
+      "startOffset": 94,
+      "word": "OURSELVES"
+    }
+  ]
+}

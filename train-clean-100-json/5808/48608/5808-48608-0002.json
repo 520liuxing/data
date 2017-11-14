@@ -1,0 +1,131 @@
+{
+  "transcript": "AND CAROUSE WITH ME THIS NIGHT",
+  "words": [
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 0.4,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.18,
+      "startOffset": 0,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.8300000000000001,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.43,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.4,
+      "startOffset": 4,
+      "word": "CAROUSE"
+    },
+    {
+      "alignedWord": "with",
+      "case": "success",
+      "end": 1.06,
+      "endOffset": 16,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "th_E"
+        }
+      ],
+      "start": 0.84,
+      "startOffset": 12,
+      "word": "WITH"
+    },
+    {
+      "alignedWord": "me",
+      "case": "success",
+      "end": 1.26,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 1.06,
+      "startOffset": 17,
+      "word": "ME"
+    },
+    {
+      "alignedWord": "this",
+      "case": "success",
+      "end": 1.49,
+      "endOffset": 24,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "s_E"
+        }
+      ],
+      "start": 1.26,
+      "startOffset": 20,
+      "word": "THIS"
+    },
+    {
+      "alignedWord": "night",
+      "case": "success",
+      "end": 1.93,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.2,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.49,
+      "startOffset": 25,
+      "word": "NIGHT"
+    }
+  ]
+}

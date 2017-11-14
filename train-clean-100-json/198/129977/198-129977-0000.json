@@ -1,0 +1,545 @@
+{
+  "transcript": "ELINOR SAW WITH GREAT UNEASINESS THE LOW SPIRITS OF HER FRIEND HIS VISIT AFFORDED HER BUT A VERY PARTIAL SATISFACTION",
+  "words": [
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 0.86,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.45,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.41,
+      "startOffset": 0,
+      "word": "ELINOR"
+    },
+    {
+      "alignedWord": "saw",
+      "case": "success",
+      "end": 1.27,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.28,
+          "phone": "ao_E"
+        }
+      ],
+      "start": 0.86,
+      "startOffset": 7,
+      "word": "SAW"
+    },
+    {
+      "alignedWord": "with",
+      "case": "success",
+      "end": 1.5,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "th_E"
+        }
+      ],
+      "start": 1.28,
+      "startOffset": 11,
+      "word": "WITH"
+    },
+    {
+      "alignedWord": "great",
+      "case": "success",
+      "end": 1.78,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.52,
+      "startOffset": 16,
+      "word": "GREAT"
+    },
+    {
+      "alignedWord": "uneasiness",
+      "case": "success",
+      "end": 2.5,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "s_E"
+        }
+      ],
+      "start": 1.81,
+      "startOffset": 22,
+      "word": "UNEASINESS"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 2.67,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 2.53,
+      "startOffset": 33,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "low",
+      "case": "success",
+      "end": 2.86,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ow_E"
+        }
+      ],
+      "start": 2.67,
+      "startOffset": 37,
+      "word": "LOW"
+    },
+    {
+      "alignedWord": "spirits",
+      "case": "success",
+      "end": 3.31,
+      "endOffset": 48,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "s_E"
+        }
+      ],
+      "start": 2.86,
+      "startOffset": 41,
+      "word": "SPIRITS"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 3.44,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "v_E"
+        }
+      ],
+      "start": 3.31,
+      "startOffset": 49,
+      "word": "OF"
+    },
+    {
+      "alignedWord": "her",
+      "case": "success",
+      "end": 3.58,
+      "endOffset": 55,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "er_E"
+        }
+      ],
+      "start": 3.44,
+      "startOffset": 52,
+      "word": "HER"
+    },
+    {
+      "alignedWord": "friend",
+      "case": "success",
+      "end": 4.05,
+      "endOffset": 62,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.58,
+      "startOffset": 56,
+      "word": "FRIEND"
+    },
+    {
+      "alignedWord": "his",
+      "case": "success",
+      "end": 4.86,
+      "endOffset": 66,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "z_E"
+        }
+      ],
+      "start": 4.62,
+      "startOffset": 63,
+      "word": "HIS"
+    },
+    {
+      "alignedWord": "visit",
+      "case": "success",
+      "end": 5.140000000000001,
+      "endOffset": 72,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "v_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "z_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "t_E"
+        }
+      ],
+      "start": 4.86,
+      "startOffset": 67,
+      "word": "VISIT"
+    },
+    {
+      "alignedWord": "afforded",
+      "case": "success",
+      "end": 5.73,
+      "endOffset": 81,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "f_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "d_E"
+        }
+      ],
+      "start": 5.17,
+      "startOffset": 73,
+      "word": "AFFORDED"
+    },
+    {
+      "alignedWord": "her",
+      "case": "success",
+      "end": 6.0,
+      "endOffset": 85,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "er_E"
+        }
+      ],
+      "start": 5.73,
+      "startOffset": 82,
+      "word": "HER"
+    },
+    {
+      "alignedWord": "but",
+      "case": "success",
+      "end": 6.17,
+      "endOffset": 89,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "t_E"
+        }
+      ],
+      "start": 6.01,
+      "startOffset": 86,
+      "word": "BUT"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 6.28,
+      "endOffset": 91,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 6.21,
+      "startOffset": 90,
+      "word": "A"
+    },
+    {
+      "alignedWord": "very",
+      "case": "success",
+      "end": 6.6000000000000005,
+      "endOffset": 96,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "v_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 6.28,
+      "startOffset": 92,
+      "word": "VERY"
+    },
+    {
+      "alignedWord": "partial",
+      "case": "success",
+      "end": 7.0,
+      "endOffset": 104,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "sh_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_E"
+        }
+      ],
+      "start": 6.6,
+      "startOffset": 97,
+      "word": "PARTIAL"
+    },
+    {
+      "alignedWord": "satisfaction",
+      "case": "success",
+      "end": 7.67,
+      "endOffset": 117,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "f_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "sh_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "n_E"
+        }
+      ],
+      "start": 7.0,
+      "startOffset": 105,
+      "word": "SATISFACTION"
+    }
+  ]
+}

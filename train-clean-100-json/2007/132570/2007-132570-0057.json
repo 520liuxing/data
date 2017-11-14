@@ -1,0 +1,237 @@
+{
+  "transcript": "I HEARD MY OWN VOICE REJOINED MONTONI STERNLY AND NOTHING ELSE",
+  "words": [
+    {
+      "alignedWord": "i",
+      "case": "success",
+      "end": 0.5800000000000001,
+      "endOffset": 1,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "ay_S"
+        }
+      ],
+      "start": 0.4,
+      "startOffset": 0,
+      "word": "I"
+    },
+    {
+      "alignedWord": "heard",
+      "case": "success",
+      "end": 0.9199999999999999,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.58,
+      "startOffset": 2,
+      "word": "HEARD"
+    },
+    {
+      "alignedWord": "my",
+      "case": "success",
+      "end": 1.06,
+      "endOffset": 10,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ay_E"
+        }
+      ],
+      "start": 0.92,
+      "startOffset": 8,
+      "word": "MY"
+    },
+    {
+      "alignedWord": "own",
+      "case": "success",
+      "end": 1.37,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "ow_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.09,
+      "startOffset": 11,
+      "word": "OWN"
+    },
+    {
+      "alignedWord": "voice",
+      "case": "success",
+      "end": 2.12,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "v_B"
+        },
+        {
+          "duration": 0.21,
+          "phone": "oy_I"
+        },
+        {
+          "duration": 0.35,
+          "phone": "s_E"
+        }
+      ],
+      "start": 1.38,
+      "startOffset": 15,
+      "word": "VOICE"
+    },
+    {
+      "alignedWord": "rejoined",
+      "case": "success",
+      "end": 2.92,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "jh_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "oy_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 2.43,
+      "startOffset": 21,
+      "word": "REJOINED"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.26,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 1.34,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.92,
+      "startOffset": 30,
+      "word": "MONTONI"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 45,
+      "startOffset": 38,
+      "word": "STERNLY"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 5.53,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.03,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "d_E"
+        }
+      ],
+      "start": 5.34,
+      "startOffset": 46,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "nothing",
+      "case": "success",
+      "end": 5.8500000000000005,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.02,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "th_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 5.53,
+      "startOffset": 50,
+      "word": "NOTHING"
+    },
+    {
+      "alignedWord": "else",
+      "case": "success",
+      "end": 6.41,
+      "endOffset": 62,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "eh_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.25,
+          "phone": "s_E"
+        }
+      ],
+      "start": 5.86,
+      "startOffset": 58,
+      "word": "ELSE"
+    }
+  ]
+}

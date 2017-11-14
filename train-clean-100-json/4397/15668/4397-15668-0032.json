@@ -1,0 +1,142 @@
+{
+  "transcript": "ARE TWO SPECIES OF ZIGADENAS FRITILLARIA ATROPURPUREA",
+  "words": [
+    {
+      "alignedWord": "are",
+      "case": "success",
+      "end": 0.4,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_E"
+        }
+      ],
+      "start": 0.21,
+      "startOffset": 0,
+      "word": "ARE"
+    },
+    {
+      "alignedWord": "two",
+      "case": "success",
+      "end": 0.64,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 0.4,
+      "startOffset": 4,
+      "word": "TWO"
+    },
+    {
+      "alignedWord": "species",
+      "case": "success",
+      "end": 1.26,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "sh_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.64,
+      "startOffset": 8,
+      "word": "SPECIES"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 1.54,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "v_E"
+        }
+      ],
+      "start": 1.34,
+      "startOffset": 16,
+      "word": "OF"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.42,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.87,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.55,
+      "startOffset": 19,
+      "word": "ZIGADENAS"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.88,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.83,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.05,
+      "startOffset": 29,
+      "word": "FRITILLARIA"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.99,
+      "endOffset": 53,
+      "phones": [
+        {
+          "duration": 1.03,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.96,
+      "startOffset": 41,
+      "word": "ATROPURPUREA"
+    }
+  ]
+}

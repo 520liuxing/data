@@ -1,0 +1,760 @@
+{
+  "transcript": "MISS PLANTAGENET WANTS A PAGE I FOUND THIS LAD IN LONDON SELLING MATCHES HE WAS A MESSENGER BOY AT A TOBACCONIST CALLED TABERLEY AND LORD CONNISTON GOT HIM TURNED OUT OF THE SITUATION",
+  "words": [
+    {
+      "alignedWord": "miss",
+      "case": "success",
+      "end": 0.53,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_E"
+        }
+      ],
+      "start": 0.28,
+      "startOffset": 0,
+      "word": "MISS"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.26,
+      "endOffset": 16,
+      "phones": [
+        {
+          "duration": 0.71,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.55,
+      "startOffset": 5,
+      "word": "PLANTAGENET"
+    },
+    {
+      "alignedWord": "wants",
+      "case": "success",
+      "end": 1.59,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "s_E"
+        }
+      ],
+      "start": 1.28,
+      "startOffset": 17,
+      "word": "WANTS"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 1.6700000000000002,
+      "endOffset": 24,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 1.59,
+      "startOffset": 23,
+      "word": "A"
+    },
+    {
+      "alignedWord": "page",
+      "case": "success",
+      "end": 2.33,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.23,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.29,
+          "phone": "jh_E"
+        }
+      ],
+      "start": 1.67,
+      "startOffset": 25,
+      "word": "PAGE"
+    },
+    {
+      "alignedWord": "i",
+      "case": "success",
+      "end": 3.2800000000000002,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.26,
+          "phone": "ay_S"
+        }
+      ],
+      "start": 3.02,
+      "startOffset": 30,
+      "word": "I"
+    },
+    {
+      "alignedWord": "found",
+      "case": "success",
+      "end": 3.5999999999999996,
+      "endOffset": 37,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "aw_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.28,
+      "startOffset": 32,
+      "word": "FOUND"
+    },
+    {
+      "alignedWord": "this",
+      "case": "success",
+      "end": 3.7600000000000002,
+      "endOffset": 42,
+      "phones": [
+        {
+          "duration": 0.02,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_E"
+        }
+      ],
+      "start": 3.6,
+      "startOffset": 38,
+      "word": "THIS"
+    },
+    {
+      "alignedWord": "lad",
+      "case": "success",
+      "end": 4.04,
+      "endOffset": 46,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.76,
+      "startOffset": 43,
+      "word": "LAD"
+    },
+    {
+      "alignedWord": "in",
+      "case": "success",
+      "end": 4.18,
+      "endOffset": 49,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 4.04,
+      "startOffset": 47,
+      "word": "IN"
+    },
+    {
+      "alignedWord": "london",
+      "case": "success",
+      "end": 4.59,
+      "endOffset": 56,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "n_E"
+        }
+      ],
+      "start": 4.18,
+      "startOffset": 50,
+      "word": "LONDON"
+    },
+    {
+      "alignedWord": "selling",
+      "case": "success",
+      "end": 4.96,
+      "endOffset": 64,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 4.59,
+      "startOffset": 57,
+      "word": "SELLING"
+    },
+    {
+      "alignedWord": "matches",
+      "case": "success",
+      "end": 5.64,
+      "endOffset": 72,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ch_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.29,
+          "phone": "z_E"
+        }
+      ],
+      "start": 4.96,
+      "startOffset": 65,
+      "word": "MATCHES"
+    },
+    {
+      "alignedWord": "he",
+      "case": "success",
+      "end": 6.36,
+      "endOffset": 75,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 6.16,
+      "startOffset": 73,
+      "word": "HE"
+    },
+    {
+      "alignedWord": "was",
+      "case": "success",
+      "end": 6.53,
+      "endOffset": 79,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "z_E"
+        }
+      ],
+      "start": 6.36,
+      "startOffset": 76,
+      "word": "WAS"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 6.59,
+      "endOffset": 81,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 6.53,
+      "startOffset": 80,
+      "word": "A"
+    },
+    {
+      "alignedWord": "messenger",
+      "case": "success",
+      "end": 7.16,
+      "endOffset": 91,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "jh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "er_E"
+        }
+      ],
+      "start": 6.59,
+      "startOffset": 82,
+      "word": "MESSENGER"
+    },
+    {
+      "alignedWord": "boy",
+      "case": "success",
+      "end": 7.62,
+      "endOffset": 95,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.36,
+          "phone": "oy_E"
+        }
+      ],
+      "start": 7.16,
+      "startOffset": 92,
+      "word": "BOY"
+    },
+    {
+      "alignedWord": "at",
+      "case": "success",
+      "end": 8.07,
+      "endOffset": 98,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 7.9,
+      "startOffset": 96,
+      "word": "AT"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 8.16,
+      "endOffset": 100,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 8.07,
+      "startOffset": 99,
+      "word": "A"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 8.73,
+      "endOffset": 112,
+      "phones": [
+        {
+          "duration": 0.57,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 8.16,
+      "startOffset": 101,
+      "word": "TOBACCONIST"
+    },
+    {
+      "alignedWord": "called",
+      "case": "success",
+      "end": 9.29,
+      "endOffset": 119,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "d_E"
+        }
+      ],
+      "start": 8.95,
+      "startOffset": 113,
+      "word": "CALLED"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 10.029999,
+      "endOffset": 128,
+      "phones": [
+        {
+          "duration": 0.68,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 9.349999,
+      "startOffset": 120,
+      "word": "TABERLEY"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 10.729999999999999,
+      "endOffset": 132,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 10.53,
+      "startOffset": 129,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "lord",
+      "case": "success",
+      "end": 10.99,
+      "endOffset": 137,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 10.73,
+      "startOffset": 133,
+      "word": "LORD"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 11.62,
+      "endOffset": 147,
+      "phones": [
+        {
+          "duration": 0.61,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 11.01,
+      "startOffset": 138,
+      "word": "CONNISTON"
+    },
+    {
+      "alignedWord": "got",
+      "case": "success",
+      "end": 11.91,
+      "endOffset": 151,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 11.63,
+      "startOffset": 148,
+      "word": "GOT"
+    },
+    {
+      "alignedWord": "him",
+      "case": "success",
+      "end": 12.11,
+      "endOffset": 155,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "m_E"
+        }
+      ],
+      "start": 11.91,
+      "startOffset": 152,
+      "word": "HIM"
+    },
+    {
+      "alignedWord": "turned",
+      "case": "success",
+      "end": 12.549999999999999,
+      "endOffset": 162,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "d_E"
+        }
+      ],
+      "start": 12.11,
+      "startOffset": 156,
+      "word": "TURNED"
+    },
+    {
+      "alignedWord": "out",
+      "case": "success",
+      "end": 12.899999000000001,
+      "endOffset": 166,
+      "phones": [
+        {
+          "duration": 0.21,
+          "phone": "aw_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "t_E"
+        }
+      ],
+      "start": 12.599999,
+      "startOffset": 163,
+      "word": "OUT"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 13.129999999999999,
+      "endOffset": 169,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "v_E"
+        }
+      ],
+      "start": 12.95,
+      "startOffset": 167,
+      "word": "OF"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 13.22,
+      "endOffset": 173,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 13.13,
+      "startOffset": 170,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "situation",
+      "case": "success",
+      "end": 14.079998999999999,
+      "endOffset": 183,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "ch_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "uw_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ey_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "sh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "n_E"
+        }
+      ],
+      "start": 13.219999,
+      "startOffset": 174,
+      "word": "SITUATION"
+    }
+  ]
+}

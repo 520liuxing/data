@@ -1,0 +1,132 @@
+{
+  "transcript": "AND HER COMPLEXION WONDROUSLY FAIR",
+  "words": [
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 0.4,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.23,
+      "startOffset": 0,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "her",
+      "case": "success",
+      "end": 0.53,
+      "endOffset": 7,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "er_E"
+        }
+      ],
+      "start": 0.4,
+      "startOffset": 4,
+      "word": "HER"
+    },
+    {
+      "alignedWord": "complexion",
+      "case": "success",
+      "end": 1.17,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "sh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.53,
+      "startOffset": 8,
+      "word": "COMPLEXION"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.8199999999999998,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.65,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.17,
+      "startOffset": 19,
+      "word": "WONDROUSLY"
+    },
+    {
+      "alignedWord": "fair",
+      "case": "success",
+      "end": 2.14,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.2,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "r_E"
+        }
+      ],
+      "start": 1.83,
+      "startOffset": 30,
+      "word": "FAIR"
+    }
+  ]
+}

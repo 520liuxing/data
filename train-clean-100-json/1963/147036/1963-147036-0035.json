@@ -1,0 +1,150 @@
+{
+  "transcript": "GOOD GOD HE MUTTERED AND READ ON",
+  "words": [
+    {
+      "alignedWord": "good",
+      "case": "success",
+      "end": 0.48,
+      "endOffset": 4,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.27,
+      "startOffset": 0,
+      "word": "GOOD"
+    },
+    {
+      "alignedWord": "god",
+      "case": "success",
+      "end": 0.9099999999999999,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.57,
+      "startOffset": 5,
+      "word": "GOD"
+    },
+    {
+      "alignedWord": "he",
+      "case": "success",
+      "end": 1.06,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.04,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.91,
+      "startOffset": 9,
+      "word": "HE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.3800000000000001,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.32,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.06,
+      "startOffset": 12,
+      "word": "MUTTERED"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 1.5799999999999998,
+      "endOffset": 24,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.03,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.38,
+      "startOffset": 21,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "read",
+      "case": "success",
+      "end": 1.78,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "d_E"
+        }
+      ],
+      "start": 1.58,
+      "startOffset": 25,
+      "word": "READ"
+    },
+    {
+      "alignedWord": "on",
+      "case": "success",
+      "end": 2.1,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.2,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.78,
+      "startOffset": 30,
+      "word": "ON"
+    }
+  ]
+}

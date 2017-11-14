@@ -1,0 +1,131 @@
+{
+  "transcript": "THE CAPTAIN RASPED GET OUT HALJAN",
+  "words": [
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 0.45,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 0.34,
+      "startOffset": 0,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "captain",
+      "case": "success",
+      "end": 0.9,
+      "endOffset": 11,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.45,
+      "startOffset": 4,
+      "word": "CAPTAIN"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.26,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.36,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.9,
+      "startOffset": 12,
+      "word": "RASPED"
+    },
+    {
+      "alignedWord": "get",
+      "case": "success",
+      "end": 1.53,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.32,
+      "startOffset": 19,
+      "word": "GET"
+    },
+    {
+      "alignedWord": "out",
+      "case": "success",
+      "end": 1.81,
+      "endOffset": 26,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "aw_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 1.57,
+      "startOffset": 23,
+      "word": "OUT"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.23,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.41,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.82,
+      "startOffset": 27,
+      "word": "HALJAN"
+    }
+  ]
+}

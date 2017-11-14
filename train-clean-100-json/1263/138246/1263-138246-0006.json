@@ -1,0 +1,66 @@
+{
+  "transcript": "YOU SMILE BARBICANE",
+  "words": [
+    {
+      "alignedWord": "you",
+      "case": "success",
+      "end": 0.71,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 0.47,
+      "startOffset": 0,
+      "word": "YOU"
+    },
+    {
+      "alignedWord": "smile",
+      "case": "success",
+      "end": 1.2999999999999998,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.25,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_E"
+        }
+      ],
+      "start": 0.71,
+      "startOffset": 4,
+      "word": "SMILE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.96,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.65,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.31,
+      "startOffset": 10,
+      "word": "BARBICANE"
+    }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "transcript": "MISSUS ALICE M COSU NEW ORLEANS MARYLAND MISS MARY BARTLETT DIXON EASTON MISS JULIA EMORY BALTIMORE FLORIDA MISSUS MARY I NOLAN JACKSONVILLE",
+  "words": [
+    {
+      "alignedWord": "missus",
+      "case": "success",
+      "end": 0.63,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.27,
+      "startOffset": 0,
+      "word": "MISSUS"
+    },
+    {
+      "alignedWord": "alice",
+      "case": "success",
+      "end": 1.12,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "s_E"
+        }
+      ],
+      "start": 0.64,
+      "startOffset": 7,
+      "word": "ALICE"
+    },
+    {
+      "alignedWord": "m",
+      "case": "success",
+      "end": 1.52,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "eh_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "m_E"
+        }
+      ],
+      "start": 1.22,
+      "startOffset": 13,
+      "word": "M"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.14,
+      "endOffset": 19,
+      "phones": [
+        {
+          "duration": 0.58,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.56,
+      "startOffset": 15,
+      "word": "COSU"
+    },
+    {
+      "alignedWord": "new",
+      "case": "success",
+      "end": 2.37,
+      "endOffset": 23,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 2.19,
+      "startOffset": 20,
+      "word": "NEW"
+    },
+    {
+      "alignedWord": "orleans",
+      "case": "success",
+      "end": 2.9000000000000004,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ao_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "z_E"
+        }
+      ],
+      "start": 2.37,
+      "startOffset": 24,
+      "word": "ORLEANS"
+    },
+    {
+      "alignedWord": "maryland",
+      "case": "success",
+      "end": 4.21,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.55,
+      "startOffset": 32,
+      "word": "MARYLAND"
+    },
+    {
+      "alignedWord": "miss",
+      "case": "success",
+      "end": 4.699999999999999,
+      "endOffset": 45,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "s_E"
+        }
+      ],
+      "start": 4.43,
+      "startOffset": 41,
+      "word": "MISS"
+    },
+    {
+      "alignedWord": "mary",
+      "case": "success",
+      "end": 5.0200000000000005,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 4.7,
+      "startOffset": 46,
+      "word": "MARY"
+    },
+    {
+      "alignedWord": "bartlett",
+      "case": "success",
+      "end": 5.409999999999999,
+      "endOffset": 59,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 5.02,
+      "startOffset": 51,
+      "word": "BARTLETT"
+    },
+    {
+      "alignedWord": "dixon",
+      "case": "success",
+      "end": 5.9,
+      "endOffset": 65,
+      "phones": [
+        {
+          "duration": 0.02,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "n_E"
+        }
+      ],
+      "start": 5.41,
+      "startOffset": 60,
+      "word": "DIXON"
+    },
+    {
+      "alignedWord": "easton",
+      "case": "success",
+      "end": 6.58,
+      "endOffset": 72,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "iy_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "n_E"
+        }
+      ],
+      "start": 6.08,
+      "startOffset": 66,
+      "word": "EASTON"
+    },
+    {
+      "alignedWord": "miss",
+      "case": "success",
+      "end": 7.260000000000001,
+      "endOffset": 77,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_E"
+        }
+      ],
+      "start": 7.03,
+      "startOffset": 73,
+      "word": "MISS"
+    },
+    {
+      "alignedWord": "julia",
+      "case": "success",
+      "end": 7.6499999999999995,
+      "endOffset": 83,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "jh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "uw_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "y_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 7.26,
+      "startOffset": 78,
+      "word": "JULIA"
+    },
+    {
+      "alignedWord": "emory",
+      "case": "success",
+      "end": 8.18,
+      "endOffset": 89,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "eh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 7.68,
+      "startOffset": 84,
+      "word": "EMORY"
+    },
+    {
+      "alignedWord": "baltimore",
+      "case": "success",
+      "end": 8.95,
+      "endOffset": 99,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "r_E"
+        }
+      ],
+      "start": 8.26,
+      "startOffset": 90,
+      "word": "BALTIMORE"
+    },
+    {
+      "alignedWord": "florida",
+      "case": "success",
+      "end": 10.219999999999999,
+      "endOffset": 107,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.2,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 9.53,
+      "startOffset": 100,
+      "word": "FLORIDA"
+    },
+    {
+      "alignedWord": "missus",
+      "case": "success",
+      "end": 10.899999999999999,
+      "endOffset": 114,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "z_E"
+        }
+      ],
+      "start": 10.53,
+      "startOffset": 108,
+      "word": "MISSUS"
+    },
+    {
+      "alignedWord": "mary",
+      "case": "success",
+      "end": 11.25,
+      "endOffset": 119,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 10.9,
+      "startOffset": 115,
+      "word": "MARY"
+    },
+    {
+      "alignedWord": "i",
+      "case": "success",
+      "end": 11.5,
+      "endOffset": 121,
+      "phones": [
+        {
+          "duration": 0.2,
+          "phone": "ay_S"
+        }
+      ],
+      "start": 11.3,
+      "startOffset": 120,
+      "word": "I"
+    },
+    {
+      "alignedWord": "nolan",
+      "case": "success",
+      "end": 12.0,
+      "endOffset": 127,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "n_E"
+        }
+      ],
+      "start": 11.5,
+      "startOffset": 122,
+      "word": "NOLAN"
+    },
+    {
+      "alignedWord": "jacksonville",
+      "case": "success",
+      "end": 13.19,
+      "endOffset": 140,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "jh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "k_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "v_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.16,
+          "phone": "l_E"
+        }
+      ],
+      "start": 12.41,
+      "startOffset": 128,
+      "word": "JACKSONVILLE"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "transcript": "WHERE DID THE PROWLER RUN TO CAN YOU SHE WHISPERED CALMLY",
+  "words": [
+    {
+      "alignedWord": "where",
+      "case": "success",
+      "end": 0.6,
+      "endOffset": 5,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "r_E"
+        }
+      ],
+      "start": 0.3,
+      "startOffset": 0,
+      "word": "WHERE"
+    },
+    {
+      "alignedWord": "did",
+      "case": "success",
+      "end": 0.6799999999999999,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.01,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.6,
+      "startOffset": 6,
+      "word": "DID"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 0.87,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 0.71,
+      "startOffset": 10,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.31,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.44,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.87,
+      "startOffset": 14,
+      "word": "PROWLER"
+    },
+    {
+      "alignedWord": "run",
+      "case": "success",
+      "end": 1.53,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_E"
+        }
+      ],
+      "start": 1.31,
+      "startOffset": 22,
+      "word": "RUN"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 1.8900000000000001,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.25,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 1.53,
+      "startOffset": 26,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "can",
+      "case": "success",
+      "end": 2.57,
+      "endOffset": 32,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_E"
+        }
+      ],
+      "start": 2.26,
+      "startOffset": 29,
+      "word": "CAN"
+    },
+    {
+      "alignedWord": "you",
+      "case": "success",
+      "end": 2.83,
+      "endOffset": 36,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.19,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 2.57,
+      "startOffset": 33,
+      "word": "YOU"
+    },
+    {
+      "alignedWord": "she",
+      "case": "success",
+      "end": 3.2199999999999998,
+      "endOffset": 40,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 3.03,
+      "startOffset": 37,
+      "word": "SHE"
+    },
+    {
+      "alignedWord": "whispered",
+      "case": "success",
+      "end": 3.6700000000000004,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.22,
+      "startOffset": 41,
+      "word": "WHISPERED"
+    },
+    {
+      "alignedWord": "calmly",
+      "case": "success",
+      "end": 3.96,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "m_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        }
+      ],
+      "start": 3.67,
+      "startOffset": 51,
+      "word": "CALMLY"
+    }
+  ]
+}

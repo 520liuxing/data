@@ -1,0 +1,679 @@
+{
+  "transcript": "THE WINE WAS BROUGHT LUKASHKA SAT DOWN AND TOOK THE WINE BOWL GOD WILLING I'LL FIND A WAY TO REPAY YOU HE SAID FINISHING HIS WINE HOW ARE YOU CALLED",
+  "words": [
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 0.41000000000000003,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 0.27,
+      "startOffset": 0,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "wine",
+      "case": "success",
+      "end": 0.76,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_E"
+        }
+      ],
+      "start": 0.41,
+      "startOffset": 4,
+      "word": "WINE"
+    },
+    {
+      "alignedWord": "was",
+      "case": "success",
+      "end": 0.94,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.76,
+      "startOffset": 9,
+      "word": "WAS"
+    },
+    {
+      "alignedWord": "brought",
+      "case": "success",
+      "end": 1.41,
+      "endOffset": 20,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.23,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.94,
+      "startOffset": 13,
+      "word": "BROUGHT"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.3,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.57,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.73,
+      "startOffset": 21,
+      "word": "LUKASHKA"
+    },
+    {
+      "alignedWord": "sat",
+      "case": "success",
+      "end": 2.6,
+      "endOffset": 33,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.31,
+      "startOffset": 30,
+      "word": "SAT"
+    },
+    {
+      "alignedWord": "down",
+      "case": "success",
+      "end": 2.99,
+      "endOffset": 38,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.22,
+          "phone": "aw_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_E"
+        }
+      ],
+      "start": 2.6,
+      "startOffset": 34,
+      "word": "DOWN"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 3.18,
+      "endOffset": 42,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 2.99,
+      "startOffset": 39,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "took",
+      "case": "success",
+      "end": 3.39,
+      "endOffset": 47,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "k_E"
+        }
+      ],
+      "start": 3.18,
+      "startOffset": 43,
+      "word": "TOOK"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 3.52,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 3.39,
+      "startOffset": 48,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "wine",
+      "case": "success",
+      "end": 3.84,
+      "endOffset": 56,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.13,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "n_E"
+        }
+      ],
+      "start": 3.52,
+      "startOffset": 52,
+      "word": "WINE"
+    },
+    {
+      "alignedWord": "bowl",
+      "case": "success",
+      "end": 4.18,
+      "endOffset": 61,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "b_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.2,
+          "phone": "l_E"
+        }
+      ],
+      "start": 3.84,
+      "startOffset": 57,
+      "word": "BOWL"
+    },
+    {
+      "alignedWord": "god",
+      "case": "success",
+      "end": 5.01,
+      "endOffset": 65,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "g_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 4.68,
+      "startOffset": 62,
+      "word": "GOD"
+    },
+    {
+      "alignedWord": "willing",
+      "case": "success",
+      "end": 5.449999999999999,
+      "endOffset": 73,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 5.02,
+      "startOffset": 66,
+      "word": "WILLING"
+    },
+    {
+      "alignedWord": "i'll",
+      "case": "success",
+      "end": 5.63,
+      "endOffset": 78,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ay_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_E"
+        }
+      ],
+      "start": 5.45,
+      "startOffset": 74,
+      "word": "I'LL"
+    },
+    {
+      "alignedWord": "find",
+      "case": "success",
+      "end": 6.05,
+      "endOffset": 83,
+      "phones": [
+        {
+          "duration": 0.15,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 5.63,
+      "startOffset": 79,
+      "word": "FIND"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 6.1,
+      "endOffset": 85,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 6.05,
+      "startOffset": 84,
+      "word": "A"
+    },
+    {
+      "alignedWord": "way",
+      "case": "success",
+      "end": 6.3,
+      "endOffset": 89,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ey_E"
+        }
+      ],
+      "start": 6.1,
+      "startOffset": 86,
+      "word": "WAY"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 6.42,
+      "endOffset": 92,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 6.3,
+      "startOffset": 90,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "repay",
+      "case": "success",
+      "end": 6.78,
+      "endOffset": 98,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "r_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "ey_E"
+        }
+      ],
+      "start": 6.42,
+      "startOffset": 93,
+      "word": "REPAY"
+    },
+    {
+      "alignedWord": "you",
+      "case": "success",
+      "end": 7.050000000000001,
+      "endOffset": 102,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.19,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 6.78,
+      "startOffset": 99,
+      "word": "YOU"
+    },
+    {
+      "alignedWord": "he",
+      "case": "success",
+      "end": 7.37,
+      "endOffset": 105,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 7.19,
+      "startOffset": 103,
+      "word": "HE"
+    },
+    {
+      "alignedWord": "said",
+      "case": "success",
+      "end": 7.7,
+      "endOffset": 110,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "d_E"
+        }
+      ],
+      "start": 7.37,
+      "startOffset": 106,
+      "word": "SAID"
+    },
+    {
+      "alignedWord": "finishing",
+      "case": "success",
+      "end": 8.24,
+      "endOffset": 120,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "sh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 7.77,
+      "startOffset": 111,
+      "word": "FINISHING"
+    },
+    {
+      "alignedWord": "his",
+      "case": "success",
+      "end": 8.4,
+      "endOffset": 124,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_E"
+        }
+      ],
+      "start": 8.24,
+      "startOffset": 121,
+      "word": "HIS"
+    },
+    {
+      "alignedWord": "wine",
+      "case": "success",
+      "end": 8.790000000000001,
+      "endOffset": 129,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "n_E"
+        }
+      ],
+      "start": 8.4,
+      "startOffset": 125,
+      "word": "WINE"
+    },
+    {
+      "alignedWord": "how",
+      "case": "success",
+      "end": 9.25,
+      "endOffset": 133,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "aw_E"
+        }
+      ],
+      "start": 9.05,
+      "startOffset": 130,
+      "word": "HOW"
+    },
+    {
+      "alignedWord": "are",
+      "case": "success",
+      "end": 9.4,
+      "endOffset": 137,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "aa_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "r_E"
+        }
+      ],
+      "start": 9.25,
+      "startOffset": 134,
+      "word": "ARE"
+    },
+    {
+      "alignedWord": "you",
+      "case": "success",
+      "end": 9.540000000000001,
+      "endOffset": 141,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "y_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 9.4,
+      "startOffset": 138,
+      "word": "YOU"
+    },
+    {
+      "alignedWord": "called",
+      "case": "success",
+      "end": 10.02,
+      "endOffset": 148,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "d_E"
+        }
+      ],
+      "start": 9.54,
+      "startOffset": 142,
+      "word": "CALLED"
+    }
+  ]
+}

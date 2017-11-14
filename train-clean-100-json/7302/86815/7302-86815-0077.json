@@ -1,0 +1,527 @@
+{
+  "transcript": "PUT ASIDE SOME OF THE SUREST DEADLIEST MOST SPEEDY POISON OH PARDON ME SIR LET ME LIVE SHE IS COWARDLY SAID VILLEFORT",
+  "words": [
+    {
+      "alignedWord": "put",
+      "case": "success",
+      "end": 0.56,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.28,
+      "startOffset": 0,
+      "word": "PUT"
+    },
+    {
+      "alignedWord": "aside",
+      "case": "success",
+      "end": 1.22,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.23,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.64,
+      "startOffset": 4,
+      "word": "ASIDE"
+    },
+    {
+      "alignedWord": "some",
+      "case": "success",
+      "end": 1.67,
+      "endOffset": 14,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.14,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "m_E"
+        }
+      ],
+      "start": 1.22,
+      "startOffset": 10,
+      "word": "SOME"
+    },
+    {
+      "alignedWord": "of",
+      "case": "success",
+      "end": 1.91,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "ah_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "v_E"
+        }
+      ],
+      "start": 1.7,
+      "startOffset": 15,
+      "word": "OF"
+    },
+    {
+      "alignedWord": "the",
+      "case": "success",
+      "end": 2.01,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "dh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ah_E"
+        }
+      ],
+      "start": 1.91,
+      "startOffset": 18,
+      "word": "THE"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.67,
+      "endOffset": 28,
+      "phones": [
+        {
+          "duration": 0.66,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 2.01,
+      "startOffset": 22,
+      "word": "SUREST"
+    },
+    {
+      "alignedWord": "deadliest",
+      "case": "success",
+      "end": 3.66,
+      "endOffset": 38,
+      "phones": [
+        {
+          "duration": 0.22,
+          "phone": "d_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.14,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.74,
+      "startOffset": 29,
+      "word": "DEADLIEST"
+    },
+    {
+      "alignedWord": "most",
+      "case": "success",
+      "end": 4.33,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.77,
+      "startOffset": 39,
+      "word": "MOST"
+    },
+    {
+      "alignedWord": "speedy",
+      "case": "success",
+      "end": 5.15,
+      "endOffset": 50,
+      "phones": [
+        {
+          "duration": 0.19,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.18,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.26,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 4.34,
+      "startOffset": 44,
+      "word": "SPEEDY"
+    },
+    {
+      "alignedWord": "poison",
+      "case": "success",
+      "end": 6.03,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.28,
+          "phone": "oy_I"
+        },
+        {
+          "duration": 0.02,
+          "phone": "z_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.25,
+          "phone": "n_E"
+        }
+      ],
+      "start": 5.23,
+      "startOffset": 51,
+      "word": "POISON"
+    },
+    {
+      "alignedWord": "oh",
+      "case": "success",
+      "end": 8.620000000000001,
+      "endOffset": 60,
+      "phones": [
+        {
+          "duration": 0.4,
+          "phone": "ow_S"
+        }
+      ],
+      "start": 8.22,
+      "startOffset": 58,
+      "word": "OH"
+    },
+    {
+      "alignedWord": "pardon",
+      "case": "success",
+      "end": 9.48,
+      "endOffset": 67,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "n_E"
+        }
+      ],
+      "start": 8.97,
+      "startOffset": 61,
+      "word": "PARDON"
+    },
+    {
+      "alignedWord": "me",
+      "case": "success",
+      "end": 9.68,
+      "endOffset": 70,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.12,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 9.48,
+      "startOffset": 68,
+      "word": "ME"
+    },
+    {
+      "alignedWord": "sir",
+      "case": "success",
+      "end": 10.109999,
+      "endOffset": 74,
+      "phones": [
+        {
+          "duration": 0.18,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.25,
+          "phone": "er_E"
+        }
+      ],
+      "start": 9.679999,
+      "startOffset": 71,
+      "word": "SIR"
+    },
+    {
+      "alignedWord": "let",
+      "case": "success",
+      "end": 10.52,
+      "endOffset": 78,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 10.32,
+      "startOffset": 75,
+      "word": "LET"
+    },
+    {
+      "alignedWord": "me",
+      "case": "success",
+      "end": 10.7,
+      "endOffset": 81,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 10.52,
+      "startOffset": 79,
+      "word": "ME"
+    },
+    {
+      "alignedWord": "live",
+      "case": "success",
+      "end": 11.26,
+      "endOffset": 86,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.21,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.25,
+          "phone": "v_E"
+        }
+      ],
+      "start": 10.7,
+      "startOffset": 82,
+      "word": "LIVE"
+    },
+    {
+      "alignedWord": "she",
+      "case": "success",
+      "end": 12.579999,
+      "endOffset": 90,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 12.349999,
+      "startOffset": 87,
+      "word": "SHE"
+    },
+    {
+      "alignedWord": "is",
+      "case": "success",
+      "end": 12.72,
+      "endOffset": 93,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ih_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "z_E"
+        }
+      ],
+      "start": 12.58,
+      "startOffset": 91,
+      "word": "IS"
+    },
+    {
+      "alignedWord": "cowardly",
+      "case": "success",
+      "end": 13.369999,
+      "endOffset": 102,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.17,
+          "phone": "aw_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 12.719999,
+      "startOffset": 94,
+      "word": "COWARDLY"
+    },
+    {
+      "alignedWord": "said",
+      "case": "success",
+      "end": 13.739999,
+      "endOffset": 107,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 13.469999,
+      "startOffset": 103,
+      "word": "SAID"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 14.31,
+      "endOffset": 117,
+      "phones": [
+        {
+          "duration": 0.56,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 13.75,
+      "startOffset": 108,
+      "word": "VILLEFORT"
+    }
+  ]
+}

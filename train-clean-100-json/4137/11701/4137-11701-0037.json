@@ -1,0 +1,73 @@
+{
+  "transcript": "PROTESTED UDO INDIGNANTLY",
+  "words": [
+    {
+      "alignedWord": "protested",
+      "case": "success",
+      "end": 0.8699999999999999,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "p_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.04,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.3,
+      "startOffset": 0,
+      "word": "PROTESTED"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 1.9,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 1.01,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 0.89,
+      "startOffset": 10,
+      "word": "UDO"
+    },
+    {
+      "case": "not-found-in-audio",
+      "endOffset": 25,
+      "startOffset": 14,
+      "word": "INDIGNANTLY"
+    }
+  ]
+}

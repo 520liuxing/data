@@ -1,0 +1,527 @@
+{
+  "transcript": "LEAPT TO HIS FEET WITH A HOARSE CRY WHIPPED HIS MUSKET TO HIS SHOULDER AND SENT A SHOT WHISTLING OVER SILVER'S HEAD",
+  "words": [
+    {
+      "alignedWord": "leapt",
+      "case": "success",
+      "end": 0.5900000000000001,
+      "endOffset": 5,
+      "phones": [
+        {
+          "duration": 0.17,
+          "phone": "l_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.28,
+      "startOffset": 0,
+      "word": "LEAPT"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 0.75,
+      "endOffset": 8,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 0.6,
+      "startOffset": 6,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "his",
+      "case": "success",
+      "end": 0.97,
+      "endOffset": 12,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.05,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "z_E"
+        }
+      ],
+      "start": 0.75,
+      "startOffset": 9,
+      "word": "HIS"
+    },
+    {
+      "alignedWord": "feet",
+      "case": "success",
+      "end": 1.28,
+      "endOffset": 17,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "t_E"
+        }
+      ],
+      "start": 0.97,
+      "startOffset": 13,
+      "word": "FEET"
+    },
+    {
+      "alignedWord": "with",
+      "case": "success",
+      "end": 1.4100000000000001,
+      "endOffset": 22,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.03,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "th_E"
+        }
+      ],
+      "start": 1.28,
+      "startOffset": 18,
+      "word": "WITH"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 1.47,
+      "endOffset": 24,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 1.41,
+      "startOffset": 23,
+      "word": "A"
+    },
+    {
+      "alignedWord": "hoarse",
+      "case": "success",
+      "end": 1.8199999999999998,
+      "endOffset": 31,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.1,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "s_E"
+        }
+      ],
+      "start": 1.47,
+      "startOffset": 25,
+      "word": "HOARSE"
+    },
+    {
+      "alignedWord": "cry",
+      "case": "success",
+      "end": 2.3600000000000003,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "k_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.32,
+          "phone": "ay_E"
+        }
+      ],
+      "start": 1.84,
+      "startOffset": 32,
+      "word": "CRY"
+    },
+    {
+      "alignedWord": "whipped",
+      "case": "success",
+      "end": 2.98,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "p_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.66,
+      "startOffset": 36,
+      "word": "WHIPPED"
+    },
+    {
+      "alignedWord": "his",
+      "case": "success",
+      "end": 3.19,
+      "endOffset": 47,
+      "phones": [
+        {
+          "duration": 0.03,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "z_E"
+        }
+      ],
+      "start": 2.98,
+      "startOffset": 44,
+      "word": "HIS"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 3.59,
+      "endOffset": 54,
+      "phones": [
+        {
+          "duration": 0.4,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 3.19,
+      "startOffset": 48,
+      "word": "MUSKET"
+    },
+    {
+      "alignedWord": "to",
+      "case": "success",
+      "end": 3.7600000000000002,
+      "endOffset": 57,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "t_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "uw_E"
+        }
+      ],
+      "start": 3.62,
+      "startOffset": 55,
+      "word": "TO"
+    },
+    {
+      "alignedWord": "his",
+      "case": "success",
+      "end": 3.9099999999999997,
+      "endOffset": 61,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.03,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "z_E"
+        }
+      ],
+      "start": 3.76,
+      "startOffset": 58,
+      "word": "HIS"
+    },
+    {
+      "alignedWord": "shoulder",
+      "case": "success",
+      "end": 4.46,
+      "endOffset": 70,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ow_I"
+        },
+        {
+          "duration": 0.1,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "d_I"
+        },
+        {
+          "duration": 0.19,
+          "phone": "er_E"
+        }
+      ],
+      "start": 3.91,
+      "startOffset": 62,
+      "word": "SHOULDER"
+    },
+    {
+      "alignedWord": "and",
+      "case": "success",
+      "end": 4.97,
+      "endOffset": 74,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ae_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "d_E"
+        }
+      ],
+      "start": 4.81,
+      "startOffset": 71,
+      "word": "AND"
+    },
+    {
+      "alignedWord": "sent",
+      "case": "success",
+      "end": 5.18,
+      "endOffset": 79,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.04,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "n_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_E"
+        }
+      ],
+      "start": 4.97,
+      "startOffset": 75,
+      "word": "SENT"
+    },
+    {
+      "alignedWord": "a",
+      "case": "success",
+      "end": 5.25,
+      "endOffset": 81,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "ah_S"
+        }
+      ],
+      "start": 5.18,
+      "startOffset": 80,
+      "word": "A"
+    },
+    {
+      "alignedWord": "shot",
+      "case": "success",
+      "end": 5.69,
+      "endOffset": 86,
+      "phones": [
+        {
+          "duration": 0.2,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "t_E"
+        }
+      ],
+      "start": 5.25,
+      "startOffset": 82,
+      "word": "SHOT"
+    },
+    {
+      "alignedWord": "whistling",
+      "case": "success",
+      "end": 6.23,
+      "endOffset": 96,
+      "phones": [
+        {
+          "duration": 0.1,
+          "phone": "w_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "s_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ng_E"
+        }
+      ],
+      "start": 5.7,
+      "startOffset": 87,
+      "word": "WHISTLING"
+    },
+    {
+      "alignedWord": "over",
+      "case": "success",
+      "end": 6.45,
+      "endOffset": 101,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "ow_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "v_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "er_E"
+        }
+      ],
+      "start": 6.23,
+      "startOffset": 97,
+      "word": "OVER"
+    },
+    {
+      "alignedWord": "silver's",
+      "case": "success",
+      "end": 6.93,
+      "endOffset": 110,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "ih_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "v_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "z_E"
+        }
+      ],
+      "start": 6.45,
+      "startOffset": 102,
+      "word": "SILVER'S"
+    },
+    {
+      "alignedWord": "head",
+      "case": "success",
+      "end": 7.239999999999999,
+      "endOffset": 115,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 6.93,
+      "startOffset": 111,
+      "word": "HEAD"
+    }
+  ]
+}

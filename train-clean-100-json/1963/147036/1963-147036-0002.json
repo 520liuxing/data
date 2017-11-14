@@ -1,0 +1,226 @@
+{
+  "transcript": "SHE SHOOK HER HEAD OH I'M NOT HURT SHE SAID WEARILY",
+  "words": [
+    {
+      "alignedWord": "she",
+      "case": "success",
+      "end": 0.43000000000000005,
+      "endOffset": 3,
+      "phones": [
+        {
+          "duration": 0.16,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.2,
+      "startOffset": 0,
+      "word": "SHE"
+    },
+    {
+      "alignedWord": "shook",
+      "case": "success",
+      "end": 0.71,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.13,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "uh_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "k_E"
+        }
+      ],
+      "start": 0.44,
+      "startOffset": 4,
+      "word": "SHOOK"
+    },
+    {
+      "alignedWord": "her",
+      "case": "success",
+      "end": 0.85,
+      "endOffset": 13,
+      "phones": [
+        {
+          "duration": 0.07,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.07,
+          "phone": "er_E"
+        }
+      ],
+      "start": 0.71,
+      "startOffset": 10,
+      "word": "HER"
+    },
+    {
+      "alignedWord": "head",
+      "case": "success",
+      "end": 1.29,
+      "endOffset": 18,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.22,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.13,
+          "phone": "d_E"
+        }
+      ],
+      "start": 0.85,
+      "startOffset": 14,
+      "word": "HEAD"
+    },
+    {
+      "alignedWord": "oh",
+      "case": "success",
+      "end": 2.5,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.35,
+          "phone": "ow_S"
+        }
+      ],
+      "start": 2.15,
+      "startOffset": 19,
+      "word": "OH"
+    },
+    {
+      "alignedWord": "i'm",
+      "case": "success",
+      "end": 2.79,
+      "endOffset": 25,
+      "phones": [
+        {
+          "duration": 0.14,
+          "phone": "ay_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "m_E"
+        }
+      ],
+      "start": 2.56,
+      "startOffset": 22,
+      "word": "I'M"
+    },
+    {
+      "alignedWord": "not",
+      "case": "success",
+      "end": 3.02,
+      "endOffset": 29,
+      "phones": [
+        {
+          "duration": 0.01,
+          "phone": "n_B"
+        },
+        {
+          "duration": 0.15,
+          "phone": "aa_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "t_E"
+        }
+      ],
+      "start": 2.79,
+      "startOffset": 26,
+      "word": "NOT"
+    },
+    {
+      "alignedWord": "hurt",
+      "case": "success",
+      "end": 3.48,
+      "endOffset": 34,
+      "phones": [
+        {
+          "duration": 0.12,
+          "phone": "hh_B"
+        },
+        {
+          "duration": 0.16,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.17,
+          "phone": "t_E"
+        }
+      ],
+      "start": 3.03,
+      "startOffset": 30,
+      "word": "HURT"
+    },
+    {
+      "alignedWord": "she",
+      "case": "success",
+      "end": 3.83,
+      "endOffset": 38,
+      "phones": [
+        {
+          "duration": 0.24,
+          "phone": "sh_B"
+        },
+        {
+          "duration": 0.09,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 3.5,
+      "startOffset": 35,
+      "word": "SHE"
+    },
+    {
+      "alignedWord": "said",
+      "case": "success",
+      "end": 4.05,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "eh_I"
+        },
+        {
+          "duration": 0.08,
+          "phone": "d_E"
+        }
+      ],
+      "start": 3.83,
+      "startOffset": 39,
+      "word": "SAID"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 4.52,
+      "endOffset": 51,
+      "phones": [
+        {
+          "duration": 0.47,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 4.05,
+      "startOffset": 44,
+      "word": "WEARILY"
+    }
+  ]
+}

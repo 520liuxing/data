@@ -1,0 +1,178 @@
+{
+  "transcript": "THIRTY OR FORTY MILES EASTWARD FROM SEATTLE",
+  "words": [
+    {
+      "alignedWord": "thirty",
+      "case": "success",
+      "end": 0.87,
+      "endOffset": 6,
+      "phones": [
+        {
+          "duration": 0.11,
+          "phone": "th_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.11,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.51,
+      "startOffset": 0,
+      "word": "THIRTY"
+    },
+    {
+      "alignedWord": "or",
+      "case": "success",
+      "end": 0.95,
+      "endOffset": 9,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "er_S"
+        }
+      ],
+      "start": 0.87,
+      "startOffset": 7,
+      "word": "OR"
+    },
+    {
+      "alignedWord": "forty",
+      "case": "success",
+      "end": 1.26,
+      "endOffset": 15,
+      "phones": [
+        {
+          "duration": 0.08,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.11,
+          "phone": "ao_I"
+        },
+        {
+          "duration": 0.01,
+          "phone": "r_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "iy_E"
+        }
+      ],
+      "start": 0.95,
+      "startOffset": 10,
+      "word": "FORTY"
+    },
+    {
+      "alignedWord": "miles",
+      "case": "success",
+      "end": 1.6099999999999999,
+      "endOffset": 21,
+      "phones": [
+        {
+          "duration": 0.05,
+          "phone": "m_B"
+        },
+        {
+          "duration": 0.18,
+          "phone": "ay_I"
+        },
+        {
+          "duration": 0.05,
+          "phone": "l_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "z_E"
+        }
+      ],
+      "start": 1.26,
+      "startOffset": 16,
+      "word": "MILES"
+    },
+    {
+      "alignedWord": "<unk>",
+      "case": "success",
+      "end": 2.06,
+      "endOffset": 30,
+      "phones": [
+        {
+          "duration": 0.43,
+          "phone": "oov_S"
+        }
+      ],
+      "start": 1.63,
+      "startOffset": 22,
+      "word": "EASTWARD"
+    },
+    {
+      "alignedWord": "from",
+      "case": "success",
+      "end": 2.27,
+      "endOffset": 35,
+      "phones": [
+        {
+          "duration": 0.06,
+          "phone": "f_B"
+        },
+        {
+          "duration": 0.06,
+          "phone": "er_I"
+        },
+        {
+          "duration": 0.07,
+          "phone": "m_E"
+        }
+      ],
+      "start": 2.08,
+      "startOffset": 31,
+      "word": "FROM"
+    },
+    {
+      "alignedWord": "seattle",
+      "case": "success",
+      "end": 2.8,
+      "endOffset": 43,
+      "phones": [
+        {
+          "duration": 0.09,
+          "phone": "s_B"
+        },
+        {
+          "duration": 0.08,
+          "phone": "iy_I"
+        },
+        {
+          "duration": 0.12,
+          "phone": "ae_I"
+        },
+        {
+          "duration": 0.03,
+          "phone": "t_I"
+        },
+        {
+          "duration": 0.06,
+          "phone": "ah_I"
+        },
+        {
+          "duration": 0.15,
+          "phone": "l_E"
+        }
+      ],
+      "start": 2.27,
+      "startOffset": 36,
+      "word": "SEATTLE"
+    }
+  ]
+}
