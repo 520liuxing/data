@@ -10,11 +10,11 @@ verse conditions.
 
 1. Download the following speech dataset:
 
-[LibriSpeech train-clean-100 dataset](http://www.openslr.org/resources/12/train-clean-100.tar.gz)
+   [LibriSpeech train-clean-100 dataset](http://www.openslr.org/resources/12/train-clean-100.tar.gz)
 
-Further information about this speech dataset can be found at the following link:
+   Further information about this speech dataset can be found at the following link:
 
-[LibriSpeech Information](http://www.openslr.org/11/)
+   [LibriSpeech Information](http://www.openslr.org/11/)
 
 2. Download the following noise dataset:
 
