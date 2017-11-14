@@ -14,6 +14,20 @@ Download the following dataset:
 
 [LibriSpeech train-clean-100 dataset](http://www.openslr.org/resources/12/train-clean-100.tar.gz)
 
+
+     SCUBA-USCDiarLibri
+      +--QUT-NOISE         
+      |   +--QUT-NOISE-TIMIT        
+      |   +--QUT-NOISE-NIST2008     
+      |   +--QUT-NOISE
+      |   +--docs
+      |   +--code
+	  +--LibriSpeech         
+      |   +--train-clean-100 
+      |   +--sample      
+      +--Libre_file_list.txt   
+      +--QUT_noise_list.txt    
+
 ### Creating USCLibriDiar Dataset ###
 
 
