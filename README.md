@@ -8,6 +8,6 @@ This README would normally document whatever steps are necessary to get your app
 ### Download and Installation ###
 
 
-### Creating QUT-NOISE TIMIT ###
+### Creating USCLibriDiar Dataset ###
 
 
