@@ -38,12 +38,12 @@ USCDiarLibri generates USCDiarLibri dataset using external speech corpora and no
       
       
 ## Prerequisites ##
-* numpy
-* librosa
-* soundfile
-* glob
-* scipy.signal
-* pyroomacoustics
+* [numpy](http://www.numpy.org/)
+* [scipy](https://www.scipy.org/install.html)
+* [librosa](https://github.com/librosa/librosa)
+* [soundfile](https://pypi.python.org/pypi/SoundFile/0.8.1)
+* [glob](https://pypi.python.org/pypi/glob2)
+* [pyroomacoustics](https://github.com/LCAV/pyroomacoustics)
 
 ## Creating USCLibriDiar Dataset ##
 
