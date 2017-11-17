@@ -34,11 +34,16 @@ USCDiarLibri generates USCDiarLibri dataset using external speech corpora and no
       |   +--train-clean-100/ 
       |   +--BOOKS.TXT
       |   +--CHAPTERS.TXT
-      |   +--LICENSE.TXT
-      |   +--README.TXT
-      |   +--SPEAKERS.TXT
+      |   ...
+      +--train-clean-100-json
+      |   +--103/
+      |   +--1034/
+      |   +--1040/
+      |   ...
       +--Libre_file_list.txt   
       +--QUT_noise_list.txt
+      +--README.md
+      +--data_creation_module.py
       +--USCDiarLibri_2_4.py
       +--USCDiarLibri_2_6.py
       +--USCDiarLibri_gen.py
