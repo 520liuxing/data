@@ -54,6 +54,16 @@ $python USCDiarLibri_2_6
 ```
 * For customizable dataset, modify the parameters in USCDiarLibri_gen
 
+## Parameters ##
+
+The following descriptions are for parameters of USCDiarLibri_2_X.py
+
+* num_of_prime_speakers: This parameter determines the number of primary speakers. Currently, the number of primary speakers is fixed to 2.
+* num_of_all_speakers: The number of total speakers per a session. This number includes both primary speakers and interfering speakers.
+* number_of_sess: The number of sessions you want to create.
+* number_of_spk_turns: The number of speaker turns in a session. Put -1 if you want to create as many turns as possible.
+* dist_prob_range: Determines the range of uniform random variable for distance between microphone and interfering speakers.
+* dist_prob_range_prime_spk: Determines the range of uniform random variable for distance between two primary speakers.
 
 
 
