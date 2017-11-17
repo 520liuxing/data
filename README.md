@@ -21,6 +21,7 @@ USCDiarLibri generates USCDiarLibri dataset using external speech corpora and no
    * [QUT-NOISE Dataset](https://data.researchdatafinder.qut.edu.au/dataset/a0eed5af-abd8-441b-b14a-8e064bc3d732/resource/8342a090-89e7-4402-961e-1851da11e1aa/download/qutnoise.zip)
 
 
+
 3. The directory which includes USCDiarLibri should be setup as the following.
 
      SCUBA-USCDiarLibri
