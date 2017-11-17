@@ -54,7 +54,7 @@ $python USCDiarLibri_2_6
 ```
 * For customizable dataset, modify the parameters in USCDiarLibri_gen
 
-## Parameters ##
+## Parameters and Descriptions ##
 
 The following descriptions are for parameters of USCDiarLibri_2_X.py
 
