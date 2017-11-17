@@ -25,11 +25,11 @@ USCDiarLibri generates USCDiarLibri dataset using external speech corpora and no
 
      SCUBA-USCDiarLibri
       +--QUT-NOISE         
-      |   +--QUT-NOISE-TIMIT        
-      |   +--QUT-NOISE-NIST2008     
-      |   +--QUT-NOISE
-      |   +--docs
-      |   +--code
+      |   +--QUT-NOISE-TIMIT/        
+      |   +--QUT-NOISE-NIST2008/     
+      |   +--QUT-NOISE/
+      |   +--docs/
+      |   +--code/
 	  +--LibriSpeech         
       |   +--train-clean-100/ 
       |   +--BOOKS.TXT
