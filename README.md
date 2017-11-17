@@ -34,7 +34,10 @@ USCDiarLibri generates USCDiarLibri dataset using external speech corpora and no
       |   +--train-clean-100 
       |   +--sample      
       +--Libre_file_list.txt   
-      +--QUT_noise_list.txt    
+      +--QUT_noise_list.txt
+      +--USCDiarLibri_2_4.py
+      +--USCDiarLibri_2_6.py
+      +--USCDiarLibri_gen.py
       
       
 ## Prerequisites ##
