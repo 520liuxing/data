@@ -1,13 +1,3 @@
-'''
-LIBRISPEECH Multichannel diarization dataset generator.
-For each ground truth file, it contains a long sequence of numbers.
-which means: 
-1 : The primary speaker
-0 : Silence
--1: Another main speaker
--2: The other speakers
-
-'''
 from __future__ import print_function
 import numpy as np
 import librosa
@@ -16,7 +6,6 @@ import soundfile as sf
 import glob
 import scipy.signal
 import json
-import ipdb
 import sys
 import pyroomacoustics as pra
 import time
