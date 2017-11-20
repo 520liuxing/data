@@ -1,0 +1,160 @@
+{
+    "1": {
+        "alignedWord": "in",
+        "case": "success",
+        "end": 0.7345625,
+        "phones": [
+            {
+                "duration": 0.1,
+                "phone": "ih_B"
+            },
+            {
+                "duration": 0.04,
+                "phone": "n_E"
+            }
+        ],
+        "start": 0.5945625000000003,
+        "word": "IN"
+    },
+    "2": {
+        "alignedWord": "the",
+        "case": "success",
+        "end": 0.8245624999999999,
+        "phones": [
+            {
+                "duration": 0.04,
+                "phone": "dh_B"
+            },
+            {
+                "duration": 0.05,
+                "phone": "ah_E"
+            }
+        ],
+        "start": 0.7345625,
+        "word": "THE"
+    },
+    "3": {
+        "alignedWord": "first",
+        "case": "success",
+        "end": 1.1445625000000001,
+        "phones": [
+            {
+                "duration": 0.1,
+                "phone": "f_B"
+            },
+            {
+                "duration": 0.11,
+                "phone": "er_I"
+            },
+            {
+                "duration": 0.06,
+                "phone": "s_I"
+            },
+            {
+                "duration": 0.05,
+                "phone": "t_E"
+            }
+        ],
+        "start": 0.8245624999999999,
+        "word": "FIRST"
+    },
+    "4": {
+        "alignedWord": "place",
+        "case": "success",
+        "end": 1.5345624999999998,
+        "phones": [
+            {
+                "duration": 0.07,
+                "phone": "p_B"
+            },
+            {
+                "duration": 0.09,
+                "phone": "l_I"
+            },
+            {
+                "duration": 0.08,
+                "phone": "ey_I"
+            },
+            {
+                "duration": 0.15,
+                "phone": "s_E"
+            }
+        ],
+        "start": 1.1445625000000001,
+        "word": "PLACE"
+    },
+    "5": {
+        "alignedWord": "that",
+        "case": "success",
+        "end": 2.0845624999999997,
+        "phones": [
+            {
+                "duration": 0.08,
+                "phone": "dh_B"
+            },
+            {
+                "duration": 0.04,
+                "phone": "ah_I"
+            },
+            {
+                "duration": 0.05,
+                "phone": "t_E"
+            }
+        ],
+        "start": 1.9145624999999997,
+        "word": "THAT"
+    },
+    "6": {
+        "alignedWord": "by",
+        "case": "success",
+        "end": 13.941625000000002,
+        "phones": [
+            {
+                "duration": 0.09,
+                "phone": "b_B"
+            },
+            {
+                "duration": 0.05,
+                "phone": "ay_E"
+            }
+        ],
+        "start": 13.801625000000001,
+        "word": "BY"
+    },
+    "7": {
+        "alignedWord": "the",
+        "case": "success",
+        "end": 14.051625000000001,
+        "phones": [
+            {
+                "duration": 0.07,
+                "phone": "dh_B"
+            },
+            {
+                "duration": 0.04,
+                "phone": "ah_E"
+            }
+        ],
+        "start": 13.941625000000002,
+        "word": "THE"
+    },
+    "session_info": {
+        "absorption_applied": "0.25",
+        "absorption_range": "[0.25, 0.25]",
+        "dialogue_prob": "[0.1, 0.1, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333]",
+        "distance_prime_spk": "15.998643390328763",
+        "distance_spk3_ch1": "6.275741960628421",
+        "distance_spk3_ch2": "18.19409315924319",
+        "distance_spk4_ch1": "19.383485564773995",
+        "distance_spk4_ch2": "19.544763183285404",
+        "distance_spk5_ch1": "10.16208645351162",
+        "distance_spk5_ch2": "14.462695181197168",
+        "distance_spk6_ch1": "13.998643390328763",
+        "distance_spk6_ch2": "13.549040205663244",
+        "noise_gain_dB_applied": "[-10.89, -7.11]",
+        "noise_gain_dB_range": "[-20, -5]",
+        "noise_path": "QUT-NOISE/QUT-NOISE/STREET-KG-1.wav",
+        "session index": "13",
+        "spk_id_sequence": "[2, 0, -1, 3, 5, 6, 5, 0, 5, 6]"
+    }
+}

@@ -15,7 +15,6 @@ import os
 import soundfile as sf
 import glob
 import scipy.signal
-import matplotlib.pyplot as plt
 import json
 import ipdb
 import sys
@@ -39,9 +38,11 @@ class session:
         self.dialogue_prob = kwargs.get('dialogue_prob')
         self.spk_id_sequence = kwargs.get('spk_id_sequence')
         self.ch_atten_mix = kwargs.get('ch_atten_mix')
-
+        self.verbose = kwargs.get('verbose', 1)
+        
         # Data of the session
-        self.dist_prob_range = kwargs.get('dist_prob_range')
+        self.dist_prob_range_bgr_spk = kwargs.get('dist_prob_range_bgr_spk')
+        self.dist_prob_range_prime_spk = kwargs.get('dist_prob_range_prime_spk')
         self.distance_prime_spk = kwargs.get('distance_prime_spk')
         self.distance_bgr_ch = kwargs.get('distance_bgr_ch')
         self.rir_spk = kwargs.get('rir_spk')
@@ -54,16 +55,30 @@ class session:
         self.number_of_spk_load = kwargs.get('number_of_spk_load', -1)
 
         # Randomness of the session
+        self.absorption_applied = kwargs.get('absorption_applied', 0.25)
+        self.absorption_range = kwargs.get('absorption_range', [0, 0.5])
         self.min_max_silence_length_sec = kwargs.get('min_max_silence_length_sec')
         self.noise = kwargs.get('noise', False)
         self.noise_ts = kwargs.get('noise_ts')
         self.noise_path = kwargs.get('noise_path')
         self.noise_gain_dB_range = kwargs.get('noise_gain_dB_range')
         self.noise_gain_dB_applied = kwargs.get('noise_gain_dB_applied')
-
+        
         # IR related parameter
         self.IR_sample_margin = kwargs.get('IR_sample_margin')
         self.IR_cut_thrs = kwargs.get('IR_cut_thrs')
+
+def sprint(verbose, text, val):
+    if verbose:
+        print(text, str(val))
+
+
+def rprint(verbose, text, val):
+    if verbose:
+       sys.stdout.flush()
+       sys.stdout.write(text+ str(val))
+       sys.stdout.flush()
+
 
 def if_not_create(directory):
     if not os.path.exists(directory):
@@ -97,21 +112,20 @@ def random_word_length(seed):
 def return_json_dict(json_path):
     with open(json_path) as data_handle:
         data = json.load(data_handle)
-    # pprint(data)
     return data
 
 
-def json_validity(data, start, end):
+def json_validity(verbose, data, start, end):
     check_list = []
     for k in range(start, end):
         check_list.append(data['words'][k]['case'])
-        if data['words'][k]['case'] != 'success':
-            print('Defective aligning!')
+        # if data['words'][k]['case'] != 'success':
+            # sprint(verbose, 'Defective aligning!', '')
     result = True if check_list.count('success') == len(check_list) else False
     return result
 
 
-def create_rand_utt(data, seed):
+def create_rand_utt(verbose, data, seed):
     n_total_word = len(data['words'])
     word_lens_mat = []
     cum_n = 0
@@ -125,18 +139,18 @@ def create_rand_utt(data, seed):
     cum_sum_wm = np.cumsum(word_lens_mat)
     for ct, el in enumerate(word_lens_mat):
         if ct == 0:
-            if json_validity(data, 0, cum_sum_wm[ct]):
+            if json_validity(verbose, data, 0, cum_sum_wm[ct]):
                 json_div_out.append(data['words'][0:word_lens_mat[ct]])
                 segment_durations.append( [data['words'][0]['start'], data['words'][cum_sum_wm[ct]-1]['end']] )
         elif ct > 0:
-            if json_validity(data, cum_sum_wm[ct-1], cum_sum_wm[ct]):
+            if json_validity(verbose, data, cum_sum_wm[ct-1], cum_sum_wm[ct]):
                 json_div_out.append(data['words'][cum_sum_wm[ct-1]:cum_sum_wm[ct]])
                 segment_durations.append( [data['words'][cum_sum_wm[ct-1]]['start'], data['words'][cum_sum_wm[ct]-1]['end']] )
              
     return word_lens_mat, json_div_out, segment_durations
 
 
-def get_sim_RIR(distance, width):
+def get_sim_RIR(distance, width, absp_coeff):
     
     SR = 16000
     # room dimension
@@ -146,8 +160,7 @@ def get_sim_RIR(distance, width):
     # Create the shoebox
     shoebox = pra.ShoeBox(
         room_dim,
-        absorption=0.25,
-        # absorption=1.0,
+        absorption=absp_coeff,
         fs=SR,
         max_order=20,
         )
@@ -235,9 +248,9 @@ def uni_rand_noseed(rand_range):
     return np.random.uniform(rand_range[0], rand_range[1])
 
 
-def load_random_filename(list_name, seed):
+def load_random_filename(verbose, list_name, seed):
     list_path = list_name + '.txt'
-    print(list_path)
+    sprint(verbose, list_path, '')
     with open(list_path) as f:
         content = []
         for line in f:
@@ -248,22 +261,18 @@ def load_random_filename(list_name, seed):
     return content[call_idx]
 
 
-def read_LibriSpeech_index(LibriSpeech_directory, num_of_all_spkrs, num_of_prime_spkrs):
-    
+def read_LibriSpeech_index(verbose, LibriSpeech_directory, num_of_all_spkrs, num_of_prime_spkrs):
     num_of_bkg_spkrs = num_of_all_spkrs - num_of_prime_spkrs
     SR = 16000
     audio_folder_name = 'train-clean-100'
     list_path = 'Libre_file_list.txt'
     data_path = LibriSpeech_directory + '/' + audio_folder_name + '/'
-    print('data_path', data_path)
+    sprint(verbose, 'data_path', data_path)
     
     content = open_and_list(list_path)
     number_of_sess = int(np.floor((len(content) - num_of_bkg_spkrs) / num_of_all_spkrs ))
 
     dir_list = []
-    # First two speakers are main speakers, 
-    # Last two speakers are background speakers.
-    
     for k in range(number_of_sess):
         buff = []
         for j in range(num_of_all_spkrs):
@@ -278,13 +287,19 @@ def add_seesion_info2json(ch_json, session):
     'dialogue_prob': str(session.dialogue_prob), 
     'spk_id_sequence': str(session.spk_id_sequence),
     'distance_prime_spk': str(session.distance_prime_spk),
-    'distance_bgr3_ch1': str(session.distance_bgr3_ch1),
-    'distance_bgr3_ch2': str(session.distance_bgr3_ch2), 
-    'distance_bgr4_ch1': str(session.distance_bgr4_ch1), 
-    'distance_bgr4_ch2': str(session.distance_bgr4_ch2),
     'noise_path': str(session.noise_path),
+    'absorption_applied': str(session.absorption_applied),
+    'absorption_range': str(session.absorption_range), 
     'noise_gain_dB_applied': str(session.noise_gain_dB_applied),
     'noise_gain_dB_range': str(session.noise_gain_dB_range) }
+
+    Pn = session.num_of_prime_spkrs
+    Bn = session.num_of_bkg_spkrs
+    
+    for k in range(Bn):
+        for l in range(Pn):
+            index_str = 'distance_spk'+str(k+session.num_of_prime_spkrs+1)+'_ch'+str(l+1)
+            info_dict[index_str] = str(session.distance_bgr_ch[k][l])
 
     ch_json.insert(0, info_dict)
     return ch_json
@@ -301,7 +316,7 @@ def json_modifier(current_time_sec, json_utt_list):
     return json_utt_list
 
 
-def read_LibriSpeech_data(LibriSpeech_directory, sess_dir_list, random_seed, number_of_spk_load=-1):
+def read_LibriSpeech_data(verbose, LibriSpeech_directory, sess_dir_list, random_seed, number_of_spk_load):
     SR = 16000
     audio_folder_name = 'train-clean-100'
     json_folder_name = 'train-clean-100-json'
@@ -311,6 +326,7 @@ def read_LibriSpeech_data(LibriSpeech_directory, sess_dir_list, random_seed, num
     data_list_mat = []  # list that contains the whole data set
     json_list_mat = []
     number_index_mat = []
+    sprint(verbose, 'Loading Libri speech corpora... ', '')
 
     for count, cont in enumerate(sess_dir_list):  # This is a loop for each speaker
         sub_dir = data_path + cont
@@ -318,9 +334,12 @@ def read_LibriSpeech_data(LibriSpeech_directory, sess_dir_list, random_seed, num
         utts_per_spk_count = 0
         audio_data_list = []
         json_list = []
+        
         for ct, elem in enumerate(sub_dir_list):
             corp_dir = sub_dir + '/' + elem
             flac_filelist = glob.glob(corp_dir + '/*.flac')
+            sprint(verbose, 'Loading Directory:', corp_dir)
+            
             for flac_ct, flac_file_address in enumerate(flac_filelist):
                 flac_only_file_name = flac_file_address.split('/')[-1]
                 split_flac_fn = flac_only_file_name.split('-')
@@ -329,11 +348,8 @@ def read_LibriSpeech_data(LibriSpeech_directory, sess_dir_list, random_seed, num
                     pass
                 if number_of_spk_load != -1 and utts_per_spk_count > number_of_spk_load:
                     break
-
-                print('flac_file_address', flac_file_address)
-                print('json_file_address', json_file_address)
                 data = return_json_dict(json_file_address) 
-                word_lens_mat, json_div_out, segment_durations = create_rand_utt(data, 0)
+                word_lens_mat, json_div_out, segment_durations = create_rand_utt(verbose, data, 0)
                 audio_data_list.extend(read_and_divide_file(flac_file_address, segment_durations, SR)) 
                 json_list.extend(json_div_out)
                 utts_per_spk_count += 1
@@ -349,63 +365,37 @@ def read_LibriSpeech_data(LibriSpeech_directory, sess_dir_list, random_seed, num
 
 
 def d2s(distance, SR):
-   
     vc = 343
     return int(SR * (0.3 * distance/float(vc)))
 
 
 def read_RIR(session):
-
+    sprint(session.verbose, 'Creating RIR for the current session... ', '')
     np.random.seed(session.ses_idx)
     rir_bgr_ch = [ [None]*int(session.num_of_prime_spkrs) for x in range(session.num_of_bkg_spkrs) ]
     
     # width should be: width < 4 * distance
     width_room = 6
-    rir_spk    , _ = get_sim_RIR(session.distance_prime_spk, width=width_room)
-    print('rir_spk form:', type(rir_spk), np.shape(rir_spk))
+    rir_spk    , _ = get_sim_RIR(session.distance_prime_spk, width=width_room, absp_coeff=session.absorption_applied)
     session.rir_spk = IR_silence_remover(rir_spk, sample_margin=session.IR_sample_margin, IR_cut_thrs=session.IR_cut_thrs)
     # Add delay according to IR
     session.rir_spk = np.hstack((np.zeros(d2s(session.distance_prime_spk, session.SR)), session.rir_spk)) 
     
     Pn = session.num_of_prime_spkrs
     Bn = session.num_of_bkg_spkrs
-    print('distance_bgr_ch:', session.distance_bgr_ch)
     
     for k in range(Bn):
         for l in range(Pn):
-            rir_bgr_ch[k][l], _ = get_sim_RIR(session.distance_bgr_ch[k][l], width=width_room)
-            # buff, _ = get_sim_RIR(session.distance_bgr_ch[l][k], width=width_room)
-            # rir_bgr_ch[l][k] = buff
-            print('rir_bgr_ch[',str(l),'][',str(k),']:', type(rir_bgr_ch[k][l]), np.shape(rir_bgr_ch[k][l]) )
-            # ipdb.set_trace()
+            rir_bgr_ch[k][l], _ = get_sim_RIR(session.distance_bgr_ch[k][l], width=width_room, absp_coeff=session.absorption_applied)
+            # print('rir_bgr_ch[',str(l),'][',str(k),']:', type(rir_bgr_ch[k][l]), np.shape(rir_bgr_ch[k][l]) )
             session.rir_bgr_ch[k][l] = IR_silence_remover(rir_bgr_ch[k][l], sample_margin=session.IR_sample_margin, IR_cut_thrs=session.IR_cut_thrs)
             session.rir_bgr_ch[k][l] = np.hstack((np.zeros(d2s(session.distance_bgr_ch[k][l], session.SR)), session.rir_bgr_ch[k][l]))
     
-    # rir_bgr3_ch1, _ = get_sim_RIR(session.distance_bgr3_ch1, width=width_room)
-    # rir_bgr3_ch2, _ = get_sim_RIR(session.distance_bgr3_ch2, width=width_room)
-    # rir_bgr4_ch1, _ = get_sim_RIR(session.distance_bgr4_ch1, width=width_room)
-    # rir_bgr4_ch2, _ = get_sim_RIR(session.distance_bgr4_ch2, width=width_room)
-    
-
-    # session.rir_bgr3_ch1 = IR_silence_remover(rir_bgr3_ch1, sample_margin=session.IR_sample_margin, IR_cut_thrs=session.IR_cut_thrs)
-    # session.rir_bgr3_ch2 = IR_silence_remover(rir_bgr3_ch2, sample_margin=session.IR_sample_margin, IR_cut_thrs=session.IR_cut_thrs)
-    # session.rir_bgr4_ch1 = IR_silence_remover(rir_bgr4_ch1, sample_margin=session.IR_sample_margin, IR_cut_thrs=session.IR_cut_thrs)
-    # session.rir_bgr4_ch2 = IR_silence_remover(rir_bgr4_ch2, sample_margin=session.IR_sample_margin, IR_cut_thrs=session.IR_cut_thrs)
-
-
-    # session.rir_bgr3_ch1 = np.hstack((np.zeros(d2s(session.distance_bgr3_ch1, session.SR)), session.rir_bgr3_ch1))
-    # session.rir_bgr3_ch2 = np.hstack((np.zeros(d2s(session.distance_bgr3_ch2, session.SR)), session.rir_bgr3_ch2))
-    # session.rir_bgr4_ch1 = np.hstack((np.zeros(d2s(session.distance_bgr4_ch1, session.SR)), session.rir_bgr4_ch1))
-    # session.rir_bgr4_ch2 = np.hstack((np.zeros(d2s(session.distance_bgr4_ch2, session.SR)), session.rir_bgr4_ch2)) 
-
 
 def random_spk_id_generator(dialogue_prob, number_of_spk_turns, number_of_dialogue_types):
     spk_mat = []
-    print('dialogue_prob:', dialogue_prob)
     for k in range(-1, number_of_dialogue_types, 1):
         spk_mat = spk_mat + [k] * int(dialogue_prob[k + 1] * 1000)
-    # print('spk_mat check:', spk_mat)
-
     # Random number that calls a value out of spk_mat which contains spk_ids with probability.
     spk_id_sequence = [spk_mat[np.random.randint(len(spk_mat))] for k in range(number_of_spk_turns)]
     return spk_id_sequence
@@ -444,7 +434,6 @@ def render_2ch_speech(section_wave_ts, RIR, distance_spk):
     length_org = np.shape(section_wave_ts)[0]
     start_time = time.time()
     far_field_org = np.convolve(section_wave_ts, RIR)
-    print('Elapsed Convolution Time: ', (time.time() - start_time))
     far_field = (1/float(distance_spk)) * normalize_wave(far_field_org[:length_org])
     return near_field, far_field
 
@@ -453,7 +442,6 @@ def render_bgr_speech(section_wave_ts, RIR1, RIR2, distance_bgr_ch1, distance_bg
     start_time = time.time()
     far_field_ch1 = np.convolve(section_wave_ts, RIR1)
     far_field_ch2 = np.convolve(section_wave_ts, RIR2)
-    print('Elapsed Convolution Time: ', (time.time() - start_time))
     far_field_ch1 = far_field_ch1[:len(section_wave_ts)]
     far_field_ch2 = far_field_ch2[:len(section_wave_ts)]
     far_field_ch1 = (1/float(distance_bgr_ch1)) * normalize_wave(far_field_ch1)
@@ -484,8 +472,8 @@ def read_noise_ts(session, dialogue_length_in_sample):
     dialogue_length = dialogue_length_in_sample * (1/float(SR))
     noise_directory = session.Noise_Data_directory + '/'
 
-    session.noise_path = noise_directory + load_random_filename('QUT_noise_list', seed=session.ses_idx)
-    print('read_RIR:', session.noise_path)
+    session.noise_path = noise_directory + load_random_filename(session.verbose, 'QUT_noise_list', seed=session.ses_idx)
+    sprint(session.verbose, 'Noise File:', session.noise_path)
 
     original_noise_SR = 48000
     y, _ = librosa.load(session.noise_path, offset=0.0, duration=dialogue_length, sr=original_noise_SR)
@@ -563,15 +551,26 @@ def write_rttm_file(spkr_decision_vec, json_output_directory, file_id, num_of_al
 
     rttm_file_rec(dec_vec_ch1, rttm_handle, file_id, 'SP1', SR)
     rttm_file_rec(dec_vec_ch2, rttm_handle, file_id, 'SP2', SR)
-    print('closing the handle...')
     rttm_handle.close()
-    
+   
+def json_list2dic(json_list):
+    jlen = len(json_list)
+    out_dict = {}
+    for k, val in enumerate(json_list):
+        if k == 0:
+            out_dict['session_info'] = json_list[0]
+        elif k != 0:
+            out_dict[str(k)] = val
+    return out_dict
+
 
 def write_json_file(json_list, directory, file_id):
+    json_ch1_dict = json_list2dic(json_list[0])
+    json_ch2_dict = json_list2dic(json_list[1])
     with open(directory + '/' + file_id + '_ch1.json', 'w') as f:
-        json.dump(json_list[0][0], f, indent=4, sort_keys=True)
+        json.dump(json_ch1_dict, f, indent=4, sort_keys=True)
     with open(directory + '/' + file_id + '_ch2.json', 'w') as f:
-        json.dump(json_list[1][0], f, indent=4, sort_keys=True)
+        json.dump(json_ch2_dict, f, indent=4, sort_keys=True)
 
 
 def make_visible(gt_data_out):
@@ -600,12 +599,13 @@ def silence_fixer(gt_vec, cts, json_list, SR):
                 end = int((json_list[ct]['start'] - cts)*float(SR))
                 gt_vec[start:end] = 0
     return list(gt_vec)
-        
+    
+
 def background_diag_gen(session, k_idx, spk_idx, current_time_sec):
     stt=time.time()
     spk_num_in = session.spk_id_sequence[k_idx]
     bsn = spk_num_in - 1 - session.num_of_prime_spkrs
-    print('spk', str(spk_num_in), 'spk_idx[2]:', spk_idx[spk_num_in-1])
+    # print('spk', str(spk_num_in), 'spk_idx[2]:', spk_idx[spk_num_in-1])
     
     mic1_sig, mic2_sig = render_bgr_speech(session.data_list_mat[spk_idx[spk_num_in-1]][k_idx],
                                  session.rir_bgr_ch[bsn][0],
@@ -616,8 +616,9 @@ def background_diag_gen(session, k_idx, spk_idx, current_time_sec):
     ch1_ground_truth_buffer = [-1] * len(mic1_sig)
     ch2_ground_truth_buffer = [-1] * len(mic2_sig)
     current_time_sec += len(mic1_sig) * (1/float(session.SR)) 
-    print('Elapsed Time: ', (time.time() -stt))
+    # print('Elapsed Time: ', (time.time() -stt))
     return mic1_sig, mic2_sig, ch1_ground_truth_buffer, ch2_ground_truth_buffer, current_time_sec 
+
 
 def create_virtual_dialogue(session, json_list_mat, spk_idx):
     
@@ -635,7 +636,7 @@ def create_virtual_dialogue(session, json_list_mat, spk_idx):
     prime_spk_list = list(range(0, session.num_of_prime_spkrs + 1))
     background_spk_list = list(range(session.num_of_prime_spkrs + 1, session.num_of_all_spkrs + 1))
    
-    print('prime_spk_list: ' , prime_spk_list, 'background_spk_list:', background_spk_list)
+    sprint(session.verbose, 'Primary Speaker:', str(prime_spk_list) + ' Interfering Speaker: ' + str(background_spk_list))
     
     current_time_sec = 0
     for k in range(session.number_of_spk_turns):
@@ -643,9 +644,10 @@ def create_virtual_dialogue(session, json_list_mat, spk_idx):
 
         ch1_json_buffer = []
         ch2_json_buffer = []
+        
+        sprint(session.verbose, 'Creating :', str(k+1)+'-th turn, dialogue type:'+str(session.spk_id_sequence[k]))
 
         if session.spk_id_sequence[k] == -1:  # silence
-            print('-1 sil')
             silence = silence_generator(uni_rand_noseed(session.min_max_silence_length_sec),
                                         session.SR)
             mic1_sig = mic2_sig = silence
@@ -657,7 +659,6 @@ def create_virtual_dialogue(session, json_list_mat, spk_idx):
         # spk1, spk2 both are speaking, overlapping section
         elif session.spk_id_sequence[k] == 0:
             stt = time.time()
-            print('0 spk1 and spk2', 'spk_idx[0]:', spk_idx[0], 'spk_idx[1]:', spk_idx[1])
             spk1_near, spk1_far = render_2ch_speech(session.data_list_mat[spk_idx[0]][k],
                                                     session.rir_spk,
                                                     session.distance_prime_spk)
@@ -693,11 +694,11 @@ def create_virtual_dialogue(session, json_list_mat, spk_idx):
                 ch1_json_buffer = mod_json_ch1
                 ch2_json_buffer = mod_json_ch2
                 current_time_sec += len(spk2_near) * (1/float(session.SR))  + rnd_idx * (1/float(session.SR)) 
-            print('Elapsed Time: ', (time.time() -stt))
+            # sprint(session.verbose, 'Elapsed Time: ', (time.time() -stt))
 
         elif session.spk_id_sequence[k] == 1:  # spk1 is speaking
             stt = time.time()
-            print('1 spk1', 'spk_idx[1]:', spk_idx[0])
+            # sprint(session.verbose, '1 spk1', 'spk_idx[1]:', spk_idx[0])
             mic1_sig, mic2_sig = render_2ch_speech(session.data_list_mat[spk_idx[0]][k],
                                                    session.rir_spk,
                                                    session.distance_prime_spk)
@@ -709,11 +710,11 @@ def create_virtual_dialogue(session, json_list_mat, spk_idx):
             ch2_ground_truth_buffer = silence_fixer(ch2_ground_truth_buffer, current_time_sec, mod_json, session.SR)
             ch1_json_buffer = mod_json
             current_time_sec += len(mic1_sig) * (1/float(session.SR)) 
-            print('Elapsed Time: ', (time.time() -stt))
+            # sprint(session.verbose, 'Elapsed Time: ', (time.time() -stt))
 
         elif session.spk_id_sequence[k] == 2:  # spk2 is speaking
             stt=time.time()
-            print('2 spk2', 'spk_idx[2]:', spk_idx[1])
+            # sprint(session.verbose, '2 spk2', 'spk_idx[2]:', spk_idx[1])
             mic2_sig, mic1_sig = render_2ch_speech(session.data_list_mat[spk_idx[1]][k],
                                                    session.rir_spk,
                                                    session.distance_prime_spk)
@@ -725,12 +726,11 @@ def create_virtual_dialogue(session, json_list_mat, spk_idx):
             ch2_ground_truth_buffer = silence_fixer(ch2_ground_truth_buffer, current_time_sec, mod_json, session.SR)
             ch2_json_buffer = mod_json
             current_time_sec += len(mic2_sig) * (1/float(session.SR)) 
-            print('Elapsed Time: ', (time.time() -stt))
+            # sprint(session.verbose, 'Elapsed Time: ', (time.time() -stt))
 
         elif session.spk_id_sequence[k] in background_spk_list:
             mic1_sig, mic2_sig, ch1_ground_truth_buffer, ch2_ground_truth_buffer, current_time_sec = background_diag_gen(session, k, spk_idx, current_time_sec)
 
-        print('k :', k, 'session.spk_id_sequence[k]:', session.spk_id_sequence[k])
         ch1_list.extend(mic1_sig)
         ch2_list.extend(mic2_sig)
 
@@ -740,58 +740,9 @@ def create_virtual_dialogue(session, json_list_mat, spk_idx):
         if session.spk_id_sequence[k] in prime_spk_list:
             ch1_json.extend(ch1_json_buffer)
             ch2_json.extend(ch2_json_buffer)
-        # print('uttidx:', k + 1, '/', session.number_of_spk_turns, 'size sig1', np.shape(mic1_sig))
+        # sprint(session.verbose, 'uttidx:', k + 1, '/', session.number_of_spk_turns, 'size sig1', np.shape(mic1_sig))
     
     return [ch1_list, ch2_list], [ch1_ground_truth, ch2_ground_truth], [ch1_json, ch2_json]
-
-
-def create_session(session):
-    np.random.seed(session.random_seed)  # Fix the random seed.
-    # np.random.seed(4)  # Fix the random seed.
-
-    session.data_list_mat, json_list_mat, number_index_mat = read_LibriSpeech_data(
-                                                            session.LibriSpeech_directory,
-                                                            session.dir_list[session.ses_idx],
-                                                            session.random_seed,
-                                                            session.number_of_spk_load)
-    # This "lengths_mat" contains the number of u tterance in a session per a speaker.
-    # Since we want to balance the number of utterance of both speakers, we take minimum of these values.
-
-    # Randomly load RIRs and noise from dataset.
-    read_RIR(session)
-
-    # How many utterances are in a session
-    if session.number_of_spk_turns == -1:
-        session.number_of_spk_turns = np.min(number_index_mat)
-
-    # print('######################## SESSION STRAT #############################'
-    print('lenght of data_list_mat', np.shape(session.data_list_mat))
-
-    # Set a randomized dialogue sequence
-    session.number_of_dialogue_types = session.num_of_all_spkrs + 1
-    print('number_of_dialogue_types', session.number_of_dialogue_types)
-    spk_idx = [x for x in range(session.num_of_all_spkrs)]
-    session.spk_id_sequence = random_spk_id_generator(session.dialogue_prob,
-                                              session.number_of_spk_turns, 
-                                              session.number_of_dialogue_types)  # Generate a random spk id sequence
-
-    # Create a dialogue: outputs time series data and ground truth data
-    ch_list, gt_list, json_list = create_virtual_dialogue(session, json_list_mat, spk_idx)
-
-    # Add noise to time series data
-    
-    if session.noise:
-        read_noise_ts(session, len(ch_list[0]))
-        session.noise_gain_dB_applied = (round(uni_rand_noseed(session.noise_gain_dB_range),2),
-                                         round(uni_rand_noseed(session.noise_gain_dB_range),2))
-        print('noise_gain_dB_applied: ', session.noise_gain_dB_applied)
-        ch_list[0] = add_noise(ch_list[0], session.noise_ts, session.noise_gain_dB_applied[0])
-        ch_list[1] = add_noise(ch_list[1], session.noise_ts, session.noise_gain_dB_applied[1])
-
-    json_list[0] = add_seesion_info2json(json_list[0], session)
-    json_list[1] = add_seesion_info2json(json_list[1], session)
-
-    return ch_list, gt_list, json_list, session
 
 
 def dist_capper(dist_val, spk_dist, dist_prob_range):
@@ -803,45 +754,121 @@ def dist_capper(dist_val, spk_dist, dist_prob_range):
             dist_val_out = spk_dist - dist_prob_range[0]
     else:
         dist_val_out = dist_val
-
     return dist_val_out
+
+
+def create_session(session):
+    np.random.seed(session.random_seed)  # Fix the random seed.
+    
+    sprint(session.verbose, '\n--- Creating Session',  str(session.ses_idx + 1) + ' ---')
+    
+    number_of_spk_load = session.number_of_spk_turns  # Number of speakers 
+    session.data_list_mat, json_list_mat, number_index_mat = read_LibriSpeech_data(session.verbose,
+                                                            session.LibriSpeech_directory,
+                                                            session.dir_list[session.ses_idx],
+                                                            session.random_seed,
+                                                            session.number_of_spk_load)
+    
+    session.distance_bgr_ch = [[None]*int(session.num_of_prime_spkrs) for x in range(session.num_of_bkg_spkrs)]
+    session.rir_bgr_ch = [[None]*int(session.num_of_prime_spkrs) for x in range(session.num_of_bkg_spkrs)]
+    session.distance_prime_spk = uni_rand_noseed(session.dist_prob_range_prime_spk)
+    for k in range(session.num_of_bkg_spkrs):
+        session.distance_bgr_ch[k][0] = dist_capper(uni_rand_noseed(session.dist_prob_range_bgr_spk), session.distance_prime_spk, session.dist_prob_range_bgr_spk)
+        range_bgr_ch = [abs(session.distance_bgr_ch[k][0] - session.distance_prime_spk), min(session.distance_bgr_ch[k][0] + session.distance_prime_spk, session.dist_prob_range_bgr_spk[1])]
+        session.distance_bgr_ch[k][1] = uni_rand_noseed(range_bgr_ch)
+   
+    sprint(session.verbose, 'Randomized Parameters', '')
+    sprint(session.verbose, 'distance_prime_spk', str(round(session.distance_prime_spk,2)))
+    
+    for k in range(session.num_of_bkg_spkrs):
+        for l in range(session.num_of_prime_spkrs):
+            index_str = 'distance_spk'+str(k+session.num_of_prime_spkrs+1)+'_ch'+str(l+1)
+            sprint(session.verbose, index_str, str(round(session.distance_bgr_ch[k][l],2)))
+    
+    # This "lengths_mat" contains the number of u tterance in a session per a speaker.
+    # Since we want to balance the number of utterance of both speakers, we take minimum of these values.
+    session.absorption_applied = round(uni_rand_noseed(session.absorption_range),2) 
+                                        
+
+    # Randomly load RIRs and noise from dataset.
+    read_RIR(session)
+
+    # How many utterances are in a session
+    if session.number_of_spk_turns == -1:
+        session.number_of_spk_turns = np.min(number_index_mat)
+
+    # Set a randomized dialogue sequence
+    session.number_of_dialogue_types = session.num_of_all_spkrs + 1
+    spk_idx = [x for x in range(session.num_of_all_spkrs)]
+    session.spk_id_sequence = random_spk_id_generator(session.dialogue_prob,
+                                              session.number_of_spk_turns, 
+                                              session.number_of_dialogue_types)  # Generate a random spk id sequence
+
+    # Create a dialogue: outputs time series data and ground truth data
+    ch_list, gt_list, json_list = create_virtual_dialogue(session, json_list_mat, spk_idx)
+
+    # Add noise to time series data
+    if session.noise:
+        read_noise_ts(session, len(ch_list[0]))
+        session.noise_gain_dB_applied = [round(uni_rand_noseed(session.noise_gain_dB_range),2),
+                                         round(uni_rand_noseed(session.noise_gain_dB_range),2)]
+        sprint(session.verbose, 'Noise_gain_dB_applied: ', str(session.noise_gain_dB_applied[0])+'dB for ch1'
+                                       +str(session.noise_gain_dB_applied[1])+ 'dB for ch2')
+        ch_list[0] = add_noise(ch_list[0], session.noise_ts, session.noise_gain_dB_applied[0])
+        ch_list[1] = add_noise(ch_list[1], session.noise_ts, session.noise_gain_dB_applied[1])
+
+    json_list[0] = add_seesion_info2json(json_list[0], session)
+    json_list[1] = add_seesion_info2json(json_list[1], session)
+
+    return ch_list, gt_list, json_list, session
+
 
 def session_creator_wrapper(**kwargs):
     
     kwargs['num_of_bkg_spkrs'] = kwargs['num_of_all_spkrs'] - kwargs['num_of_prime_spkrs']
-    session_ET = []    
+    kwargs['sr'] = 16000
+    session_ET = []
+   
+    dir_list, number_of_sess = read_LibriSpeech_index(kwargs['verbose'], 
+                                                      kwargs['librispeech_directory'], 
+                                                      kwargs['num_of_all_spkrs'],
+                                                      kwargs['num_of_prime_spkrs'])
+
     
-    distance_bgr_ch = [ [None]*int(kwargs['num_of_prime_spkrs']) for x in range(kwargs['num_of_bkg_spkrs']) ]
-    rir_bgr_ch = [ [None]*int(kwargs['num_of_prime_spkrs']) for x in range(kwargs['num_of_bkg_spkrs']) ]
-    for ses_idx in range(kwargs['start'] - 1, kwargs['end']):
+    if kwargs['number_of_sess'] == -1:
+        for_start = 0
+        for_end = number_of_sess
+    
+    elif kwargs['number_of_sess'] == -2:
+        for_start = kwargs['start']-1
+        for_end = kwargs['end']
+    
+    elif kwargs['number_of_sess'] not in [-1, -2]:
+        for_start = 0
+        for_end = kwargs['number_of_sess']
+        
+    sprint(kwargs['verbose'], '\nStart Generating ',  str(for_end - for_start) + ' sessions.')
+
+    for ses_idx in range(for_start, for_end):
 
         np.random.seed(ses_idx)
-
-        distance_prime_spk = uni_rand_noseed(kwargs['dist_prob_range_prime_spk'])
-
-        for k in range(kwargs['num_of_bkg_spkrs']):
-            distance_bgr_ch[k][0] = dist_capper(uni_rand_noseed(kwargs['dist_prob_range']), distance_prime_spk, kwargs['dist_prob_range'])
-            range_bgr_ch = [abs(distance_bgr_ch[k][0] - distance_prime_spk), min(distance_bgr_ch[k][0] + distance_prime_spk, kwargs['dist_prob_range'][1])]
-            distance_bgr_ch[k][1] = uni_rand_noseed(range_bgr_ch)
-
         stt_session = time.time()
-        test_session = session(LibriSpeech_directory=kwargs['LibriSpeech_directory'],
-                               Noise_Data_directory=kwargs['Noise_Data_directory'],  # dir_list for the current session.
-                               dir_list=kwargs['dir_list'],
+        test_session = session(LibriSpeech_directory=kwargs['librispeech_directory'],
+                               Noise_Data_directory=kwargs['noise_data_directory'],  # dir_list for the current session.
+                               dir_list=dir_list,  # Directory list of speech files.
+                               verbose=kwargs['verbose'],
                                ses_idx=ses_idx,  # session index of the loop.
-                               SR=kwargs['SR'],  # SR of the original speech data set
+                               SR=kwargs['sr'],  # SR of the original speech data set
                                random_seed=ses_idx,  # random seed for randomness
                                num_of_prime_spkrs=kwargs['num_of_prime_spkrs'],  # N of all the prime spkrs in a session.
                                num_of_all_spkrs=kwargs['num_of_all_spkrs'],  # N of all the speakers in a session.
                                num_of_bkg_spkrs=kwargs['num_of_bkg_spkrs'],  # N of all the background speakers in a session.
                                dialogue_prob=kwargs['dialogue_prob'],  # sil, ovl, spk1, spk2, spk3(bkg), spk4(bkg) 
-                               dist_prob_range=kwargs['dist_prob_range'],
-                               rir_bgr_ch=rir_bgr_ch,  # The variable for storing RIR
-                               distance_prime_spk=distance_prime_spk,
-                               distance_bgr_ch=distance_bgr_ch,  
-                               number_of_spk_turns = kwargs['number_of_spk_turns'],
-                               number_of_spk_load = kwargs['number_of_spk_turns'],
+                               dist_prob_range_bgr_spk=kwargs['dist_prob_range_bgr_spk'],
+                               dist_prob_range_prime_spk=kwargs['dist_prob_range_prime_spk'],
+                               number_of_spk_turns = kwargs['number_of_spk_turns'],  # Number of speaker turns
                                min_max_silence_length_sec=[0, 5],  # The minimum/maximum length of silence in second.
+                               absorption_range=kwargs['absorption_range'],
                                noise=kwargs['noise'],  # Background noise
                                noise_gain_dB_range=kwargs['noise_gain_dB_range'],
                                IR_sample_margin=15,
@@ -850,65 +877,13 @@ def session_creator_wrapper(**kwargs):
         # Create a session with given parameters.
         ts_data_out, gt_data_out, json_list, test_session = create_session(test_session)
         
-        save_wavfile(kwargs['wav_output_directory'], str(ses_idx + 1), ts_data_out, kwargs['SR'])  # Save to wavefiles.
-        gt_data_out_org = gt_data_out.copy()
-        gt_data_out_halved = make_visible(gt_data_out)
-       
-
+        save_wavfile(kwargs['wav_output_directory'], str(ses_idx + 1), ts_data_out, kwargs['sr'])  # Save to wavefiles.
         file_id = kwargs['file_id'] + str(ses_idx + 1) 
-        
-        write_rttm_file(gt_data_out_org, kwargs['wav_output_directory'], file_id, kwargs['num_of_all_spkrs'], spkr_list=True, SR=test_session.SR)
-        
+        write_rttm_file(gt_data_out, kwargs['wav_output_directory'], file_id, kwargs['num_of_all_spkrs'], spkr_list=True, SR=test_session.SR)
         write_json_file(json_list, kwargs['wav_output_directory'], file_id) 
         ET = time.time() - stt_session
-        print('Elapsed Session time:', time.time() - stt_session,'End of for loop ses_idx', ses_idx)
         session_ET.append(ET)
-        print(session_ET)
-        print('Deleting Memory...')
+        sprint(kwargs['verbose'], 'Deleting Memory...', '')
 
-        del ts_data_out, gt_data_out, gt_data_out_org, json_list
+        del ts_data_out, gt_data_out, json_list
         del test_session
-
-if __name__ == "__main__":
-    pass
-    # session_dict = {}
-
-    # # Provide your actual directory of QUT-NOISE data and RIR data
-    # session_dict['SR'] = 16000
-    # session_dict['Noise_Data_directory'] = '/home/tango_guest/QUT-NOISE/QUT-NOISE'
-    # session_dict['LibriSpeech_directory'] = '/home/tango_guest/LibriSpeech'
-    # session_dict['wav_output_directory'] = './data_gen_out'
-    # if_not_create(session_dict['wav_output_directory'])
-
-    # # Session dialogue Settings
-    # session_dict['num_of_prime_spkrs'] = 2
-    # session_dict['num_of_all_spkrs'] = 8
-    
-    # prob_spk =(1 - 0.2)/float(session_dict['num_of_all_spkrs'])
-    # session_dict['dialogue_prob'] = [0.1, 0.1] + [prob_spk] * session_dict['num_of_all_spkrs']
-
-    
-    # dir_list, number_of_sess = read_LibriSpeech_index(session_dict['LibriSpeech_directory'], 
-                                                      # session_dict['num_of_all_spkrs'],
-                                                      # session_dict['num_of_prime_spkrs'])
-   
-    # # Dir list
-    # session_dict['dir_list'] = dir_list
-    # session_dict['number_of_sess'] = number_of_sess
-
-    # # How many sessions do you want? (-1: as many as possible)
-    # session_dict['number_of_sess'] = 3
-
-    # # How many speaker chnages do you want? (-1: as many as possible)
-    # session_dict['number_of_spk_turns'] = 20
-
-    # # Random range for speaker distance 
-    # session_dict['dist_prob_range'] = [2, 20]
-
-    # # Session number: start and end
-    # session_dict['start'] = 1
-    # session_dict['end'] = 3
-   
-    # # Noise toggle
-    # session_dict['noise'] = True
-    # session_creator_wrapper(**session_dict)

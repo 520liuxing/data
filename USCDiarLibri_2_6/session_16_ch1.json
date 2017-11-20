@@ -1,0 +1,252 @@
+{
+    "1": {
+        "alignedWord": "whole",
+        "case": "success",
+        "end": 16.399875,
+        "phones": [
+            {
+                "duration": 0.08,
+                "phone": "hh_B"
+            },
+            {
+                "duration": 0.1,
+                "phone": "ow_I"
+            },
+            {
+                "duration": 0.25,
+                "phone": "l_E"
+            }
+        ],
+        "start": 15.969875,
+        "word": "WHOLE"
+    },
+    "10": {
+        "alignedWord": "great",
+        "case": "success",
+        "end": 21.4545625,
+        "phones": [
+            {
+                "duration": 0.07,
+                "phone": "g_B"
+            },
+            {
+                "duration": 0.1,
+                "phone": "r_I"
+            },
+            {
+                "duration": 0.08,
+                "phone": "ey_I"
+            },
+            {
+                "duration": 0.08,
+                "phone": "t_E"
+            }
+        ],
+        "start": 21.1245625,
+        "word": "GREAT"
+    },
+    "11": {
+        "alignedWord": "deal",
+        "case": "success",
+        "end": 21.864562499999998,
+        "phones": [
+            {
+                "duration": 0.1,
+                "phone": "d_B"
+            },
+            {
+                "duration": 0.16,
+                "phone": "iy_I"
+            },
+            {
+                "duration": 0.15,
+                "phone": "l_E"
+            }
+        ],
+        "start": 21.4545625,
+        "word": "DEAL"
+    },
+    "2": {
+        "alignedWord": "or",
+        "case": "success",
+        "end": 16.909875,
+        "phones": [
+            {
+                "duration": 0.26,
+                "phone": "ao_B"
+            },
+            {
+                "duration": 0.1,
+                "phone": "r_E"
+            }
+        ],
+        "start": 16.549875,
+        "word": "OR"
+    },
+    "3": {
+        "alignedWord": "in",
+        "case": "success",
+        "end": 17.139875,
+        "phones": [
+            {
+                "duration": 0.11,
+                "phone": "ih_B"
+            },
+            {
+                "duration": 0.1,
+                "phone": "n_E"
+            }
+        ],
+        "start": 16.929875,
+        "word": "IN"
+    },
+    "4": {
+        "alignedWord": "parts",
+        "case": "success",
+        "end": 17.579875,
+        "phones": [
+            {
+                "duration": 0.07,
+                "phone": "p_B"
+            },
+            {
+                "duration": 0.07,
+                "phone": "aa_I"
+            },
+            {
+                "duration": 0.08,
+                "phone": "r_I"
+            },
+            {
+                "duration": 0.08,
+                "phone": "t_I"
+            },
+            {
+                "duration": 0.11,
+                "phone": "s_E"
+            }
+        ],
+        "start": 17.169875,
+        "word": "PARTS"
+    },
+    "5": {
+        "alignedWord": "i",
+        "case": "success",
+        "end": 17.869875,
+        "phones": [
+            {
+                "duration": 0.18,
+                "phone": "ay_S"
+            }
+        ],
+        "start": 17.689875,
+        "word": "I"
+    },
+    "6": {
+        "alignedWord": "can",
+        "case": "success",
+        "end": 18.039875000000002,
+        "phones": [
+            {
+                "duration": 0.07,
+                "phone": "k_B"
+            },
+            {
+                "duration": 0.05,
+                "phone": "ah_I"
+            },
+            {
+                "duration": 0.05,
+                "phone": "n_E"
+            }
+        ],
+        "start": 17.869875,
+        "word": "CAN"
+    },
+    "7": {
+        "alignedWord": "upon",
+        "case": "success",
+        "end": 20.6745625,
+        "phones": [
+            {
+                "duration": 0.07,
+                "phone": "ah_B"
+            },
+            {
+                "duration": 0.08,
+                "phone": "p_I"
+            },
+            {
+                "duration": 0.14,
+                "phone": "aa_I"
+            },
+            {
+                "duration": 0.08,
+                "phone": "n_E"
+            }
+        ],
+        "start": 20.3045625,
+        "word": "UPON"
+    },
+    "8": {
+        "alignedWord": "without",
+        "case": "success",
+        "end": 21.0545625,
+        "phones": [
+            {
+                "duration": 0.06,
+                "phone": "w_B"
+            },
+            {
+                "duration": 0.05,
+                "phone": "ih_I"
+            },
+            {
+                "duration": 0.09,
+                "phone": "th_I"
+            },
+            {
+                "duration": 0.1,
+                "phone": "aw_I"
+            },
+            {
+                "duration": 0.08,
+                "phone": "t_E"
+            }
+        ],
+        "start": 20.6745625,
+        "word": "WITHOUT"
+    },
+    "9": {
+        "alignedWord": "a",
+        "case": "success",
+        "end": 21.1245625,
+        "phones": [
+            {
+                "duration": 0.07,
+                "phone": "ah_S"
+            }
+        ],
+        "start": 21.0545625,
+        "word": "A"
+    },
+    "session_info": {
+        "absorption_applied": "0.25",
+        "absorption_range": "[0.25, 0.25]",
+        "dialogue_prob": "[0.1, 0.1, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333]",
+        "distance_prime_spk": "17.278718550834416",
+        "distance_spk3_ch1": "5.220126648577972",
+        "distance_spk3_ch2": "12.490312372568907",
+        "distance_spk4_ch1": "8.507692029588013",
+        "distance_spk4_ch2": "11.863496244591916",
+        "distance_spk5_ch1": "11.540004048117655",
+        "distance_spk5_ch2": "10.101511499045994",
+        "distance_spk6_ch1": "7.480538464774576",
+        "distance_spk6_ch2": "10.93814446255711",
+        "noise_gain_dB_applied": "[-7.8, -11.13]",
+        "noise_gain_dB_range": "[-20, -5]",
+        "noise_path": "QUT-NOISE/QUT-NOISE/HOME-KITCHEN-1.wav",
+        "session index": "15",
+        "spk_id_sequence": "[2, 5, 6, 4, 6, 2, 0, 4, 0, 4]"
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "1": {
+        "alignedWord": "record",
+        "case": "success",
+        "end": 16.871875000000003,
+        "phones": [
+            {
+                "duration": 0.06,
+                "phone": "r_B"
+            },
+            {
+                "duration": 0.09,
+                "phone": "ih_I"
+            },
+            {
+                "duration": 0.09,
+                "phone": "k_I"
+            },
+            {
+                "duration": 0.07,
+                "phone": "ao_I"
+            },
+            {
+                "duration": 0.06,
+                "phone": "r_I"
+            },
+            {
+                "duration": 0.04,
+                "phone": "d_E"
+            }
+        ],
+        "start": 16.461875000000003,
+        "word": "RECORD"
+    },
+    "2": {
+        "alignedWord": "the",
+        "case": "success",
+        "end": 17.001875000000002,
+        "phones": [
+            {
+                "duration": 0.07,
+                "phone": "dh_B"
+            },
+            {
+                "duration": 0.04,
+                "phone": "ah_E"
+            }
+        ],
+        "start": 16.891875000000002,
+        "word": "THE"
+    },
+    "3": {
+        "alignedWord": "degrees",
+        "case": "success",
+        "end": 17.471875,
+        "phones": [
+            {
+                "duration": 0.06,
+                "phone": "d_B"
+            },
+            {
+                "duration": 0.07,
+                "phone": "ih_I"
+            },
+            {
+                "duration": 0.07,
+                "phone": "g_I"
+            },
+            {
+                "duration": 0.08,
+                "phone": "r_I"
+            },
+            {
+                "duration": 0.12,
+                "phone": "iy_I"
+            },
+            {
+                "duration": 0.07,
+                "phone": "z_E"
+            }
+        ],
+        "start": 17.001875000000002,
+        "word": "DEGREES"
+    },
+    "4": {
+        "alignedWord": "by",
+        "case": "success",
+        "end": 17.641875000000002,
+        "phones": [
+            {
+                "duration": 0.07,
+                "phone": "b_B"
+            },
+            {
+                "duration": 0.08,
+                "phone": "ay_E"
+            }
+        ],
+        "start": 17.491875000000004,
+        "word": "BY"
+    },
+    "5": {
+        "alignedWord": "which",
+        "case": "success",
+        "end": 17.861875,
+        "phones": [
+            {
+                "duration": 0.07,
+                "phone": "w_B"
+            },
+            {
+                "duration": 0.05,
+                "phone": "ih_I"
+            },
+            {
+                "duration": 0.1,
+                "phone": "ch_E"
+            }
+        ],
+        "start": 17.641875000000002,
+        "word": "WHICH"
+    },
+    "6": {
+        "alignedWord": "the",
+        "case": "success",
+        "end": 17.971875,
+        "phones": [
+            {
+                "duration": 0.06,
+                "phone": "dh_B"
+            },
+            {
+                "duration": 0.05,
+                "phone": "ah_E"
+            }
+        ],
+        "start": 17.861875,
+        "word": "THE"
+    },
+    "session_info": {
+        "absorption_applied": "0.25",
+        "absorption_range": "[0.25, 0.25]",
+        "dialogue_prob": "[0.1, 0.1, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333]",
+        "distance_prime_spk": "2.186734769942599",
+        "distance_spk3_ch1": "11.033742658677298",
+        "distance_spk3_ch2": "11.015257284945463",
+        "distance_spk4_ch1": "4.408931521266979",
+        "distance_spk4_ch2": "2.8437152548398266",
+        "distance_spk5_ch1": "5.9340561612694085",
+        "distance_spk5_ch2": "5.577654170982049",
+        "distance_spk6_ch1": "6.465821031444064",
+        "distance_spk6_ch2": "4.646718585406499",
+        "noise_gain_dB_applied": "[-16.72, -13.72]",
+        "noise_gain_dB_range": "[-20, -5]",
+        "noise_path": "QUT-NOISE/QUT-NOISE/CAFE-CAFE-2.wav",
+        "session index": "9",
+        "spk_id_sequence": "[2, 2, 4, 3, 6, -1, 5, 6, 0, 3]"
+    }
+}

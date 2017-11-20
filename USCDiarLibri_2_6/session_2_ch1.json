@@ -1,0 +1,211 @@
+{
+    "1": {
+        "alignedWord": "her",
+        "case": "success",
+        "end": 2.2950625000000002,
+        "phones": [
+            {
+                "duration": 0.09,
+                "phone": "hh_B"
+            },
+            {
+                "duration": 0.12,
+                "phone": "er_E"
+            }
+        ],
+        "start": 2.0850625000000003,
+        "word": "HER"
+    },
+    "10": {
+        "alignedWord": "an",
+        "case": "success",
+        "end": 4.6250625,
+        "phones": [
+            {
+                "duration": 0.05,
+                "phone": "ah_B"
+            },
+            {
+                "duration": 0.1,
+                "phone": "n_E"
+            }
+        ],
+        "start": 4.4750625,
+        "word": "AN"
+    },
+    "2": {
+        "alignedWord": "had",
+        "case": "success",
+        "end": 2.5150625000000004,
+        "phones": [
+            {
+                "duration": 0.09,
+                "phone": "hh_B"
+            },
+            {
+                "duration": 0.05,
+                "phone": "ae_I"
+            },
+            {
+                "duration": 0.07,
+                "phone": "d_E"
+            }
+        ],
+        "start": 2.3050625000000005,
+        "word": "HAD"
+    },
+    "3": {
+        "alignedWord": "had",
+        "case": "success",
+        "end": 2.7450625000000004,
+        "phones": [
+            {
+                "duration": 0.08,
+                "phone": "hh_B"
+            },
+            {
+                "duration": 0.06,
+                "phone": "ae_I"
+            },
+            {
+                "duration": 0.08,
+                "phone": "d_E"
+            }
+        ],
+        "start": 2.5250625,
+        "word": "HAD"
+    },
+    "4": {
+        "alignedWord": "weight",
+        "case": "success",
+        "end": 3.1650625000000003,
+        "phones": [
+            {
+                "duration": 0.12,
+                "phone": "w_B"
+            },
+            {
+                "duration": 0.13,
+                "phone": "ey_I"
+            },
+            {
+                "duration": 0.16,
+                "phone": "t_E"
+            }
+        ],
+        "start": 2.7550625,
+        "word": "WEIGHT"
+    },
+    "5": {
+        "alignedWord": "but",
+        "case": "success",
+        "end": 3.6550625000000005,
+        "phones": [
+            {
+                "duration": 0.06,
+                "phone": "b_B"
+            },
+            {
+                "duration": 0.09,
+                "phone": "ah_I"
+            },
+            {
+                "duration": 0.03,
+                "phone": "t_E"
+            }
+        ],
+        "start": 3.4750625000000004,
+        "word": "BUT"
+    },
+    "6": {
+        "alignedWord": "at",
+        "case": "success",
+        "end": 3.7950625000000002,
+        "phones": [
+            {
+                "duration": 0.06,
+                "phone": "ae_B"
+            },
+            {
+                "duration": 0.08,
+                "phone": "t_E"
+            }
+        ],
+        "start": 3.6550625,
+        "word": "AT"
+    },
+    "7": {
+        "alignedWord": "the",
+        "case": "success",
+        "end": 3.9450625,
+        "phones": [
+            {
+                "duration": 0.05,
+                "phone": "dh_B"
+            },
+            {
+                "duration": 0.1,
+                "phone": "iy_E"
+            }
+        ],
+        "start": 3.7950625000000002,
+        "word": "THE"
+    },
+    "8": {
+        "alignedWord": "end",
+        "case": "success",
+        "end": 4.2950625,
+        "phones": [
+            {
+                "duration": 0.14,
+                "phone": "eh_B"
+            },
+            {
+                "duration": 0.09,
+                "phone": "n_I"
+            },
+            {
+                "duration": 0.09,
+                "phone": "d_E"
+            }
+        ],
+        "start": 3.9750625000000004,
+        "word": "END"
+    },
+    "9": {
+        "alignedWord": "of",
+        "case": "success",
+        "end": 4.4750625,
+        "phones": [
+            {
+                "duration": 0.1,
+                "phone": "ah_B"
+            },
+            {
+                "duration": 0.05,
+                "phone": "v_E"
+            }
+        ],
+        "start": 4.3250625,
+        "word": "OF"
+    },
+    "session_info": {
+        "absorption_applied": "0.25",
+        "absorption_range": "[0.25, 0.25]",
+        "dialogue_prob": "[0.1, 0.1, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333]",
+        "distance_prime_spk": "18.499702017456787",
+        "distance_spk3_ch1": "12.099778505707459",
+        "distance_spk3_ch2": "9.93368545606623",
+        "distance_spk4_ch1": "8.008354222826899",
+        "distance_spk4_ch2": "19.97872311243115",
+        "distance_spk5_ch1": "11.460760187920748",
+        "distance_spk5_ch2": "17.613955677856765",
+        "distance_spk6_ch1": "12.746291380122297",
+        "distance_spk6_ch2": "12.975439701058136",
+        "noise_gain_dB_applied": "[-5.04, -6.01]",
+        "noise_gain_dB_range": "[-20, -5]",
+        "noise_path": "QUT-NOISE/QUT-NOISE/CAR-WINDOWNB-2.wav",
+        "session index": "1",
+        "spk_id_sequence": "[-1, 1, 6, -1, 5, 6, 4, 4, 5, 6]"
+    }
+}

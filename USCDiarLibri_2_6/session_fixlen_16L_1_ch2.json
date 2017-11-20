@@ -1,0 +1,285 @@
+{
+    "1": {
+        "alignedWord": "her",
+        "case": "success",
+        "end": 7.90525,
+        "phones": [
+            {
+                "duration": 0.06,
+                "phone": "hh_B"
+            },
+            {
+                "duration": 0.06,
+                "phone": "er_E"
+            }
+        ],
+        "start": 7.78525,
+        "word": "HER"
+    },
+    "10": {
+        "alignedWord": "her",
+        "case": "success",
+        "end": 16.125249999999998,
+        "phones": [
+            {
+                "duration": 0.09,
+                "phone": "hh_B"
+            },
+            {
+                "duration": 0.02,
+                "phone": "er_E"
+            }
+        ],
+        "start": 16.015249999999998,
+        "word": "HER"
+    },
+    "11": {
+        "alignedWord": "advice",
+        "case": "success",
+        "end": 16.81525,
+        "phones": [
+            {
+                "duration": 0.07,
+                "phone": "ah_B"
+            },
+            {
+                "duration": 0.05,
+                "phone": "d_I"
+            },
+            {
+                "duration": 0.11,
+                "phone": "v_I"
+            },
+            {
+                "duration": 0.18,
+                "phone": "ay_I"
+            },
+            {
+                "duration": 0.28,
+                "phone": "s_E"
+            }
+        ],
+        "start": 16.125249999999998,
+        "word": "ADVICE"
+    },
+    "12": {
+        "alignedWord": "she",
+        "case": "success",
+        "end": 17.325249999999997,
+        "phones": [
+            {
+                "duration": 0.11,
+                "phone": "sh_B"
+            },
+            {
+                "duration": 0.06,
+                "phone": "iy_E"
+            }
+        ],
+        "start": 17.15525,
+        "word": "SHE"
+    },
+    "2": {
+        "alignedWord": "lips",
+        "case": "success",
+        "end": 8.305250000000001,
+        "phones": [
+            {
+                "duration": 0.06,
+                "phone": "l_B"
+            },
+            {
+                "duration": 0.09,
+                "phone": "ih_I"
+            },
+            {
+                "duration": 0.1,
+                "phone": "p_I"
+            },
+            {
+                "duration": 0.15,
+                "phone": "s_E"
+            }
+        ],
+        "start": 7.90525,
+        "word": "LIPS"
+    },
+    "3": {
+        "alignedWord": "forgive",
+        "case": "success",
+        "end": 10.20525,
+        "phones": [
+            {
+                "duration": 0.16,
+                "phone": "f_B"
+            },
+            {
+                "duration": 0.07,
+                "phone": "er_I"
+            },
+            {
+                "duration": 0.07,
+                "phone": "g_I"
+            },
+            {
+                "duration": 0.07,
+                "phone": "ih_I"
+            },
+            {
+                "duration": 0.08,
+                "phone": "v_E"
+            }
+        ],
+        "start": 9.75525,
+        "word": "FORGIVE"
+    },
+    "4": {
+        "alignedWord": "my",
+        "case": "success",
+        "end": 10.355249,
+        "phones": [
+            {
+                "duration": 0.06,
+                "phone": "m_B"
+            },
+            {
+                "duration": 0.09,
+                "phone": "ay_E"
+            }
+        ],
+        "start": 10.205249,
+        "word": "MY"
+    },
+    "5": {
+        "alignedWord": "servants",
+        "case": "success",
+        "end": 10.79525,
+        "phones": [
+            {
+                "duration": 0.11,
+                "phone": "s_B"
+            },
+            {
+                "duration": 0.1,
+                "phone": "er_I"
+            },
+            {
+                "duration": 0.05,
+                "phone": "v_I"
+            },
+            {
+                "duration": 0.03,
+                "phone": "ah_I"
+            },
+            {
+                "duration": 0.05,
+                "phone": "n_I"
+            },
+            {
+                "duration": 0.05,
+                "phone": "t_I"
+            },
+            {
+                "duration": 0.05,
+                "phone": "s_E"
+            }
+        ],
+        "start": 10.35525,
+        "word": "SERVANTS"
+    },
+    "6": {
+        "alignedWord": "<unk>",
+        "case": "success",
+        "end": 15.475249999999999,
+        "phones": [
+            {
+                "duration": 0.44,
+                "phone": "oov_S"
+            }
+        ],
+        "start": 15.03525,
+        "word": "DEBRAY"
+    },
+    "7": {
+        "alignedWord": "could",
+        "case": "success",
+        "end": 15.655249999999999,
+        "phones": [
+            {
+                "duration": 0.06,
+                "phone": "k_B"
+            },
+            {
+                "duration": 0.05,
+                "phone": "uh_I"
+            },
+            {
+                "duration": 0.06,
+                "phone": "d_E"
+            }
+        ],
+        "start": 15.485249999999999,
+        "word": "COULD"
+    },
+    "8": {
+        "alignedWord": "but",
+        "case": "success",
+        "end": 15.815249999999999,
+        "phones": [
+            {
+                "duration": 0.03,
+                "phone": "b_B"
+            },
+            {
+                "duration": 0.05,
+                "phone": "ah_I"
+            },
+            {
+                "duration": 0.08,
+                "phone": "t_E"
+            }
+        ],
+        "start": 15.655249999999999,
+        "word": "BUT"
+    },
+    "9": {
+        "alignedWord": "give",
+        "case": "success",
+        "end": 16.015249999999998,
+        "phones": [
+            {
+                "duration": 0.04,
+                "phone": "g_B"
+            },
+            {
+                "duration": 0.09,
+                "phone": "ih_I"
+            },
+            {
+                "duration": 0.07,
+                "phone": "v_E"
+            }
+        ],
+        "start": 15.815249999999999,
+        "word": "GIVE"
+    },
+    "session_info": {
+        "absorption_applied": "0.25",
+        "absorption_range": "[0.25, 0.25]",
+        "dialogue_prob": "[0.1, 0.1, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333, 0.13333333333333333]",
+        "distance_prime_spk": "5.0",
+        "distance_spk3_ch1": "21.0",
+        "distance_spk3_ch2": "16.0",
+        "distance_spk4_ch1": "21.0",
+        "distance_spk4_ch2": "16.0",
+        "distance_spk5_ch1": "21.0",
+        "distance_spk5_ch2": "16.0",
+        "distance_spk6_ch1": "21.0",
+        "distance_spk6_ch2": "16.0",
+        "noise_gain_dB_applied": "[-11.11, -7.34]",
+        "noise_gain_dB_range": "[-20, -5]",
+        "noise_path": "QUT-NOISE/QUT-NOISE/REVERB-CARPARK-1.wav",
+        "session index": "0",
+        "spk_id_sequence": "[4, 3, 4, 0, 5, 5, 4, 2, -1, 4]"
+    }
+}
