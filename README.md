@@ -74,25 +74,25 @@ session_dict['parameter_name'] = [Value]
 ## Parameters and Descriptions ##
 
 The following descriptions are for parameters of USCDiarLibri_gen.py. The randomization is done session by session.
-> **librispeech_directory**: The directory path for Downloaded LibriSpeech data.
+> **librispeech_directory**: String. The directory path for Downloaded LibriSpeech data.
 
-> **noise_data_directory**: The directory path for Downloaded QUT-NOISE data.
+> **noise_data_directory**: String. The directory path for Downloaded QUT-NOISE data.
 
-> **wav_output_directory**: The directory path for generated .wav files.
+> **wav_output_directory**: String. The directory path for generated .wav files.
 
-> **verbose**: Display messages along the data generation process.
+> **verbose**: Python Boolean: True or False. Display messages along the data generation process.
 
-> **num_of_prime_spkrs**: This parameter determines the number of primary speakers. Currently, the number of primary speakers is fixed to 2.
+> **num_of_prime_spkrs**: Positive integer. This parameter determines the number of primary speakers. Currently, the number of primary speakers is fixed to 2.
 
-> **num_of_all_spkrs**: The number of total speakers per a session. This number includes both primary speakers and interfering speakers.
+> **num_of_all_spkrs**: Positive integer. The number of total speakers per a session. This number includes both primary speakers and interfering speakers.
 
 > **dialogue_prob**: Python list: probablility for the states of [Silence, Overlap, speaker 1, speaker 2, speaker 3, ..., speaker N]. If you set bigger probability to a certain state than others, the state will appear more frequently than other states.
 
 > **number_of_spk_turns**: Positive integer or -1. The number of speaker turns in a session. Put -1 if you want to create as many turns as possible. A turn means a change of state in artificial dialogue. For example, if there are three turns in a session, the example session could be speech signal of Speaker1 for 2.3sec followed by silence for 1.8sec followed by speech signal of speaker5 for 3.6sec.  
 
-> **dist_prob_range_prime_spk**: Determines the range of uniform random variable for distance between two primary speakers.
+> **dist_prob_range_prime_spk**: Python list: [Min, Max]. Determines the range of uniform random variable for distance between two primary speakers.
 
-> **dist_prob_range_bgr_spk**: Determines the range of uniform random variable for distance between microphone and interfering speakers.
+> **dist_prob_range_bgr_spk**: Python list: [Min, Max]. Determines the range of uniform random variable for distance between microphone and interfering speakers.
 
 > **noise**: Python Boolean: True or False. Toggle the background noise.
 
@@ -113,5 +113,7 @@ The following descriptions are for parameters of USCDiarLibri_gen.py. The random
 USCDiarLibri script generates three different kind of files. 
 
 - WAV file - session_[N]_ch[M].wav : Wav file contains output from each microphone. It contains speech signal from primary speakers, interfering speakers and noise. 
+
 - JSON file - session_[N]_ch[M].json : json file that contains word alignment information for each channel. the information includes alignedword, start and end time, duration of each phoneme, and ending time. 
+
 - RTTM file - session_[N].rttm : RTTM format is an evaluation format for NIST RichTranscription dataset. Please refer to [The Rich Transcription 2006 Spring Meeting Recognition Evaluation](https://link.springer.com/chapter/10.1007/11965152_28) 
