@@ -107,3 +107,11 @@ The following descriptions are for parameters of USCDiarLibri_gen.py. The random
 > **end**: Positive integer. Maximum index number. 
 
 > **file_id**: String. Determines the tag for the name of the output file.
+
+## Generated Dataset ##
+
+USCDiarLibri script generates three different kind of files. 
+
+- WAV file  [session_[N]_ch[M].wav] : Wav file contains output from each microphone. It contains speech signal from primary speakers, interfering speakers and noise. 
+- JSON file [session_[N]_ch[M].json] : json file that contains word alignment information for each channel. the information includes alignedword, start and end time, duration of each phoneme, and ending time. 
+- RTTM file [session_[N].rttm] : RTTM format is an evaluation format for NIST RichTranscription dataset. Please refer to [The Rich Transcription 2006 Spring Meeting Recognition Evaluation](https://link.springer.com/chapter/10.1007/11965152_28) 
