@@ -60,7 +60,7 @@ USCDiarLibri generates USCDiarLibri dataset using external speech corpora and no
 
 ## Creating USCLibriDiar Dataset ##
 
-- For pre-setup dataset, run the given python script.
+- For pre-setup dataset, run the given python scripts.
 ```
 $python USCDiarLibri_2_4.py
 $python USCDiarLibri_2_6.py
