@@ -568,12 +568,12 @@ def make_visible(gt_data_out):
     return gt_data_out
 
 
-def save_wavfile(wav_output_directory, file_string, ts_data, SR):
+def save_wavfile(wav_output_directory, file_id, file_string, ts_data, SR):
     if not os.path.exists(wav_output_directory):
         os.makedirs(wav_output_directory)
-    sf.write(wav_output_directory + '/' + 'sample_session_' + file_string + '_ch1' +
+    sf.write(wav_output_directory + '/' + file_id + file_string + '_ch1' +
              '.wav', np.array(ts_data[0]), SR)
-    sf.write(wav_output_directory + '/' + 'sample_session_' + file_string + '_ch2' +  
+    sf.write(wav_output_directory + '/' + file_id + file_string + '_ch2' +  
              '.wav', np.array(ts_data[1]), SR)
 
 
@@ -866,7 +866,7 @@ def session_creator_wrapper(**kwargs):
         # Create a session with given parameters.
         ts_data_out, gt_data_out, json_list, test_session = create_session(test_session)
         
-        save_wavfile(kwargs['wav_output_directory'], str(ses_idx + 1), ts_data_out, kwargs['sr'])  # Save to wavefiles.
+        save_wavfile(kwargs['wav_output_directory'], kwargs['file_id'], str(ses_idx + 1), ts_data_out, kwargs['sr'])  # Save to wavefiles.
         file_id = kwargs['file_id'] + str(ses_idx + 1) 
         write_rttm_file(gt_data_out, kwargs['wav_output_directory'], file_id, kwargs['num_of_all_spkrs'], spkr_list=True, SR=test_session.SR)
         write_json_file(json_list, kwargs['wav_output_directory'], file_id) 

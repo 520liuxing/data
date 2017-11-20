@@ -17,16 +17,17 @@ session_dict['num_of_prime_spkrs'] = 2  # Should be fixed to 2
 session_dict['num_of_all_spkrs'] = 5
 prob_spk =(1 - 0.2)/float(session_dict['num_of_all_spkrs'])
 
+# Probability for the states of [Silence, Overlap, speaker 1, speaker 2, speaker 3, ..., speaker N]
 session_dict['dialogue_prob'] = [0.1, 0.1] + [prob_spk] * session_dict['num_of_all_spkrs']
 
 # How many turns do you want? (-1: as many as possible)
 session_dict['number_of_spk_turns'] = -1
 
-# Random range for speaker distance 
-session_dict['dist_prob_range_bgr_spk'] = [2, 20]
-
 # Random range for speaker distance for prime speaker 
 session_dict['dist_prob_range_prime_spk'] = [2, 20]
+
+# Random range for speaker distance 
+session_dict['dist_prob_range_bgr_spk'] = [2, 20]
 
 # Noise toggle
 session_dict['noise'] = True
