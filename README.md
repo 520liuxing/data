@@ -1,7 +1,7 @@
 # USCDiarLibri #
 
 ## USCDiarLibri ##
-We created the USCDiarLibri dataset that can be used to test speaker diarization tasks with various customized setups and randomization. USCLibriDiar dataset is based on artificial multi-party dialogs made from noisy, reverberated audio from the LibriSpeech database and it’s highly parameterized to allow for diverse conditions. 
+We created USCDiarLibri dataset that can be used to test speaker diarization tasks with various customized setups and randomization. USCLibriDiar dataset is based on artificial multi-party dialogs made from noisy, reverberated audio from the LibriSpeech database and it’s highly parameterized to allow for diverse conditions. 
 
 USCDiarLibri generates USCDiarLibri dataset using external speech corpora and noise dataset. Therefore, LibriSpeech data set and QUT-NOISE dataset should be downloaded to a certain folder before you start the data generation script.
 
