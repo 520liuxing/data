@@ -5,7 +5,7 @@ session_dict = {}
 # Provide your actual directory for LibriSpeech and QUT-NOISE
 session_dict['librispeech_directory'] = 'LibriSpeech'
 session_dict['noise_data_directory'] = 'QUT-NOISE/QUT-NOISE'
-session_dict['wav_output_directory'] = './USCDiarLibri_2_6'
+session_dict['wav_output_directory'] = './USCDiarLibri_2_4'
 
 if_not_create(session_dict['wav_output_directory'])
 
