@@ -64,8 +64,8 @@ USCDiarLibri generates USCDiarLibri dataset using external speech corpora and no
 
 - For pre-setup dataset, run the given python scripts.
 ```
-$python USCDiarLibri_2_4.py
-$python USCDiarLibri_2_6.py
+$python USCDiarLibri_2_4.py  # two primary speakers, total 4 speakers
+$python USCDiarLibri_2_6.py  # two primary speakers, total 6 speakers
 ```
 - For customizable dataset, modify the parameters in USCDiarLibri_gen.py. The parameters in USCDiarLibri_gen.py are defined in the form of python dictionary as below:
 ```
