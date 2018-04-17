@@ -110,7 +110,7 @@ The following descriptions are for parameters of USCDiarLibri_gen.py. The random
 
 ## Generated Dataset ##
 
-USCDiarLibri script generates three different kind of files. 
+USCDiarLibri script generates three different kinds of files. 
 
 - WAV file - session_[N]_ch[M].wav : Wav file contains output from each microphone. It contains speech signal from primary speakers, interfering speakers and noise. 
 
