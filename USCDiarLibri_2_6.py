@@ -14,7 +14,7 @@ session_dict['verbose'] = 1
 
 # Session dialogue Settings 
 session_dict['num_of_prime_spkrs'] = 2  # Should be fixed to 2. 
-session_dict['num_of_all_spkrs'] = 4
+session_dict['num_of_all_spkrs'] = 6
 prob_spk =(1 - 0.2)/float(session_dict['num_of_all_spkrs'])
 
 session_dict['dialogue_prob'] = [0.1, 0.1] + [prob_spk] * session_dict['num_of_all_spkrs']
