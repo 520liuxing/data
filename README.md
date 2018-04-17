@@ -117,3 +117,8 @@ USCDiarLibri script generates three different kinds of files.
 - JSON file - session_[N]_ch[M].json : json file that contains word alignment information for each channel. the information includes alignedword, start and end time, duration of each phoneme, and ending time. 
 
 - RTTM file - session_[N].rttm : RTTM format is an evaluation format for NIST RichTranscription dataset. Please refer to [The Rich Transcription 2006 Spring Meeting Recognition Evaluation](https://link.springer.com/chapter/10.1007/11965152_28) 
+
+## Contact Information ##
+
+Taejin Park, University of Southern California
+taejinpa@usc.edu 
